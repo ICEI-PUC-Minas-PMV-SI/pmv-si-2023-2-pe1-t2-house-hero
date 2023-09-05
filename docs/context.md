@@ -11,16 +11,29 @@ Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Muitas vezes, deparamo-nos com tarefas em casa que simplesmente não conseguimos realizar, seja por falta de conhecimento ou de tempo.
+No entanto, encontrar profissionais capacitados e **confiáveis** para executar esses serviços em nossa residência é uma tarefa complexa e de extrema importância, já que estamos abrindo as portas do nosso lar para eles.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+### Os Desafios na Busca por Profissionais
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Então, como procuramos por esses profissionais?
+Normalmente, ficamos dependentes de indicações de terceiros para encontrar alguém que reúna dois requisitos fundamentais para nós: qualidade no serviço e confiabilidade.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+### Impactos Negativos
+
+No entanto, essa abordagem apresenta alguns problemas significativos:
+
+- **Limitação de Opções:** Ficamos restritos a um conjunto limitado de escolhas, frequentemente baseado nas poucas indicações que recebemos.
+
+- **Falta de Informações:** Geralmente, temos acesso a poucas opiniões sobre o profissional em questão, o que dificulta tomar uma decisão segura.
+
+- **Falta de Transparência de Preços:** Não sabemos se o preço cobrado pelo serviço é justo ou se estamos sendo cobrados a mais.
+
+- **Atrasos e Ineficiências:** Dependendo da disponibilidade do profissional indicado, podemos enfrentar atrasos significativos na conclusão das tarefas, o que pode ser problemático em situações de urgência.
+
+- **Riscos de Segurança:** Sem uma maneira eficaz de verificar antecedentes e credenciais dos profissionais, corremos o risco de permitir a entrada de pessoas não confiáveis em nossas casas, colocando nossa segurança em risco.
+
+- **Falhas na Comunicação:** A falta de uma plataforma centralizada pode levar a falhas na comunicação entre o cliente e o prestador de serviço, resultando em mal-entendidos e resultados insatisfatórios.
 
 ## Objetivos
 
