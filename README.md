@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Leandro Augusto Santos Araujo
 * João Victor dos Santos Silva Pinto
 * Pedro de Almeida Natali
-* Nome completo do aluno 4
+* Lohan Bruno Silva Soares
 * Nome completo do aluno 5
 
 ## Orientador
