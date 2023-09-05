@@ -24,12 +24,7 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Com base na dificuldade de conseguir profissionais em serviços domésticos, o objetivo do software é conectar profissionais de diversos setores, como de limpeza, elétrica, hidráulica, obras civil e diversas outras áreas, ao cliente final, auxiliando o mesmo a resolver o seu problema doméstico. Listando diversos profissionais por categoria e avaliação, onde o cliente fara uma avaliação do serviço prestado via token, cuja avaliação só será permitida após o serviço contratado ser finalizado.
 
 ## Justificativa
 
