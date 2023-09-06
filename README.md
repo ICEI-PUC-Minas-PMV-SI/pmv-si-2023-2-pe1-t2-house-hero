@@ -6,6 +6,8 @@
 
 `SEMESTRE: 1º`
 
+
+Pontifícia Universidade Católica de Minas Gerais
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
