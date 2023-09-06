@@ -52,8 +52,8 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 A aplicação tem dois segmentos de público, um referente aos prestadores de serviços, em sua totalidade pessoas jurídicas, e outro referente aos consumidores de seus serviços, nesse caso podem ser tanto pessoas físicas quanto jurídicas.
 
-**Prestadores de Serviço**
+**Prestadores de Serviço**<br>
 No caso dos prestadores de serviço, o público-alvo é formado por empresas de micro/pequeno porte, que utilizem aplicações fragmentadas para fazer sua administração e que compreendam a aplicação como uma forma de alavancar seu negocio.
 
-**Consumidores dos Serviços**
+**Consumidores dos Serviços**<br>
 Já pelo lado dos consumidores, podem ser tanto pessoas físicas quanto jurídicas. No caso das pessoas físicas podem ser de ambos os sexos, que sejam responsáveis pela residência onde moram e que tenham proximidade com o uso de tecnologia em seu cotidiano, assim estipulamos uma faixa etária de 23 a 50 anos. Pelo lado dos consumidores pessoa jurídica são empresas de micro/pequeno porte que implementem um sistema de manutenção fundamentalmente corretiva e outros serviços de pequeno porte.
