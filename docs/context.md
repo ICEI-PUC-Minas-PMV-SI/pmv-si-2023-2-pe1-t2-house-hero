@@ -41,12 +41,13 @@ Com base na dificuldade de conseguir profissionais em serviços domésticos, o o
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O tema deste projeto foi escolhido devido à crescente demanda por serviços domésticos e de manutenção, juntamente com os desafios enfrentados pelos consumidores ao procurar por profissionais confiáveis. A falta de uma solução eficaz para esse problema motivou a criação desta aplicação.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A função principal deste projeto é desenvolver uma plataforma que conecta consumidores a prestadores de serviços qualificados, facilitando a busca, contratação e avaliação desses profissionais. A plataforma visa melhorar a experiência do consumidor, proporcionando transparência nos preços, segurança na contratação e comunicação eficiente com os prestadores de serviços.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O público-alvo deste projeto abrange tanto os prestadores de serviços, quanto os consumidores que buscam serviços domésticos e de manutenção confiáveis. Isso envolve pessoas físicas que valorizam a comodidade e a qualidade na contratação de profissionais, bem como empresas de micro/pequeno porte que necessitam de soluções eficazes de manutenção.
+
+Nossa motivação para abordar essa questão se baseia na observação de uma lacuna no mercado, confirmada por fontes externas, como o artigo "[O Desafio para Quem Busca por Profissionais Domésticos Qualificados](https://jornaltribuna.com.br/2023/08/o-desafio-para-quem-busca-por-profissionais-domesticos-qualificados-2/)" publicado no Jornal Tribuna. Esse artigo destaca os desafios enfrentados pelos consumidores ao buscar por profissionais qualificados, validando a relevância da nossa iniciativa e a necessidade de uma solução eficaz. Acreditamos que nossa plataforma pode preencher essa lacuna e melhorar significativamente a experiência de consumidores e prestadores de serviços.
 
 ## Público-Alvo
 
