@@ -1,13 +1,10 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+No contexto atual, a demanda por serviços domésticos e de manutenção tem crescido exponencialmente, refletindo uma realidade em que as pessoas enfrentam desafios para lidar com tarefas em suas residências. Essas dificuldades podem surgir devido à falta de tempo, habilidades específicas ou conhecimento necessário. Encontrar profissionais qualificados e confiáveis para executar esses serviços tornou-se uma necessidade universal. Nesse cenário, nosso projeto surge como uma resposta à crescente busca por soluções eficazes e seguras.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+No entanto, a busca por profissionais adequados tem sido uma jornada repleta de obstáculos. Tradicionalmente, os consumidores dependem de recomendações pessoais para encontrar prestadores de serviços que satisfaçam seus padrões de qualidade e confiabilidade. Essa abordagem apresenta limitações significativas, como a escassez de opções, falta de informações detalhadas sobre os profissionais, opacidade nos preços, possíveis atrasos na conclusão das tarefas, riscos à segurança e problemas de comunicação.
 
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+O propósito central do nosso projeto é desenvolver uma plataforma tecnológica inovadora que simplifique a conexão entre consumidores e profissionais qualificados. Abrangendo uma ampla gama de setores, desde limpeza até serviços elétricos e hidráulicos, nosso sistema de avaliação pós-serviço, baseado em tokens, garante que as avaliações só sejam possíveis após a conclusão satisfatória do trabalho contratado. Nosso objetivo é superar os desafios mencionados, proporcionando aos consumidores uma experiência mais transparente, segura e eficiente ao buscar, contratar e avaliar profissionais. A ausência de uma solução eficaz motivou a criação desta aplicação, que visa aprimorar a experiência tanto de pessoas físicas que buscam comodidade e qualidade na contratação de profissionais quanto de micro e pequenas empresas que necessitam de soluções eficazes de manutenção.
 
 ## Problema
 
