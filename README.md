@@ -12,10 +12,11 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Leandro Augusto Santos Araujo
+* Hugo Freitas da Cruz
 * João Victor dos Santos Silva Pinto
-* Pedro de Almeida Natali
+* Leandro Augusto Santos Araujo
 * Lohan Bruno Silva Soares
+* Pedro de Almeida Natali
 * Yan Guimarães Martins
 
 ## Orientador
