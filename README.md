@@ -16,7 +16,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * João Victor dos Santos Silva Pinto
 * Pedro de Almeida Natali
 * Lohan Bruno Silva Soares
-* Nome completo do aluno 5
+* Yan Guimarães Martins
 
 ## Orientador
 
