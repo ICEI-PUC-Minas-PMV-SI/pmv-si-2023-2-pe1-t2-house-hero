@@ -34,7 +34,10 @@ No entanto, essa abordagem apresenta alguns problemas significativos:
 
 ## Objetivos
 
-Com base na dificuldade de conseguir profissionais em serviços domésticos, o objetivo do software é conectar profissionais de diversos setores, como de limpeza, elétrica, hidráulica, obras civil e diversas outras áreas, ao cliente final, auxiliando o mesmo a resolver o seu problema doméstico. Listando diversos profissionais por categoria e avaliação, onde o cliente fara uma avaliação do serviço prestado via token, cuja avaliação só será permitida após o serviço contratado ser finalizado.
+Com base na dificuldade de conseguir profissionais em serviços domésticos, o objetivo do software é conectar profissionais de diversos setores, como de limpeza, elétrica, hidráulica, obras civil e diversas outras áreas, ao cliente final. Porporcionando ao mesmo:
+- Confiança no profissional contratado, 
+- Segurança na prestação do serviço,
+- Agilidade e facilidade na busca do profissional adequado. 
 
 ## Justificativa
 
