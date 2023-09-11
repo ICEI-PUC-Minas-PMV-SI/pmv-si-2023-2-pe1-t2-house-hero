@@ -62,7 +62,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
 |RF-003| Possibilitar que o prestador disponibilize seus horários e que o usuário agende seu atendimento com base neles.  | MÉDIA | |
 |RF-004| Processar pagamentos   | BAIXA | |
-
+|RF-005| Permitir avaliação de mão de obra e recepção do prestador e do usuário. | ALTA| |
+|RF-006| Possibilitar filtro por meio de avaliações na pesquisa de prestador de serviços. | MÉDIA| |
 
 ### Requisitos não Funcionais
 
@@ -71,6 +72,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-003| Utilizar tokens JWT para gerenciar sessões de usuários |  MÉDIA | 
+|RNF-004| Ordenação de pesquisa por proximidade |MÉDIA|
+|RNF-005| Ordenação de pesquisa por melhor avaliação |ALTA|
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
