@@ -13,7 +13,7 @@ João é um microempreendedor individual que presta serviços de reparo de gelad
 Maria Luzia é uma psicóloga que alugou um imóvel para abrir seu novo consultório, ela tem 26 anos, namora, gosta de ler sobre sua área de atuação e de assistir comédias rômanticas.
 
 <br>
-<img align = "left" width="256" src="https://generated.photos/face/neutral-white-adult-male-with-medium-brown-hair-and-brown-eyes--5e687ef16d3b380006efd79d" />
+<img align = "left" width="256" src="[https://generated.photos/face/neutral-white-adult-male-with-medium-brown-hair-and-brown-eyes--5e687ef16d3b380006efd79d](https://images.generated.photos/BVgT5EhwCtPFaeV0JWDH_s_nF3GNqhkmbAiWWemD1xs/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDYwOTM3LmpwZw.jpg)" />
 Carlos é dono de uma empresa pequena, tem sua rotina de horários muito apertada, tem 35 anos, é casado, gosta de assistir esportes como fórmula 1 nos domingos. Ele não tem condições de manter um funcionário especializado com carteira assinada, pois sua empresa está em ascensão, porém ele necessita de reparos na estrutura onde a empresa se localiza. Ele utilizará o aplicativo para conseguir contratar esses serviços sem a necessidade de um pagamento mensal ao prestador.
 <br clear = "left">
 
