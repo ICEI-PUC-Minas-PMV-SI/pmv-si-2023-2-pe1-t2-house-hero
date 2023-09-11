@@ -16,7 +16,7 @@ João é um microempreendedor individual que presta serviços de reparo de gelad
 <br>
 <img align = "left" width="256" src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/40511076/47d79366-0239-45e7-9c2f-ca50ed4c565e"
  />
-Maria Luzia é uma psicóloga que alugou um imóvel que está precisando de alguns reparos para que seja possível abrir seu novo consultório. Ela tem 26 anos, namora, gosta de ler sobre sua área de atuação e de assistir comédias rômanticas. Ela utilizará o aplicativo para contratar prestadores de serviço afim de realizar as alterações necessários para seu empreendimento, após o início de suas atividades para receber novos clientes.
+Maria Luzia é uma psicóloga e alugou um imóvel que está precisando de alguns reparos para abrir seu novo consultório. Ela tem 26 anos, namora, gosta de ler sobre sua área de atuação e de assistir comédias rômanticas. Ela utilizará o aplicativo para contratar prestadores de serviço afim de realizar as alterações necessários para seu empreendimento e, após o início de suas atividades, utilizará para receber novos clientes.
 <br clear = "left">
 
 <br>
@@ -45,7 +45,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 |João       | Disponíbilizar meus horários vagos para os clientes               | Permitir que os clientes marquem seus horários sem precisar me consultar. |
-|Maria Luzia       | Realizar pagamentos pelo aplicativo e gerar nota fiscal.              | Agilizar o serviço prestado e poder utilizar o cartão para realizar pagamentos sem depender da maquininha. |
+|Maria Luzia       | Realizar pagamentos pelo aplicativo e gerar nota fiscal.              | Agilizar o serviço prestado e poder utilizar o cartão para realizar e receber pagamentos sem depender da maquininha. |
 |Carlos       | Procurar especialistas para resolver problemas na estrutura do prédio da empresa.               | Utilizar serviços de profissionais capacitados porém sem a necessidade de assinar a carteira de trabalho. | 
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
