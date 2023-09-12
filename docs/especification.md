@@ -27,7 +27,7 @@ Carlos é dono de uma empresa pequena, tem sua rotina de horários muito apertad
 <br>
 <img align = "left" width="256" 
 src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/143044412/f756974f-ad9a-4610-a2da-1b8f7635cfc9" />
-Gabriela Duarte é uma bancária, tem 47 anos, divorciada, sem filhos, casa própria, tem como hobby assistir filmes aos finais de semana. Ela não tem tempo e tem dificuldade para encontrar certos profissionais em sua cidade quando precisa de algum reparo doméstico. Ela utilizará o software para ter acesso com rapidez e facilidade ao profissional de acordo com o reparo a ser feito em sua residência.
+Gabriela Duarte é uma bancária, tem 47 anos, divorciada, sem filhos, casa própria, tem como hobby assistir filmes aos finais de semana. Ela não tem tempo e tem dificuldade para encontrar prestadores em sua cidade quando precisa de algum reparo doméstico. Ela utilizará o software para buscar com rapidez e facilidade ao profissional de acordo com o reparo a ser feito em sua residência.
 <br clear = "left">
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
@@ -53,6 +53,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |João       | Disponíbilizar meus horários vagos para os clientes               | Permitir que os clientes marquem seus horários sem precisar me consultar. |
 |Maria Luzia       | Realizar pagamentos pelo aplicativo e gerar nota fiscal.              | Agilizar o serviço prestado e poder utilizar o cartão para realizar e receber pagamentos sem depender da maquininha. |
 |Carlos       | Procurar especialistas para resolver problemas na estrutura do prédio da empresa.               | Utilizar serviços de profissionais capacitados porém sem a necessidade de assinar a carteira de trabalho. | 
+|Gabriela Duarte   | Encontrar o prestador com agilidade  | Repara o dano em minha residência
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
