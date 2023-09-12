@@ -27,7 +27,7 @@ Carlos é dono de uma empresa pequena, tem sua rotina de horários muito apertad
 <br>
 <img align = "left" width="256" 
 src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/143044412/f756974f-ad9a-4610-a2da-1b8f7635cfc9" />
-Gabriela Duarte é uma bancária, tem 47 anos, divorciada, sem filhos, tem como hobby assistir filmes aos finais de semana. Ela não tem tempo e tem dificuldade para encontrar certos profissionais em sua cidade quando precisa de algum reparo doméstico. Ela utilizará o software para ter acesso com rapidez e facilidade ao profissional de acordo com o reparo a ser feito em sua residência.
+Gabriela Duarte é uma bancária, tem 47 anos, divorciada, sem filhos, casa própria, tem como hobby assistir filmes aos finais de semana. Ela não tem tempo e tem dificuldade para encontrar certos profissionais em sua cidade quando precisa de algum reparo doméstico. Ela utilizará o software para ter acesso com rapidez e facilidade ao profissional de acordo com o reparo a ser feito em sua residência.
 <br clear = "left">
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
