@@ -24,6 +24,11 @@ Maria Luzia é uma psicóloga e alugou um imóvel que está precisando de alguns
 Carlos é dono de uma empresa pequena, tem sua rotina de horários muito apertada, tem 35 anos, é casado, gosta de assistir esportes como fórmula 1 nos domingos. Ele não tem condições de manter um funcionário especializado com carteira assinada, pois sua empresa está em ascensão, porém ele necessita de reparos na estrutura onde a empresa se localiza. Ele utilizará o aplicativo para conseguir contratar esses serviços sem a necessidade de um pagamento mensal ao prestador.
 <br clear = "left">
 
+<br>
+<img align="left" width="256" src="https://sgapucminasbr-my.sharepoint.com/personal/1491221_sga_pucminas_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F1491221%5Fsga%5Fpucminas%5Fbr%2FDocuments%2Fdownload%2Ejpg&parent=%2Fpersonal%2F1491221%5Fsga%5Fpucminas%5Fbr%2FDocuments<br>" />
+Gabriela Duarte é uma bancária, tem 47 anos, divorciada, sem filhos, tem como hobby assistir filmes aos finais de semana. Ela não tem tempo e tem dificuldade para encontrar certos profissionais em sua cidade quando precisa de algum reparo doméstico. Ela utilizará o software para ter acesso com rapidez e facilidade ao profissional de acordo com o reparo a ser feito em sua residência.
+<br clear="left">
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
