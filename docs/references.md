@@ -7,7 +7,7 @@ Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvo
 
 Exemplos de referências bibliográficas:
 
-**[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
+**[1]** - _ROMAGNOLI, Karol. **O Desafio Para Quem Busca por Profissionais Domésticos Qualificados**. Jornal Tribuna, 2023. Disponível em: https://jornaltribuna.com.br/2023/08/o-desafio-para-quem-busca-por-profissionais-domesticos-qualificados-2/. Acesso em: 6 de Setembro de 2023._
 
 **[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
 
