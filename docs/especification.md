@@ -9,7 +9,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 <br>
 <img align = "left" width="256" src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/40511076/45df955f-3821-4073-b034-a4560926ebd6" />
 
-# João Pedro ,40 anos
+# João Pedro , 40 anos
 
 João é um microempreendedor individual que presta serviços de reparo de geladeiras e lavadoras de roupas, é casado e pai de dois filhos. Está buscando o aplicativo para ampliar sua gama de clientes e organizar de forma mais efetiva sua agenda.
 
@@ -18,7 +18,7 @@ João é um microempreendedor individual que presta serviços de reparo de gelad
 <br>
 <img align = "left" width="256" src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/40511076/47d79366-0239-45e7-9c2f-ca50ed4c565e"/>
 
-# Maria Luiza, 26 anos
+# Maria Luzia, 26 anos
 
 Maria Luzia é uma psicóloga e alugou um imóvel que está precisando de alguns reparos para abrir seu novo consultório. Ela namora, gosta de ler sobre sua área de atuação e de assistir comédias rômanticas. Ela utilizará o aplicativo para contratar prestadores de serviço afim de realizar as alterações necessários para seu empreendimento e, após o início de suas atividades, utilizará para receber novos clientes.
 
@@ -53,20 +53,6 @@ Júlio é um trabalhador autônomo, casado e pai de dois filhos. Trabalha constr
 
 <br clear = "left">
 
-
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -74,20 +60,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 |João       | Disponíbilizar meus horários vagos para os clientes               | Permitir que os clientes marquem seus horários sem precisar me consultar. |
 |Maria Luzia       | Realizar pagamentos pelo aplicativo e gerar nota fiscal.              | Agilizar o serviço prestado e poder utilizar o cartão para realizar e receber pagamentos sem depender da maquininha. |
 |Carlos       | Procurar especialistas para resolver problemas na estrutura do prédio da empresa.               | Utilizar serviços de profissionais capacitados porém sem a necessidade de assinar a carteira de trabalho. | 
 |Gabriela Duarte   | Encontrar o prestador com agilidade.  | Repara o dano em minha residência.
+| Júlio Batista    | Oferecer meus serviços para mais pessoas  | Aumentar meu alcance no meio digital
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
@@ -97,38 +75,33 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
-|RF-003| Possibilitar que o prestador disponibilize seus horários e que o usuário agende seu atendimento com base neles.  | MÉDIA | |
-|RF-004| Processar pagamentos   | BAIXA | |
-|RF-005| Permitir avaliação de mão de obra e recepção do prestador e do usuário. | ALTA| |
-|RF-006| Possibilitar filtro por meio de avaliações na pesquisa de prestador de serviços. | MÉDIA| |
+|RF-001| Permitir que o prestador de serviços se cadastre na plataforma | ALTA| |
+|RF-002| Permitir que o usuário cadastre-se na plataforma | ALTA| |
+|RF-003| Permitir que o usuário faça login na plataforma como usuário cadastrado ou convidado ou prestador de serviços | ALTA| |
+|RF-004| A aplicação deve ser acessível para todos os públicos | ALTA| |
+|RF-005| Permitir que o prestador de serviços cadastre os serviços que oferece | ALTA| |
+|RF-006| Permitir que o prestador de serviços indique a região que atenda | ALTA | |
+|RF-007| Permitir avaliação de mão de obra e recepção do prestador e do usuário (cadastrado). | ALTA| |
+|RF-008| Possibilitar que o prestador disponibilize seus horários e que o usuário (cadastrado) agende seu atendimento com base neles.  | MÉDIA | |
+|RF-009| Possibilitar filtro por meio de avaliações na pesquisa de prestador de serviços. | MÉDIA| |
+|RF-010| Permitir que o usuário (cadastrado) gere uma demanda de serviços | MEDIA | |
+|RF-011| Processar pagamentos   | BAIXA | |
+|RF-012| Permitir que o usuário cadastrado poste imagens do serviço prestado | BAIXA | |
+|RF-013| Permitir que o prestador de serviços poste imagens de serviços anteriores | BAIXA | |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| Utilizar tokens JWT para gerenciar sessões de usuários |  MÉDIA | 
-|RNF-004| Ordenação de pesquisa por proximidade |MÉDIA|
-|RNF-005| Ordenação de pesquisa por melhor avaliação |ALTA|
-
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| Ordenação de pesquisa por melhor avaliação |ALTA|
+|RNF-002| A aplicação deve ser integrada com uma API de localização |ALTA|
+|RNF-003| O sistema deve ser compatível com os navegadores mais utilizados |ALTA|
+|RNF-004| A aplicação deve ser regida pela LGPD |ALTA|
+|RNF-005| Ordenação de pesquisa por proximidade |MÉDIA|
+|RNF-006| Utilizar tokens JWT para gerenciar sessões de usuários |  MÉDIA | 
+|RNF-007| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-008| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
 ## Restrições
 
@@ -138,11 +111,5 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-|03| Somente empresas(com CNPJ ativo) poderão se cadastradar como prestadores de serviço        |
+|03| Somente empresas ou MEI (com CNPJ ativo) poderão se cadastradar como prestadores de serviço        |
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
