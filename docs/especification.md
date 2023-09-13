@@ -73,21 +73,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
-|------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o prestador de serviços se cadastre na plataforma | ALTA| |
-|RF-002| Permitir que o usuário cadastre-se na plataforma | ALTA| |
-|RF-003| Permitir que o usuário faça login na plataforma como usuário cadastrado ou convidado ou prestador de serviços | ALTA| |
-|RF-004| A aplicação deve ser acessível para todos os públicos | ALTA| |
-|RF-005| Permitir que o prestador de serviços cadastre os serviços que oferece | ALTA| |
-|RF-006| Permitir que o prestador de serviços indique a região que atenda | ALTA | |
-|RF-007| Permitir avaliação de mão de obra e recepção do prestador e do usuário (cadastrado). | ALTA| |
-|RF-008| Possibilitar que o prestador disponibilize seus horários e que o usuário (cadastrado) agende seu atendimento com base neles.  | MÉDIA | |
-|RF-009| Possibilitar filtro por meio de avaliações na pesquisa de prestador de serviços. | MÉDIA| |
-|RF-010| Permitir que o usuário (cadastrado) gere uma demanda de serviços | MEDIA | |
-|RF-011| Processar pagamentos   | BAIXA | |
-|RF-012| Permitir que o usuário cadastrado poste imagens do serviço prestado | BAIXA | |
-|RF-013| Permitir que o prestador de serviços poste imagens de serviços anteriores | BAIXA | |
+|ID     | Descrição do Requisito  | Prioridade | Responsável |
+|-------|-----------------------------------------|----| ----|
+| RF&#x2011;001 | Permitir que o prestador de serviços se cadastre na plataforma | ALTA| |
+| RF-002 | Permitir que o usuário cadastre-se na plataforma | ALTA| |
+| RF-003 | Permitir que o usuário faça login na plataforma como usuário cadastrado ou convidado ou prestador de serviços | ALTA| |
+| RF-004 | A aplicação deve ser acessível para todos os públicos | ALTA| |
+| RF-005 | Permitir que o prestador de serviços cadastre os serviços que oferece | ALTA| |
+| RF-006 | Permitir que o prestador de serviços indique a região que atenda | ALTA | |
+| RF-007 | Permitir avaliação de mão de obra e recepção do prestador e do usuário (cadastrado). | ALTA| |
+| RF-008 | Possibilitar que o prestador disponibilize seus horários e que o usuário (cadastrado) agende seu atendimento com base neles.  | MÉDIA | |
+| RF-009 | Possibilitar filtro por meio de avaliações na pesquisa de prestador de serviços. | MÉDIA| |
+| RF-010 | Permitir que o usuário (cadastrado) gere uma demanda de serviços | MEDIA | |
+| RF-011 | Processar pagamentos   | BAIXA | |
+| RF-012 | Permitir que o usuário cadastrado poste imagens do serviço prestado | BAIXA | |
+| RF-013 | Permitir que o prestador de serviços poste imagens de serviços anteriores | BAIXA | |
 
 
 ### Requisitos não Funcionais
