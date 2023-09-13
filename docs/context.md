@@ -47,7 +47,7 @@ A função principal deste projeto é desenvolver uma plataforma que conecta con
 
 O público-alvo deste projeto abrange tanto os prestadores de serviços, quanto os consumidores que buscam serviços domésticos e de manutenção confiáveis. Isso envolve pessoas físicas que valorizam a comodidade e a qualidade na contratação de profissionais, bem como empresas de micro/pequeno porte que necessitam de soluções eficazes de manutenção.
 
-Nossa motivação para abordar essa questão se baseia na observação de uma lacuna no mercado, confirmada por fontes externas, como o artigo "[O Desafio para Quem Busca por Profissionais Domésticos Qualificados](https://jornaltribuna.com.br/2023/08/o-desafio-para-quem-busca-por-profissionais-domesticos-qualificados-2/)" publicado no Jornal Tribuna. Esse artigo destaca os desafios enfrentados pelos consumidores ao buscar por profissionais qualificados, validando a relevância da nossa iniciativa e a necessidade de uma solução eficaz. Acreditamos que nossa plataforma pode preencher essa lacuna e melhorar significativamente a experiência de consumidores e prestadores de serviços.
+Nossa motivação para abordar essa questão se baseia na observação de uma lacuna no mercado, confirmada por fontes externas [(1)](references.md). Esse artigo destaca os desafios enfrentados pelos consumidores ao buscar por profissionais qualificados, validando a relevância da nossa iniciativa e a necessidade de uma solução eficaz. Acreditamos que nossa plataforma pode preencher essa lacuna e melhorar significativamente a experiência de consumidores e prestadores de serviços.
 
 ## Público-Alvo
 
