@@ -53,6 +53,17 @@ Júlio é um trabalhador autônomo, casado e pai de dois filhos. Trabalha constr
 
 <br clear = "left">
 
+<br>
+<img align = "left" width="256" 
+src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/61260183/cbda9d4e-43ed-46cc-9a4f-8377931c810c"/>
+
+# Felipe Silva, 30 anos
+
+Felipe é um jovem empreendedor de 30 anos que decidiu seguir sua paixão por consertar eletrônicos. Ele é especializado em reparo de smartphones, tablets e laptops. Morando no Brasil, ele busca expandir sua clientela e organizar melhor sua agenda de trabalho.
+Felipe é apaixonado por tecnologia e sempre fica de olho nas últimas tendências em dispositivos eletrônicos.
+
+<br clear = "left">
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -65,6 +76,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Carlos       | Procurar especialistas para resolver problemas na estrutura do prédio da empresa.               | Utilizar serviços de profissionais capacitados porém sem a necessidade de assinar a carteira de trabalho. | 
 |Gabriela Duarte   | Encontrar o prestador com agilidade.  | Repara o dano em minha residência.
 | Júlio Batista    | Oferecer meus serviços para mais pessoas  | Aumentar meu alcance no meio digital
+| Felipe Silva | Encontrar mais clientes | Expandir meu mercado e conseguir investir mais no meu negócio
 
 
 ## Requisitos
@@ -88,6 +100,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-011 | Processar pagamentos   | BAIXA | |
 | RF-012 | Permitir que o usuário cadastrado poste imagens do serviço prestado | BAIXA | |
 | RF-013 | Permitir que o prestador de serviços poste imagens de serviços anteriores | BAIXA | |
+| RF-014 | Permitir que o usuário faça alterações em seu perfil | BAIXA | |
+| RF-015 | Possibilitar que o prestador de serviçoes veja o histórico de serviços agendados | BAIXA | |
 
 
 ### Requisitos não Funcionais
@@ -98,10 +112,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| A aplicação deve ser integrada com uma API de localização |ALTA|
 |RNF-003| O sistema deve ser compatível com os navegadores mais utilizados |ALTA|
 |RNF-004| A aplicação deve ser regida pela LGPD |ALTA|
-|RNF-005| Ordenação de pesquisa por proximidade |MÉDIA|
-|RNF-006| Utilizar tokens JWT para gerenciar sessões de usuários |  MÉDIA | 
-|RNF-007| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-008| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-005| Tornar a aplicação acessível a todas as pessoas, incluindo aquelas com deficiências, seguindo as diretrizes de acessibilidade universal, como WCAG 2.0 | ALTA |
+|RNF-006| Ordenação de pesquisa por proximidade |MÉDIA|
+|RNF-007| Utilizar tokens JWT para gerenciar sessões de usuários |  MÉDIA | 
+|RNF-008| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-009| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
 ## Restrições
 
