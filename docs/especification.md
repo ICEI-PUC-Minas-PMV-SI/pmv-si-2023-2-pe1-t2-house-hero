@@ -6,29 +6,54 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
 <br>
 <img align = "left" width="256" src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/40511076/45df955f-3821-4073-b034-a4560926ebd6" />
-João é um microempreendedor individual que presta serviços de reparo de geladeiras e lavadoras de roupas, ele tem 40 anos, é casado e pai de dois filhos. Está buscando o aplicativo para ampliar sua gama de clientes e organizar de forma mais efetiva sua agenda.
+
+# João Pedro ,40 anos
+
+João é um microempreendedor individual que presta serviços de reparo de geladeiras e lavadoras de roupas, é casado e pai de dois filhos. Está buscando o aplicativo para ampliar sua gama de clientes e organizar de forma mais efetiva sua agenda.
+
 <br clear = "left">
 
 <br>
-<img align = "left" width="256" src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/40511076/47d79366-0239-45e7-9c2f-ca50ed4c565e"
- />
-Maria Luzia é uma psicóloga e alugou um imóvel que está precisando de alguns reparos para abrir seu novo consultório. Ela tem 26 anos, namora, gosta de ler sobre sua área de atuação e de assistir comédias rômanticas. Ela utilizará o aplicativo para contratar prestadores de serviço afim de realizar as alterações necessários para seu empreendimento e, após o início de suas atividades, utilizará para receber novos clientes.
+<img align = "left" width="256" src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/40511076/47d79366-0239-45e7-9c2f-ca50ed4c565e"/>
+
+# Maria Luiza, 26 anos
+
+Maria Luzia é uma psicóloga e alugou um imóvel que está precisando de alguns reparos para abrir seu novo consultório. Ela namora, gosta de ler sobre sua área de atuação e de assistir comédias rômanticas. Ela utilizará o aplicativo para contratar prestadores de serviço afim de realizar as alterações necessários para seu empreendimento e, após o início de suas atividades, utilizará para receber novos clientes.
+
 <br clear = "left">
 
 <br>
 <img align = "left" width="256" src="https://images.generated.photos/BVgT5EhwCtPFaeV0JWDH_s_nF3GNqhkmbAiWWemD1xs/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDYwOTM3LmpwZw.jpg" />
-Carlos é dono de uma empresa pequena, tem sua rotina de horários muito apertada, tem 35 anos, é casado, gosta de assistir esportes como fórmula 1 nos domingos. Ele não tem condições de manter um funcionário especializado com carteira assinada, pois sua empresa está em ascensão, porém ele necessita de reparos na estrutura onde a empresa se localiza. Ele utilizará o aplicativo para conseguir contratar esses serviços sem a necessidade de um pagamento mensal ao prestador.
+
+# Carlos Alburquerque , 35 anos
+
+É dono de uma empresa pequena, tem sua rotina de horários muito apertada, tem 35 anos, é casado, gosta de assistir esportes como fórmula 1 nos domingos. Ele não tem condições de manter um funcionário especializado com carteira assinada, pois sua empresa está em ascensão, porém ele necessita de reparos na estrutura onde a empresa se localiza. Ele utilizará o aplicativo para conseguir contratar esses serviços sem a necessidade de um pagamento mensal ao prestador.
+
 <br clear = "left">
 
 <br>
 <img align = "left" width="256" 
 src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/143044412/f756974f-ad9a-4610-a2da-1b8f7635cfc9" />
-Gabriela Duarte é uma bancária, tem 47 anos, divorciada, sem filhos, casa própria, tem como hobby assistir filmes aos finais de semana. Ela não tem tempo e tem dificuldade para encontrar prestadores em sua cidade quando precisa de algum reparo doméstico. Ela utilizará o software para buscar com rapidez e facilidade ao profissional de acordo com o reparo a ser feito em sua residência.
+
+# Gabriela Duarte , 47 anos
+
+Gabriela Duarte é uma bancária,divorciada, sem filhos, casa própria, tem como hobby assistir filmes aos finais de semana. Ela não tem tempo e tem dificuldade para encontrar prestadores em sua cidade quando precisa de algum reparo doméstico. Ela utilizará o software para buscar com rapidez e facilidade ao profissional de acordo com o reparo a ser feito em sua residência.
+
 <br clear = "left">
+
+<br>
+<img align = "left" width="256" 
+src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/de0f5296-d4b4-43b8-87f6-f5f240e69d2d"/>
+
+# Júlio Batista , 36 anos
+
+Júlio é um trabalhador autônomo, casado e pai de dois filhos. Trabalha construindo e reformando casas, apartamentos e lojas. Como possui conhecimento em todo o processo de construção ele faz serviços de pedreiro, encanador, carpinteiro , eletrecista e bombeiro hidrúalico.Após a pandemia da COVID-19 ele percebeu que o mundo se tornou mais informatizado. Atualmente Júlio está procurando uma maneira de aumentar sua rede de clientes, uma plataforma confiável para expor o que ele sabe fazer e oferecer seus serviços e aumentar sua renda. Júlio também procura algo simples e intuitivo , pois sabe que uma grande parte dos seus clientes atuais são pessoas aposentadas e que podem ter alguma dificuldade com tecnologia.
+
+<br clear = "left">
+
+
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
