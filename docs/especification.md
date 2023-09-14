@@ -29,7 +29,7 @@ Maria Luzia é uma psicóloga e alugou um imóvel que está precisando de alguns
 
 # Carlos Alburquerque , 35 anos
 
-É dono de uma empresa pequena, tem sua rotina de horários muito apertada, tem 35 anos, é casado, gosta de assistir esportes como fórmula 1 nos domingos. Ele não tem condições de manter um funcionário especializado com carteira assinada, pois sua empresa está em ascensão, porém ele necessita de reparos na estrutura onde a empresa se localiza. Ele utilizará o aplicativo para conseguir contratar esses serviços sem a necessidade de um pagamento mensal ao prestador.
+É dono de uma empresa pequena, tem sua rotina de horários muito apertada, tem 35 anos, é casado, gosta de assistir esportes como fórmula 1 nos domingos. Ele não tem condições de manter uma fiscalização no trabalho do prestador, pois seu tempo é muito curto, porém ele necessita de reparos na estrutura onde a empresa se localiza. Ele procura uma forma de conseguir prestadores de serviço confiáveis que não precisam ser fiscalizados durante seu trabalho e que sejam pontuais para que caso não esteja na empresa algum funcionário possa receber o prestador para que o serviço seja concluído.
 
 <br clear = "left">
 
