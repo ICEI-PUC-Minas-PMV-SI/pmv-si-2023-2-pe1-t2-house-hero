@@ -73,7 +73,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |João       | Disponíbilizar meus horários vagos para os clientes               | Permitir que os clientes marquem seus horários sem precisar me consultar. |
 |Maria Luzia       | Realizar pagamentos pelo aplicativo e gerar nota fiscal.              | Agilizar o serviço prestado e poder utilizar o cartão para realizar e receber pagamentos sem depender da maquininha. |
-|Carlos       | Procurar especialistas para resolver problemas na estrutura do prédio da empresa.               | Utilizar serviços de profissionais capacitados porém sem a necessidade de assinar a carteira de trabalho. | 
+  |Carlos       | Procurar especialistas pontuais para resolver problemas na  empresa.               | Reparar danos na empresa com maior eficiência de tempo | 
 |Gabriela Duarte   | Encontrar o prestador com agilidade.  | Repara o dano em minha residência.
 | Júlio Batista    | Oferecer meus serviços para mais pessoas  | Aumentar meu alcance no meio digital
 | Felipe Silva | Encontrar mais clientes | Expandir meu mercado e conseguir investir mais no meu negócio
