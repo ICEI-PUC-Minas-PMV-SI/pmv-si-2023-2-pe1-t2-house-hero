@@ -11,7 +11,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 # João Pedro , 40 anos
 
-João é um microempreendedor individual que presta serviços de reparo de geladeiras e lavadoras de roupas, é casado e pai de dois filhos. Está buscando o aplicativo para ampliar sua gama de clientes e organizar de forma mais efetiva sua agenda.
+João é um microempreendedor individual que presta serviços de reparo de geladeiras e lavadoras de roupas, ele possui 40 anos e faz reparos a 20 anos, é casado e pai de dois filhos. Está buscando ampliar sua gama de clientes para conseguir criar uma reserva financeira e viajar no final do ano.
 
 <br clear = "left">
 
@@ -20,7 +20,7 @@ João é um microempreendedor individual que presta serviços de reparo de gelad
 
 # Maria Luzia, 26 anos
 
-Maria Luzia é uma psicóloga e alugou um imóvel que está precisando de alguns reparos para abrir seu novo consultório. Ela namora, gosta de ler sobre sua área de atuação e de assistir comédias rômanticas. Ela utilizará o aplicativo para contratar prestadores de serviço afim de realizar as alterações necessários para seu empreendimento e, após o início de suas atividades, utilizará para receber novos clientes.
+Maria Luzia é uma psicóloga e alugou um imóvel para abrir seu novo consultório. Ela namora, gosta de ler sobre sua área de atuação e de assistir comédias rômanticas. Está buscando contratar prestadores de serviço de confiança para reformar o local alugado, mas, como é nova na cidade, não encontrou nenhum com referencias confiáveis.
 
 <br clear = "left">
 
@@ -70,9 +70,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|João       | Disponíbilizar meus horários vagos para os clientes               | Permitir que os clientes marquem seus horários sem precisar me consultar. |
-|Maria Luzia       | Realizar pagamentos pelo aplicativo e gerar nota fiscal.              | Agilizar o serviço prestado e poder utilizar o cartão para realizar e receber pagamentos sem depender da maquininha. |
+|João Pedro       | Uma forma de divulgar digitalmente meus serviços               | Angariar novos clientes e ampliar minhas receitas. |
+|Maria Luzia       | Encontrar prestadores de serviço qualificados              | Realizar as obras necessárias em meu novo consultório. |
   |Carlos       | Procurar especialistas pontuais para resolver problemas na  empresa.               | Reparar danos na empresa com maior eficiência de tempo | 
 |Gabriela Duarte   | Encontrar o prestador com agilidade.  | Repara o dano em minha residência.
 | Júlio Batista    | Oferecer meus serviços para mais pessoas  | Aumentar meu alcance no meio digital
@@ -94,14 +93,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-005 | Permitir que o prestador de serviços cadastre os serviços que oferece | ALTA| |
 | RF-006 | Permitir que o prestador de serviços indique a região que atenda | ALTA | |
 | RF-007 | Permitir avaliação de mão de obra e recepção do prestador e do usuário (cadastrado). | ALTA| |
-| RF-008 | Possibilitar que o prestador disponibilize seus horários e que o usuário (cadastrado) agende seu atendimento com base neles.  | MÉDIA | |
-| RF-009 | Possibilitar filtro por meio de avaliações na pesquisa de prestador de serviços. | MÉDIA| |
-| RF-010 | Permitir que o usuário (cadastrado) gere uma demanda de serviços | MEDIA | |
-| RF-011 | Processar pagamentos   | BAIXA | |
-| RF-012 | Permitir que o usuário cadastrado poste imagens do serviço prestado | BAIXA | |
-| RF-013 | Permitir que o prestador de serviços poste imagens de serviços anteriores | BAIXA | |
-| RF-014 | Permitir que o usuário faça alterações em seu perfil | BAIXA | |
-| RF-015 | Possibilitar que o prestador de serviçoes veja o histórico de serviços agendados | BAIXA | |
+| RF-008 | Possibilitar filtro por meio de avaliações na pesquisa de prestador de serviços. | MÉDIA| |
+| RF-009 | Permitir que o usuário (cadastrado) gere uma demanda de serviços | MEDIA | |
+| RF-010 | Permitir que o usuário cadastrado poste imagens do serviço prestado | BAIXA | |
+| RF-011 | Permitir que o prestador de serviços poste imagens de serviços anteriores | BAIXA | |
+| RF-012 | Permitir que o usuário faça alterações em seu perfil | BAIXA | |
+| RF-013 | Possibilitar que o prestador de serviçoes veja o histórico de serviços agendados | BAIXA | |
 
 
 ### Requisitos não Funcionais
