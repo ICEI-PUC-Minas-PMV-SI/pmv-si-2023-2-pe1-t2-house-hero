@@ -49,7 +49,7 @@ src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/as
 
 # Júlio Batista , 36 anos
 
-Júlio é um trabalhador autônomo, casado e pai de dois filhos. Trabalha construindo e reformando casas, apartamentos e lojas. Como possui conhecimento em todo o processo de construção ele faz serviços de pedreiro, encanador, carpinteiro , eletrecista e bombeiro hidrúalico.Após a pandemia da COVID-19 ele percebeu que o mundo se tornou mais informatizado. Atualmente Júlio está procurando uma maneira de aumentar sua rede de clientes, uma plataforma confiável para expor o que ele sabe fazer e oferecer seus serviços e aumentar sua renda. Júlio também procura algo simples e intuitivo , pois sabe que uma grande parte dos seus clientes atuais são pessoas aposentadas e que podem ter alguma dificuldade com tecnologia.
+Júlio é um trabalhador autônomo, casado e pai de dois filhos. Trabalha construindo e reformando casas, apartamentos e lojas. Como possui conhecimento em todo o processo de construção ele faz serviços de pedreiro, encanador, carpinteiro , eletrecista e bombeiro hidrúalico.Após a pandemia da COVID-19 ele percebeu que o mundo se tornou mais informatizado. Atualmente Júlio está procurando uma maneira de aumentar sua rede de clientes, uma forma confiável para expor o que ele sabe fazer e oferecer seus serviços e aumentar sua renda. Júlio também procura algo fácil de utilizar , pois sabe que uma grande parte dos seus clientes atuais são pessoas aposentadas e que podem ter alguma dificuldade com tecnologia.
 
 <br clear = "left">
 
