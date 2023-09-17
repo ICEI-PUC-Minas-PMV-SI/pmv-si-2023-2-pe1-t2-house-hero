@@ -8,29 +8,27 @@ O propósito central do nosso projeto é desenvolver uma plataforma tecnológica
 
 ## Problema
 
-Muitas vezes, deparamo-nos com tarefas em casa que simplesmente não conseguimos realizar, seja por falta de conhecimento ou de tempo.
-No entanto, encontrar profissionais capacitados e **confiáveis** para executar esses serviços em nossa residência é uma tarefa complexa e de extrema importância, já que estamos abrindo as portas do nosso lar para eles.
+Frequentemente, surgem tarefas domiciliares que se mostram desafiadoras de serem concluídas, seja devido à falta de conhecimento ou de tempo disponível. No entanto, a busca por profissionais qualificados e confiáveis para executar essas atividades em nossa residência pode se revelar uma empreitada complexa e de grande importância, uma vez que envolve a abertura de casas a terceiros.
 
 ### Os Desafios na Busca por Profissionais
 
-Então, como procuramos por esses profissionais?
-Normalmente, ficamos dependentes de indicações de terceiros para encontrar alguém que reúna dois requisitos fundamentais para nós: qualidade no serviço e confiabilidade.
+A questão que se coloca é: como podem ser encontrados tais profissionais? Geralmente, as pessoas ficam dependentes de recomendações de terceiros para identificar indivíduos que atendam a dois critérios essenciais: a prestação de serviços de alta qualidade e a confiabilidade.
 
 ### Impactos Negativos
 
-No entanto, essa abordagem apresenta alguns problemas significativos:
+Entretanto, esse método de abordagem apresenta certos problemas significativos:
 
-- **Limitação de Opções:** Ficamos restritos a um conjunto limitado de escolhas, frequentemente baseado nas poucas indicações que recebemos.
+- **Limitação de Alternativas:** As opções ficam restritas a um conjunto limitado, frequentemente com base nas escassas recomendações disponíveis.
 
-- **Falta de Informações:** Geralmente, temos acesso a poucas opiniões sobre o profissional em questão, o que dificulta tomar uma decisão segura.
+- **Escassez de Avaliações:** Normalmente, as pessoas dispõem de um número limitado de avaliações a respeito do profissional em questão, o que dificulta a tomada de decisões seguras.
 
-- **Falta de Transparência de Preços:** Não sabemos se o preço cobrado pelo serviço é justo ou se estamos sendo cobrados a mais.
+- **Opacidade nos Preços:** Não há acesso a informações claras sobre a justiça dos preços cobrados pelos serviços ou sobre a possibilidade de tarifas excessivas.
 
-- **Atrasos e Ineficiências:** Dependendo da disponibilidade do profissional indicado, podemos enfrentar atrasos significativos na conclusão das tarefas, o que pode ser problemático em situações de urgência.
+- **Atrasos e Ineficiências:** Dependendo da disponibilidade do profissional recomendado, pode haver atrasos significativos na conclusão das tarefas, tornando-se problemático em situações urgentes.
 
-- **Riscos de Segurança:** Sem uma maneira eficaz de verificar antecedentes e credenciais dos profissionais, corremos o risco de permitir a entrada de pessoas não confiáveis em nossas casas, colocando nossa segurança em risco.
+- **Riscos de Segurança:** A ausência de um meio eficaz para verificar os antecedentes e as credenciais dos profissionais aumenta o risco de permitir a entrada de pessoas não confiáveis nas residências, colocando em perigo a segurança.
 
-- **Falhas na Comunicação:** A falta de uma plataforma centralizada pode levar a falhas na comunicação entre o cliente e o prestador de serviço, resultando em mal-entendidos e resultados insatisfatórios.
+- **Falhas na Comunicação:** A falta de uma plataforma centralizada pode levar a problemas de comunicação entre o cliente e o prestador de serviços, resultando em mal-entendidos e em resultados insatisfatórios.
 
 ## Objetivos
 
