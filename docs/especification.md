@@ -49,7 +49,7 @@ src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/as
 
 # Júlio Batista , 36 anos
 
-Júlio é um trabalhador autônomo, casado e pai de dois filhos. Trabalha construindo e reformando casas, apartamentos e lojas. Como possui conhecimento em todo o processo de construção ele faz serviços de pedreiro, encanador, carpinteiro , eletrecista e bombeiro hidrúalico.Após a pandemia da COVID-19 ele percebeu que o mundo se tornou mais informatizado. Atualmente Júlio está procurando uma maneira de aumentar sua rede de clientes, uma forma confiável para expor o que ele sabe fazer e oferecer seus serviços e aumentar sua renda. Júlio também procura algo fácil de utilizar , pois sabe que uma grande parte dos seus clientes atuais são pessoas aposentadas e que podem ter alguma dificuldade com tecnologia.
+Júlio é um trabalhador autônomo, casado e pai de dois filhos. Trabalha construindo e reformando casas, apartamentos e lojas. Como possui conhecimento em todo o processo de construção ele faz serviços de pedreiro, encanador, carpinteiro , eletrecista e bombeiro hidrúalico. Após a pandemia da COVID-19 ele percebeu que o mundo se tornou mais informatizado. Atualmente Júlio está procurando uma maneira de aumentar sua rede de clientes, uma forma confiável para expor o que ele sabe fazer e oferecer seus serviços e aumentar sua renda. Júlio também procura algo fácil de utilizar , pois sabe que uma grande parte dos seus clientes atuais são pessoas aposentadas e que podem ter alguma dificuldade com tecnologia.
 
 <br clear = "left">
 
@@ -59,7 +59,8 @@ src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/as
 
 # Felipe Silva, 30 anos
 
-Felipe é um jovem empreendedor de 30 anos que decidiu seguir sua paixão por consertar eletrônicos. Ele é especializado em reparo de smartphones, tablets e laptops. Morando no Brasil, ele busca expandir sua clientela e organizar melhor sua agenda de trabalho.
+Felipe é um jovem empreendedor de 30 anos que decidiu seguir sua paixão por consertar eletrônicos. Ele é especializado em reparo de smartphones, tablets e laptops. Morando no Brasil, ele busca expandir sua clientela e organizar melhor sua agenda de trabalho para assim conseguir realizar seu sonho de infância que é abrir uma rede de assistência técnica.
+Seu maior desafio está em encontrar serviços para realizar com visita técnica, como Felipe não tem um local físico ainda, ele busca formas de encontrar clientes pela internet.
 Felipe é apaixonado por tecnologia e sempre fica de olho nas últimas tendências em dispositivos eletrônicos.
 
 <br clear = "left">
