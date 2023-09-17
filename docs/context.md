@@ -8,7 +8,7 @@ O propósito central do nosso projeto é desenvolver uma plataforma tecnológica
 
 ## Problema
 
-Frequentemente, surgem tarefas domiciliares que se mostram desafiadoras de serem concluídas, seja devido à falta de conhecimento ou de tempo disponível. No entanto, a busca por profissionais qualificados e confiáveis para executar essas atividades em nossa residência pode se revelar uma empreitada complexa e de grande importância, uma vez que envolve a abertura de casas a terceiros.
+Frequentemente, surgem tarefas domiciliares que se mostram desafiadoras de serem concluídas, seja devido à falta de conhecimento ou de tempo disponível. No entanto, a busca por profissionais qualificados e confiáveis para executar essas atividades domiciliares pode se revelar uma empreitada complexa e de grande importância, uma vez que envolve a abertura de casas a terceiros.
 
 ### Os Desafios na Busca por Profissionais
 
