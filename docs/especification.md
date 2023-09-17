@@ -39,7 +39,7 @@ src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/as
 
 # Gabriela Duarte , 47 anos
 
-Gabriela Duarte é uma bancária,divorciada, sem filhos, casa própria, tem como hobby assistir filmes aos finais de semana. Ela não tem tempo e tem dificuldade para encontrar prestadores em sua cidade quando precisa de algum reparo doméstico. Ela utilizará o software para buscar com rapidez e facilidade ao profissional de acordo com o reparo a ser feito em sua residência.
+Gabriela Duarte é uma bancária,divorciada, sem filhos, casa própria, tem como hobby assistir filmes aos finais de semana. Ela não tem tempo e tem dificuldade para encontrar prestadores em sua cidade quando precisa de algum reparo doméstico. Ela está buscando um prestador com rapidez e facilidade de acordo com o reparo a ser feito em sua residência.
 
 <br clear = "left">
 
