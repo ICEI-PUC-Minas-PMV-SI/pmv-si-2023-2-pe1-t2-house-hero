@@ -86,34 +86,34 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  | Prioridade | Responsável |
 |-------|-----------------------------------------|----| ----|
-| RF&#x2011;001 | Permitir que o prestador de serviços se cadastre na plataforma | ALTA| |
-| RF-002 | Permitir que o usuário cadastre-se na plataforma | ALTA| |
-| RF-003 | Permitir que o usuário faça login na plataforma como usuário cadastrado ou convidado ou prestador de serviços | ALTA| |
-| RF-004 | A aplicação deve ser acessível para todos os públicos | ALTA| |
-| RF-005 | Permitir que o prestador de serviços cadastre os serviços que oferece | ALTA| |
-| RF-006 | Permitir que o prestador de serviços indique a região que atenda | ALTA | |
-| RF-007 | Permitir avaliação de mão de obra e recepção do prestador e do usuário (cadastrado). | ALTA| |
-| RF-008 | Possibilitar filtro por meio de avaliações na pesquisa de prestador de serviços. | MÉDIA| |
-| RF-009 | Permitir que o usuário (cadastrado) gere uma demanda de serviços | MEDIA | |
-| RF-010 | Permitir que o usuário cadastrado poste imagens do serviço prestado | BAIXA | |
-| RF-011 | Permitir que o prestador de serviços poste imagens de serviços anteriores | BAIXA | |
-| RF-012 | Permitir que o usuário faça alterações em seu perfil | BAIXA | |
-| RF-013 | Possibilitar que o prestador de serviçoes veja o histórico de serviços agendados | BAIXA | |
+| RF&#x2011;001 | O sistema deve permitir que o prestador de serviços gerencie um perfil informando Nome,Telefone de contato,CNPJ , Horário de Atendimento (incluindo dia da semana)| ALTA| |
+| RF-002 | O sistema deve gerar um token único para cada prestador no momento do cadastro | ALTA |
+| RF-003 | O sistema deve permitir que o prestador de serviço faça login na plataforma  | ALTA| |
+| RF-004 | O sistema deve permitir que o prestador de serviços cadastre os serviços que oferece | ALTA| |
+| RF-005 | O sistema deve permitir que o prestador de serviços indique a região que atenda | ALTA | |
+| RF-006 | O sistema deve permitir que os contratantes avaliem os prestadores de serviço, para que isso seja possível o prestador deve informar um token para o cliente no momento da contratação. | ALTA| |
+| RF-007 | O sistema deve possiblitar  filtro por meio de avaliações na pesquisa de prestador de serviços. | MÉDIA| |
+| RF-008 | O sistema deve permitir que o usuário faça alterações em seu perfil | MÉDIA | |
+| RF-009 | O sistema deverá conter uma página de ajuda explicando como navegar pela interface | ALTA |
+| RF-010 | O sistema deverá conter uma página com orientações sobre como utilizar o token e avaliar os serviços prestados | ALTA |
+| RF-011 | O sistema deverá conter uma página explicando como contratar os serviços | ALTA |
+| RF-012 | O sistema deverá conter uma página contendo informações sobre boas práticas na prestação de serviços | ALTA |
+| RF-013 | O sistema deverá conter uma página com dúvidas frequentes na utilização do aplicativo | ALTA |
+| RF-014 | O sistema deverá conter uma página com instruções de segurança na contratação do serviço | ALTA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Ordenação de pesquisa por melhor avaliação |ALTA|
+|RNF-001| Tornar a aplicação acessível a todas as pessoas, incluindo aquelas com deficiências, seguindo as diretrizes de acessibilidade universal, como WCAG 2.0 | ALTA |
 |RNF-002| A aplicação deve ser integrada com uma API de localização |ALTA|
 |RNF-003| O sistema deve ser compatível com os navegadores mais utilizados |ALTA|
 |RNF-004| A aplicação deve ser regida pela LGPD |ALTA|
-|RNF-005| Tornar a aplicação acessível a todas as pessoas, incluindo aquelas com deficiências, seguindo as diretrizes de acessibilidade universal, como WCAG 2.0 | ALTA |
-|RNF-006| Ordenação de pesquisa por proximidade |MÉDIA|
-|RNF-007| Utilizar tokens JWT para gerenciar sessões de usuários |  MÉDIA | 
-|RNF-008| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-009| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-005| Utilizar tokens JWT para gerenciar sessões de usuários |  MÉDIA | 
+|RNF-006| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-007| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+
 
 ## Restrições
 
