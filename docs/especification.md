@@ -43,7 +43,7 @@ src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/as
 
 # Gabriela Duarte , 47 anos
 
-Gabriela Duarte é uma bancária,divorciada, sem filhos, casa própria, tem como hobby assistir filmes aos finais de semana. Ela não tem tempo e tem dificuldade para encontrar prestadores em sua cidade quando precisa de algum reparo doméstico. Ela está buscando um prestador com rapidez e facilidade de acordo com o reparo a ser feito em sua residência.
+Gabriela Duarte é uma bancária,divorciada, sem filhos, casa própria, tem como hobby assistir filmes aos finais de semana. Ela gosta de agilidade, e sua agenda está sempre lotada, sempre teve dificuldade para encontrar profissionais qualificados e de confiança em sua cidade quando necessita de algum reparo doméstico. No momento ela precisa encontrar um pedreiro o mais rápido possível e quer ter a tranquilidade de receber um serviço bem feito de um profissional qualificado para reparar a sua residência.
 
 <br clear = "left">
 
@@ -111,7 +111,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Tornar a aplicação acessível a todas as pessoas, incluindo aquelas com deficiências, seguindo as diretrizes de acessibilidade universal, como WCAG 2.0 | ALTA |
+|RNF&#x2011;001| Tornar a aplicação acessível a todas as pessoas, incluindo aquelas com deficiências, seguindo as diretrizes de acessibilidade universal, como WCAG 2.0 | ALTA |
 |RNF-002| A aplicação deve ser integrada com uma API de localização |ALTA|
 |RNF-003| O sistema deve ser compatível com os navegadores mais utilizados |ALTA|
 |RNF-004| A aplicação deve ser regida pela LGPD |ALTA|
