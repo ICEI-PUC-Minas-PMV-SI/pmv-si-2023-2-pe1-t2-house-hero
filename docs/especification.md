@@ -1,8 +1,13 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+O projeto tem como objetivo preencher uma lacuna na sociedade, que afeta a maioria da população adulta: a necessidade de realizar reparos, instalações e obras em suas residências ou estabelecimentos comerciais, muitas vezes sem possuir o conhecimento ou disponibilidade necessários para executar tais atividades.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A proposta visa criar uma solução em que tanto o cliente quanto o prestador de serviços saiam beneficiados. Estamos desenvolvendo uma plataforma que conectará profissionais qualificados aos serviços adequados. Isso permitirá ao cliente acessar uma variedade de profissionais que fazem parte da nossa rede House Hero. Cada um desses profissionais contará com avaliações de trabalhos anteriores, o que proporciona ao cliente a capacidade de fazer uma escolha mais assertiva.
+
+Por outro lado, os prestadores de serviços que se associarem à nossa plataforma terão a oportunidade de expandir sua base de clientes, uma vez que seus serviços serão promovidos para um público mais amplo.
+
+Criamos algumas personas para ilustrar melhor estes problemas e suas respectivas soluções.
+
 
 ## Personas
 
@@ -29,7 +34,7 @@ Maria Luzia é uma psicóloga e alugou um imóvel para abrir seu novo consultór
 
 # Carlos Alburquerque , 35 anos
 
-É dono de uma empresa pequena, tem sua rotina de horários muito apertada, tem 35 anos, é casado, gosta de assistir esportes como fórmula 1 nos domingos. Ele não tem condições de manter uma fiscalização no trabalho do prestador, pois seu tempo é muito curto, porém ele necessita de reparos na estrutura onde a empresa se localiza. Ele procura uma forma de conseguir prestadores de serviço confiáveis que não precisam ser fiscalizados durante seu trabalho e que sejam pontuais para que caso não esteja na empresa algum funcionário possa receber o prestador para que o serviço seja concluído. Já que diversas vezes Carlos contratou profissionais que não foram no dia correto ou se atrasaram gerando o prejuízo das horas extras pagas a funcionários que receberiam tal proficional para a realização dos reparos.
+É dono de uma empresa pequena, tem sua rotina de horários muito apertada, tem 35 anos, é casado, gosta de assistir esportes como fórmula 1 nos domingos. Ele não tem condições de manter uma fiscalização no trabalho do prestador, pois seu tempo é muito curto, porém ele necessita de reparos na estrutura onde a empresa se localiza. Ele procura uma forma de conseguir prestadores de serviço confiáveis que não precisam ser fiscalizados durante seu trabalho e que sejam pontuais para que caso não esteja na empresa algum funcionário possa receber o prestador para que o serviço seja concluído. Já que diversas vezes Carlos contratou profissionais que não foram no dia correto ou se atrasaram gerando o prejuízo das horas extras pagas a funcionários que receberiam tal profissional para a realização dos reparos.
 
 <br clear = "left">
 
