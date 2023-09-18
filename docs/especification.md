@@ -2,12 +2,11 @@
 
 O projeto tem como objetivo preencher uma lacuna na sociedade, que afeta a maioria da população adulta: a necessidade de realizar reparos, instalações e obras em suas residências ou estabelecimentos comerciais, muitas vezes sem possuir o conhecimento ou disponibilidade necessários para executar tais atividades.
 
-A proposta visa criar uma solução em que tanto o cliente quanto o prestador de serviços saiam beneficiados. Estamos desenvolvendo uma plataforma que conectará profissionais qualificados aos serviços adequados. Isso permitirá ao cliente acessar uma variedade de profissionais que fazem parte da nossa rede House Hero. Cada um desses profissionais contará com avaliações de trabalhos anteriores, o que proporciona ao cliente a capacidade de fazer uma escolha mais assertiva.
+A proposta visa criar uma solução em que tanto o cliente quanto o prestador de serviços saiam beneficiados. Será desenvolvido uma plataforma que conectará profissionais qualificados aos serviços adequados. Isso permitirá ao cliente acessar uma variedade de profissionais que fazem parte da rede House Hero. Cada um desses profissionais contará com avaliações de trabalhos anteriores, o que proporciona ao cliente a capacidade de fazer uma escolha mais assertiva.
 
-Por outro lado, os prestadores de serviços que se associarem à nossa plataforma terão a oportunidade de expandir sua base de clientes, uma vez que seus serviços serão promovidos para um público mais amplo.
+Por outro lado, os prestadores de serviços que se associarem à esta plataforma terão a oportunidade de expandir sua base de clientes, uma vez que seus serviços serão promovidos para um público mais amplo.
 
-Criamos algumas personas para ilustrar melhor estes problemas e suas respectivas soluções.
-
+Algumas personas foram criadas para ilustrar melhor estes problemas e suas respectivas soluções.
 
 ## Personas
 
