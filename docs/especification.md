@@ -94,7 +94,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF&#x2011;001 | O sistema deve permitir que o prestador de serviços gerencie um perfil informando Nome,Telefone de contato,CNPJ , Horário de Atendimento (incluindo dia da semana)| ALTA| |
 | RF-002 | O sistema deve gerar um token único para cada prestador no momento do cadastro | ALTA |
 | RF-003 | O sistema deve permitir que o prestador de serviço faça login na plataforma  | ALTA| |
-| RF-004 | O sistema deve permitir que o prestador de serviços cadastre os serviços que oferece | ALTA| |
+| RF-004 | O sistema deve permitir que o prestador de serviços gerencie os serviços que oferece | ALTA| |
 | RF-005 | O sistema deve permitir que o prestador de serviços indique a região que atenda | ALTA | |
 | RF-006 | O sistema deve permitir que os contratantes avaliem os prestadores de serviço, para que isso seja possível o prestador deve informar um token para o cliente no momento da contratação. | ALTA| |
 | RF-007 | O sistema deve possiblitar  filtro por meio de avaliações na pesquisa de prestador de serviços. | MÉDIA| |
