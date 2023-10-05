@@ -96,15 +96,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-003 | O sistema deve permitir que o prestador de serviço faça login na plataforma  | ALTA| |
 | RF-004 | O sistema deve permitir que o prestador de serviços gerencie os serviços que oferece | ALTA| |
 | RF-005 | O sistema deve permitir que o prestador de serviços indique a região que atenda | ALTA | |
-| RF-006 | O sistema deve permitir que os contratantes avaliem os prestadores de serviço, para que isso seja possível o prestador deve informar um token para o cliente no momento da contratação. | ALTA| |
-| RF-007 | O sistema deve possiblitar  filtro por meio de avaliações na pesquisa de prestador de serviços. | MÉDIA| |
+| RF-006 | O sistema deve permitir que os contratantes avaliem e descrevam os prestadores de serviço, para que isso seja possível o prestador deve informar o seu token ao cliente no momento da contratação. | ALTA| |
+| RF-007 | O sistema deve possiblitar filtragem por meio de avaliações na pesquisa de prestador de serviços. | MÉDIA| |
 | RF-008 | O sistema deve permitir que o usuário faça alterações em seu perfil | MÉDIA | |
-| RF-009 | O sistema deverá conter uma página de ajuda explicando como navegar pela interface | ALTA |
-| RF-010 | O sistema deverá conter uma página com orientações sobre como utilizar o token e avaliar os serviços prestados | ALTA |
-| RF-011 | O sistema deverá conter uma página explicando como contratar os serviços | ALTA |
-| RF-012 | O sistema deverá conter uma página contendo informações sobre boas práticas na prestação de serviços | ALTA |
-| RF-013 | O sistema deverá conter uma página com dúvidas frequentes na utilização do aplicativo | ALTA |
-| RF-014 | O sistema deverá conter uma página com instruções de segurança na contratação do serviço | ALTA |
+| RF-009 | O sistema deverá conter uma página com orientações sobre como utilizar o token e avaliar os serviços prestados | ALTA |
+| RF-010 | O sistema deverá conter uma página explicando como contratar os serviços | ALTA |
+| RF-011 | O sistema deverá conter uma página contendo informações sobre boas práticas na prestação de serviços | ALTA |
+| RF-012 | O sistema deverá conter uma página com dúvidas frequentes na utilização do aplicativo | ALTA |
+| RF-013 | O sistema deverá conter uma página com instruções de segurança na contratação do serviço | ALTA |
 
 
 ### Requisitos não Funcionais
