@@ -11,7 +11,12 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+A escolha da paleta de cores é uma etapa importante na criação de um projeto que atraia seus cliente, Neste caso, as cores branco, cinza, laranja e vermelho oferecem uma combinação dinâmica e visualmente atraente que pode aumentar o envolvimento do usuário e o reconhecimento da marca. O branco é frequentemente associado à pureza, simplicidade e clareza. Ele serve como uma tela limpa para o conteúdo do seu site, facilitando a leitura e a navegação dos usuários. O cinza, quando usado estrategicamente, agrega sofisticação e equilíbrio ao design. A adição do laranja injeta energia e entusiasmo ao seu site. Esta cor quente e vibrante é conhecida por estimular a criatividade e o entusiasmo. O vermelho, por outro lado, é uma cor poderosa que simboliza paixão, urgência e força.
+Ao integrar cuidadosamente branco, cinza, laranja e vermelho na paleta de cores do seu projeto, você cria um ambiente harmonioso e visualmente estimulante para seus clientes. Essa paleta não apenas torna seu site esteticamente agradável, mas também ajuda os usuários a identificar e se conectar facilmente com sua marca, tornando sua experiência memorável e envolvente.
+
+![Image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/143044412/b0c60550-a4c9-48f8-b9b5-0d513d50fa57)
+
+
 
 
 ## Tipografia
