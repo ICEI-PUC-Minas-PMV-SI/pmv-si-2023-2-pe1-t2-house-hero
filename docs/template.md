@@ -21,8 +21,9 @@ Ao integrar cuidadosamente branco, cinza, laranja e vermelho na paleta de cores 
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+A fonte escolhida foi Urbanist, fonte simples e elegante para facilitar a leitura e a harmonização do projeto.
 
+![Image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/143044412/3b0fd881-5d0d-483d-aad5-77c6f15c7585)
 
 ## Iconografia
 
