@@ -6,11 +6,10 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 
-O layout inicial do projeto terá esse formato, mostrando a logo, ícone do perfil do usuário e os prestadores de serviço.
+O design foi pensado para proporciona uma visualização harmônica para o usuário. O layout inicial do projeto terá esse formato, mostrando a logo, ícone do perfil do usuário e os prestadores de serviço.
 
 
 ![Image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/143044412/2cc725e4-e34d-467e-beb7-ca3b5bd6286e)
-
 
 
 
