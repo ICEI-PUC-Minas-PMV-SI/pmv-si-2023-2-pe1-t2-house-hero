@@ -6,7 +6,12 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+O layout inicial do projeto terá esse formato, mostrando a logo, ícone do perfil do usuário e os prestadores de serviço.
+
+
+![Image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/143044412/2cc725e4-e34d-467e-beb7-ca3b5bd6286e)
+
+
 
 
 ## Cores
