@@ -1,0 +1,100 @@
+body {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.navbar-container {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.brand-container {
+    display: flex;
+    align-items: end;
+}
+
+.brand-logo {
+    height: 45px;
+}
+
+.brand-name {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.profile-container {
+    display: flex;
+}
+
+.profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.orange-stripe {
+    height: 55px;
+    background: linear-gradient(90deg, #FF4D4D 0%, #FF774B 100%);
+}
+
+.content-container {
+    max-width: 1440px;
+    padding-top: 49px;
+    margin: auto;
+}
+
+.container-filter{
+    background: linear-gradient(90deg, #FF4D4D 0%, #FF774B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 14px;
+}
+
+.filter-star {
+    width: 19px;
+    height: 19px;
+}
+
+
+.content-title {
+    padding-bottom: 21px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.arrows-selector {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-portrait {
+    height: 135px;
+    border-radius: 20px;
+    background: #D9D9D9;
+}
+
+.service-category {
+    font-size: 12px;
+    color: #818181;
+}
+
+.star-rating-container {
+    display: flex;
+    align-items: center;
+}
+
+.star-rating {
+    margin: 0 0 0 5px;
+    color: #818181;
+}
+
+.below {
+    margin-top: 49px;
+}
