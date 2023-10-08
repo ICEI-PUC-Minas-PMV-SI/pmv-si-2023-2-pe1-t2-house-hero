@@ -30,10 +30,10 @@ A fonte escolhida foi Urbanist, fonte simples e elegante para facilitar a leitur
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
+Os ícones foram escolhido com base na harmonização do site, abaixo o significado de cada ícone do projeto.
 
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
+![Image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/143044412/b07f0caa-3124-4ec6-bbea-3c9e093902a1)
+
 
 
 > **Links Úteis**:
