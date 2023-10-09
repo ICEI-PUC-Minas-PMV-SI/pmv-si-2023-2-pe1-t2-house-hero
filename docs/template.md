@@ -14,9 +14,9 @@ DESKTOP
 
 MOBILE
 
-![Image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/143044412/474e7e8e-fc9a-4e25-9719-0b7a07d8b7be)
 
 
+![Image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/143044412/8b1bfe58-a280-4ce1-9c3e-57cff015dccf)
 
 
 ## Cores
