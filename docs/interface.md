@@ -15,22 +15,53 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 <img align = "left" width="100%" src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/40511076/0dd91f46-311a-4fef-902a-2234dc640eb8" />
 
+
 ## Wireframes
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+#Home page
 
-### Exemplo
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/98ca44b1-8d93-4eb0-9fbb-7f6566dad356)
 
-A tela Inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade.
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/2075ea4a-d54d-49c4-becb-553cb7b7080b)
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/6ac593bf-985b-4aa4-b84c-2f916eb6b03c)
 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/dc8451d9-0b09-4f2e-bc7e-d25b53d54c41)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/99e555d6-fbae-401c-94ee-e11a51c4763a)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/f674ae96-035a-4995-9269-d253e26f8b4d)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/ca06197d-051b-4b86-8442-ffb9d13e84f0)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/65df5e84-5156-4aaa-82c2-30994bb623f2)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/e035df97-82d8-46d5-a826-352cc22a912e)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/cc1a7ee6-a4b2-45bd-8836-3a5dee67a509)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/cb0ed6c9-465b-47aa-ac90-04468ebf1175)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/0ff313d1-3b4d-4bc9-8e7d-80688a15caa0)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/1a2f0b33-37b8-420f-a144-b9779e3b9b37)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/b31bfa64-7596-4d5c-b09b-c03a0a1cd33e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
