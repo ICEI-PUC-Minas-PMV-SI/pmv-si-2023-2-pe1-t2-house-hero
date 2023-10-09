@@ -7,32 +7,133 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
+### Prestador dos Serviços
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+<img align = "left" width="100%" src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/40511076/401d2cba-e074-444f-b98f-cae86e4ab1ac" />
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+
+### Consumidor dos Serviços
+
+
+<img align = "left" width="100%" src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/40511076/0dd91f46-311a-4fef-902a-2234dc640eb8" />
 
 
 ## Wireframes
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+### Tela 01a - Home Page
 
-### Exemplo
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/98ca44b1-8d93-4eb0-9fbb-7f6566dad356)
 
-A tela Inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade.
+### Tela 01b - Home Page
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+> **Requisitos atendidos**:
 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+> - RF-007	O sistema deve possiblitar filtragem por meio de avaliações na pesquisa de prestador de serviços.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/2075ea4a-d54d-49c4-becb-553cb7b7080b)
+
+### Tela 02 - Login 
+
+> **Requisitos atendidos**:
+
+> - RF-003	O sistema deve permitir que o prestador de serviço faça login na plataforma
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/6ac593bf-985b-4aa4-b84c-2f916eb6b03c)
+
+### Tela 03 - Esqueci minha senha 
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/dc8451d9-0b09-4f2e-bc7e-d25b53d54c41)
+
+### Tela 04 - Registro
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/99e555d6-fbae-401c-94ee-e11a51c4763a)
+
+### Tela 05a - Perfil do Prestador de Serviços Logado
+
+> **Requisitos atendidos**:
+
+> - RF-002	O sistema deve gerar um token único para cada prestador no momento do cadastro
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/f674ae96-035a-4995-9269-d253e26f8b4d)
+
+### Tela 05b -Perfil do Prestador Logado, Janela de Edição 
+
+> **Requisitos atendidos**:
+
+> - RF‑001	O sistema deve permitir que o prestador de serviços gerencie um perfil informando Nome,Telefone de contato,CNPJ , Horário de Atendimento (incluindo dia da semana)
+
+> - RF-005	O sistema deve permitir que o prestador de serviços indique a região que atenda
+
+> - RF-008	O sistema deve permitir que o usuário faça alterações em seu perfil
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/ca06197d-051b-4b86-8442-ffb9d13e84f0)
+
+### Tela 05c -Perfil do Prestador / Janela de Serviços
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/65df5e84-5156-4aaa-82c2-30994bb623f2)
+
+### Tela 05d -Perfil do Prestador Logado/ Adicionar Atividades
+
+> **Requisitos atendidos**:
+
+> - RF-004	O sistema deve permitir que o prestador de serviços gerencie os serviços que oferece
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/e035df97-82d8-46d5-a826-352cc22a912e)
+
+### Tela 05e -Perfil Público do Prestador
+
+> **Requisitos atendidos**:
+
+> - RF-002	O sistema deve gerar um token único para cada prestador no momento do cadastro
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/cc1a7ee6-a4b2-45bd-8836-3a5dee67a509)
+
+### Tela 05f - Avaliação do Prestador
+
+> **Requisitos atendidos**:
+
+> - RF-006	O sistema deve permitir que os contratantes avaliem e descrevam os prestadores de serviço, para que isso seja possível o prestador deve informar o seu token ao cliente no momento da contratação.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/cb0ed6c9-465b-47aa-ac90-04468ebf1175)
+
+### Tela 06 - Ajuda
+
+> **Requisitos atendidos**:
+
+> - RF-009	O sistema deverá conter uma página com orientações sobre como utilizar o token e avaliar os serviços prestados
+
+> - RF-010	O sistema deverá conter uma página explicando como contratar os serviços
+
+> - RF-011	O sistema deverá conter uma página contendo informações sobre boas práticas na prestação de serviços
+
+> - RF-012	O sistema deverá conter uma página com dúvidas frequentes na utilização do aplicativo
+
+> - RF-013	O sistema deverá conter uma página com instruções de segurança na contratação do serviço
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/0ff313d1-3b4d-4bc9-8e7d-80688a15caa0)
+
+### Tela 07 - Perfil Público do prestador / Janela de Serviços
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/1a2f0b33-37b8-420f-a144-b9779e3b9b37)
+
+### Tela 08 - Perfil Público do Usuário
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/b31bfa64-7596-4d5c-b09b-c03a0a1cd33e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
