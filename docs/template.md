@@ -6,7 +6,7 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 
-O design foi pensado para proporciona uma visualização harmônica para o usuário. Abaixo o layout nas versões Desktop e Mobile, a tela inicial do projeto terá esse formato, mostrando a logo, ícone do perfil do usuário e os prestadores de serviço.
+O design foi pensado para proporcionar uma visualização harmônica para o usuário. Abaixo o layout nas versões Desktop e Mobile, a tela inicial do projeto terá esse formato, mostrando a logo, ícone do perfil do usuário e os prestadores de serviço.
 
 DESKTOP
 
