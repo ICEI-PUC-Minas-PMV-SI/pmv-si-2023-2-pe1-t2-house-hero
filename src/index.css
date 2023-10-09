@@ -1,7 +1,8 @@
-body {
+.body {
     font-family: 'Urbanist', sans-serif;
     font-weight: 700;
     font-size: 16px;
+    padding-bottom: 80px;
 }
 
 .navbar-container {
@@ -28,6 +29,10 @@ body {
 
 .profile-container {
     display: flex;
+}
+
+.service-name {
+    margin-top: 12px;
 }
 
 .profile-picture {
@@ -97,4 +102,163 @@ body {
 
 .below {
     margin-top: 49px;
+}
+
+
+@media (max-width: 768px) {
+    .body {
+        padding-top: 60px;
+        margin-bottom: 0;
+    }
+
+    .rating-filter-container {
+        padding-right: 40px;
+    }
+
+    .brand-name {
+        font-size: 24px !important;
+    }
+
+    .navbar-title {
+        padding: 12px;
+    }
+
+    .profile-container {
+        align-items: center;
+    }
+
+    .profile-picture {
+        width: 35px;
+        height: 35px;
+    }
+
+    .users-container {
+        padding: 0 22px;
+    }
+
+    .brand-container {
+        margin-right: 20px;
+    }
+
+    .brand-name {
+        font-size: 14px;
+    }
+
+    .content-container {
+        padding-top: 20px;
+    }
+
+    .service-portrait {
+        height: 135px;
+        margin-bottom: 8px;
+    }
+
+    .service-container {
+        margin-bottom: 24px;
+    }
+
+    .service-name, .service-category {
+        margin-bottom: 0 !important;
+    }
+
+    .service-category {
+        margin-bottom: 8px !important;
+    }
+
+    .service-name, .service-rating .star-rating {
+        font-size: 14px;
+    }
+
+    .orange-stripe {
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .body {
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+
+    .rating-filter-container {
+        padding-right: 40px;
+    }
+
+    .brand-name {
+        font-size: 24px !important;
+    }
+
+    .navbar-title {
+        padding: 12px;
+    }
+
+    .profile-container {
+        align-items: center;
+    }
+
+    .profile-picture {
+        width: 35px;
+        height: 35px;
+    }
+
+    .users-container {
+        padding: 0 22px;
+    }
+
+    .brand-container {
+        margin-right: 20px;
+    }
+
+    .brand-name {
+        font-size: 14px;
+    }
+
+    .content-container {
+        padding-top: 20px;
+    }
+
+    .service-portrait {
+        height: 135px;
+        margin-bottom: 8px;
+    }
+
+    .service-container {
+        margin-bottom: 24px;
+        width: 50%;
+    }
+
+    .service-name, .service-category {
+        margin-bottom: 0 !important;
+    }
+
+    .service-category {
+        margin-bottom: 8px !important;
+    }
+
+    .service-name, .service-rating .star-rating {
+        font-size: 14px;
+    }
+
+    .orange-stripe {
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .body {
+        padding-top: 80px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .orange-stripe {
+        height: 55px !important;
+        background: linear-gradient(90deg, #FF4D4D 0%, #FF774B 100%) !important;
+    }
+}
+
+@media (min-width: 1023px) {
+    .navbar-title {
+        padding: 25px;
+    }
 }
