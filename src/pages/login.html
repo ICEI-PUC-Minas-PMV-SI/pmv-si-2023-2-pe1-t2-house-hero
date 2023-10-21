@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>Log In</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://unpkg.com/@phosphor-icons/web@2.0.3"></script>
+
+
+    <link rel="stylesheet" href="../styles/login.css">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@700;900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <main class="container">
+        <figure class="logo">
+            <img src="../assets/logo.svg" alt="Logo">
+            <figcaption class="title">HOUSEHERO</figcaption>
+        </figure>
+
+        <strong>Bem vindo ao HouseHero.</strong>
+
+        <form class="input-form">
+            <div class="input-container">
+                <i class="ph-light ph-envelope" alt="Email"></i>
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-container">
+                <i class="ph-light ph-lock" alt="Email"></i>
+                <input type="password" id="passwordInput" placeholder="Senha">
+                <i class="ph-light ph-eye-closed" id="passwordVisibilityButton" alt="Visibilidade da senha"></i>
+            </div>
+            <strong class="forgot-password" id="forgotPasswordButton">Esqueci minha senha</strong>
+        </form>
+        <button class="colored-button" id="loginButton">Log In</button>
+
+        <button class="colored-button" id="registerButton">Registre-se</button>
+        
+    </main>
+</body>
+</html>
+
+<script>
+    const loginButton = document.getElementById('loginButton');
+    const registerButton = document.getElementById('registerButton');
+    const forgotPasswordButton = document.getElementById('forgotPasswordButton');
+    const passwordVisibilityButton = document.getElementById('passwordVisibilityButton');
+    const passwordInput = document.getElementById('passwordInput');
+
+    passwordVisibilityButton.addEventListener('click', () => {
+        passwordVisibilityButton.classList.toggle('ph-eye');
+        passwordVisibilityButton.classList.toggle('ph-eye-closed');
+        passwordInput.type = passwordInput.type === 'password' ? 'text' : 'password';
+    });
+
+    loginButton.addEventListener('click', () => {
+        window.location.href = '../index.html';
+    });
+
+    forgotPasswordButton.addEventListener('click', () => {
+        window.location.href = 'forgot-password.html';
+    });
+
+    registerButton.addEventListener('click', () => {
+        window.location.href = 'register.html';
+    });
+</script>
