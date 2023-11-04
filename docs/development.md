@@ -64,7 +64,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | id             | Texto  | Identificador único do serviço            | '1'                                              |
-| name         | Texto             | Nome do Usuário                         | 'Lara'                                   |
+| name         | Texto             | Nome do Serviço                         | 'Lara'                                   |
 | provider       | Texto             | Id do Prestador do Serviço                       | '1'                            |
 | photo       | Texto             | Identificador da foto do perfil do serviço                      | '5f4dcc3b5aa765d61d8327deb882cf99'                            |
 
