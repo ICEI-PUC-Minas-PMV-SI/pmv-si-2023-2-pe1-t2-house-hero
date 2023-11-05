@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <title>Register</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="https://unpkg.com/@phosphor-icons/web@2.0.3"></script>
+
+    <link rel="stylesheet" href="../styles/register.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <figure class="logo">
+        <img src="../assets/logo.svg" alt="Logo" />
+        <figcaption class="title">HOUSEHERO</figcaption>
+      </figure>
+
+      <strong>Por favor, preencha os campos abaixo para se registrar.</strong>
+
+      <form class="input-form">
+        <div class="input-container">
+          <i class="ph-light ph-user-circle" alt="Nome"></i>
+          <input type="Nome" placeholder="Nome" />
+        </div>
+        <div class="input-container">
+          <i class="ph-light ph-envelope" alt="Email"></i>
+          <input type="email" placeholder="Email" />
+        </div>
+        <div class="input-container">
+          <i class="ph-light ph-identification-card" alt="Email"></i>
+          <input type="email" placeholder="CNPJ ou CPF" />
+        </div>
+
+        <div class="box">
+          <button class="half-button1" id="prestadorButton">Prestador</button>
+
+          <button class="half-button2" id="clienteButton">Cliente</button>
+        </div>
+
+        <div class="input-container">
+          <i class="ph-light ph-lock" alt="password"></i>
+          <input type="password" id="passwordInput" placeholder="Senha" />
+          <i
+            class="ph-light ph-eye-closed"
+            id="passwordVisibilityButton"
+            alt="Visibilidade da senha"
+          ></i>
+        </div>
+
+        <div class="input-container">
+          <i class="ph-light ph-lock" alt="password2"></i>
+          <input
+            type="password2"
+            id="passwordConfirm"
+            placeholder="Confirmar Senha"
+          />
+          <i
+            class="ph-light ph-eye-closed"
+            id="passwordVisibilityButton2"
+            alt="Visibilidade da senha2"
+          ></i>
+        </div>
+
+        <button class="colored-button" id="registerButton">Registrar</button>
+
+        <button class="colored-button" id="alreadyButton">
+          Já tenho uma conta
+        </button>
+      </form>
+    </main>
+  </body>
+</html>
+
+<script>
+  const passwordVisibilityButton = document.getElementById(
+    'passwordVisibilityButton'
+  );
+  const passwordVisibilityButton2 = document.getElementById(
+    'passwordVisibilityButton2'
+  );
+  const passwordInput = document.getElementById('passwordInput');
+  const passwordConfirm = document.getElementById('passwordConfirm');
+
+  passwordVisibilityButton.addEventListener('click', () => {
+    passwordVisibilityButton.classList.toggle('ph-eye');
+    passwordVisibilityButton.classList.toggle('ph-eye-closed');
+    passwordInput.type =
+      passwordInput.type === 'password' ? 'text' : 'password';
+  });
+
+  passwordVisibilityButton2.addEventListener('click', () => {
+    passwordVisibilityButton2.classList.toggle('ph-eye');
+    passwordVisibilityButton2.classList.toggle('ph-eye-closed');
+    passwordConfirm.type =
+      passwordConfirm.type === 'password' ? 'text' : 'password';
+  });
+
+  registerButton.addEventListener('click', () => {
+    window.location.href = 'login.html';
+  });
+
+  alreadyButton.addEventListener('click', () => {
+    window.location.href = 'login.html';
+  });
+</script>
