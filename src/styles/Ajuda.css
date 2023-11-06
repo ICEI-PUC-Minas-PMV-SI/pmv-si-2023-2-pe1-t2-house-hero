@@ -12,12 +12,16 @@ body {
 .header{
     display: flex;
     flex-direction:row;
-    }
+    align-items:center;
+    justify-content:center;
+}
     
-    .aheader{
+.aheader{
     display:flex;
     flex-direction:row;
-    }
+    align-items:center;
+    justify-content:center;
+}
     
 #logo {
     width: 50px;
