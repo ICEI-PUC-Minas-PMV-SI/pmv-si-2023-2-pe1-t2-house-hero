@@ -26,14 +26,14 @@ Abaixo estão os <a href="especification.md"> requisitos do projeto</a>, com o d
 
 |ID     | Descrição do Requisito  | Tela |
 |-------|-----------------------------------------|----|
-| RF&#x2011;001 | O sistema deve permitir que o prestador de serviços gerencie um perfil informando Nome,Telefone de contato,CNPJ , Horário de Atendimento (incluindo dia da semana)| 05b | 
+| RF&#x2011;001 | O sistema deve permitir que o prestador de serviços gerencie um perfil informando Nome,Telefone de contato,CNPJ , Horário de Atendimento (incluindo dia da semana)| 01a / 01b / 04 / 05b / | 
 | RF-002 | O sistema deve gerar um token único para cada prestador no momento do cadastro | 05a / 05e  |
-| RF-003 | O sistema deve permitir que o prestador de serviço faça login na plataforma  | 02 |
-| RF-004 | O sistema deve permitir que o prestador de serviços gerencie os serviços que oferece | 05d | 
+| RF-003 | O sistema deve permitir que o prestador de serviço faça login na plataforma  | 02 / 03 |
+| RF-004 | O sistema deve permitir que o prestador de serviços gerencie os serviços que oferece | 05a / 05c / 05d /07| 
 | RF-005 | O sistema deve permitir que o prestador de serviços indique a região que atenda | 05b | 
 | RF-006 | O sistema deve permitir que os contratantes avaliem e descrevam os prestadores de serviço, para que isso seja possível o prestador deve informar o seu token ao cliente no momento da contratação. | 05f |
-| RF-007 | O sistema deve possiblitar filtragem por meio de avaliações na pesquisa de prestador de serviços. | 01b |
-| RF-008 | O sistema deve permitir que o usuário faça alterações em seu perfil | 05b|
+| RF-007 | O sistema deve possiblitar filtragem por meio de avaliações na pesquisa de prestador de serviços. | 01a / 01b / 04|
+| RF-008 | O sistema deve permitir que o usuário faça alterações em seu perfil | 05b / 08|
 | RF-009 | O sistema deverá conter uma página com orientações sobre como utilizar o token e avaliar os serviços prestados | 06 |
 | RF-010 | O sistema deverá conter uma página explicando como contratar os serviços | 06 |
 | RF-011 | O sistema deverá conter uma página contendo informações sobre boas práticas na prestação de serviços | 06 |
@@ -46,7 +46,7 @@ Abaixo estão os <a href="especification.md"> requisitos do projeto</a>, com o d
 |ID     | Descrição do Requisito  | Tela|
 |-------|-------------------------|----|
 |RNF&#x2011;001| Tornar a aplicação acessível a todas as pessoas, incluindo aquelas com deficiências, seguindo as diretrizes de acessibilidade universal, como WCAG 2.0 | all pages  |
-|RNF-002| A aplicação deve ser integrada com uma API de localização | 05e |
+|RNF-002| A aplicação deve ser integrada com uma API de localização | 05a / 05e |
 |RNF-003| O sistema deve ser compatível com os navegadores mais utilizados | all pages |
 |RNF-004| A aplicação deve ser regida pela LGPD | all pages |
 |RNF-005| Utilizar tokens JWT para gerenciar sessões de usuários | 02 / 03 / 04  | 
@@ -56,11 +56,20 @@ Abaixo estão os <a href="especification.md"> requisitos do projeto</a>, com o d
 
 ### Tela 01a - Home Page
 
+> **Requisitos atendidos**:
+
+> - RF‑001	O sistema deve permitir que o prestador de serviços gerencie um perfil informando Nome,Telefone de contato,CNPJ , Horário de Atendimento (incluindo dia da semana)
+
+> - RF-007	O sistema deve possiblitar filtragem por meio de avaliações na pesquisa de prestador de serviços.
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/98ca44b1-8d93-4eb0-9fbb-7f6566dad356)
+
 
 ### Tela 01b - Home Page
 
 > **Requisitos atendidos**:
+
+> - RF‑001	O sistema deve permitir que o prestador de serviços gerencie um perfil informando Nome,Telefone de contato,CNPJ , Horário de Atendimento (incluindo dia da semana)
 
 > - RF-007	O sistema deve possiblitar filtragem por meio de avaliações na pesquisa de prestador de serviços.
 
@@ -72,13 +81,29 @@ Abaixo estão os <a href="especification.md"> requisitos do projeto</a>, com o d
 
 > - RF-003	O sistema deve permitir que o prestador de serviço faça login na plataforma
 
+> - RNF-005 Utilizar tokens JWT para gerenciar sessões de usuários
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/6ac593bf-985b-4aa4-b84c-2f916eb6b03c)
 
 ### Tela 03 - Esqueci minha senha 
 
+> **Requisitos atendidos**:
+
+> - RF-003	O sistema deve permitir que o prestador de serviço faça login na plataforma
+
+> - RNF-005 Utilizar tokens JWT para gerenciar sessões de usuários
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/dc8451d9-0b09-4f2e-bc7e-d25b53d54c41)
 
 ### Tela 04 - Registro
+
+> **Requisitos atendidos**:
+
+> - RF‑001	O sistema deve permitir que o prestador de serviços gerencie um perfil informando Nome,Telefone de contato,CNPJ , Horário de Atendimento (incluindo dia da semana)
+
+> - RF-007	O sistema deve possiblitar filtragem por meio de avaliações na pesquisa de prestador de serviços.
+
+> - RNF-005 Utilizar tokens JWT para gerenciar sessões de usuários
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/99e555d6-fbae-401c-94ee-e11a51c4763a)
 
@@ -86,7 +111,13 @@ Abaixo estão os <a href="especification.md"> requisitos do projeto</a>, com o d
 
 > **Requisitos atendidos**:
 
+> - RF‑001	O sistema deve permitir que o prestador de serviços gerencie um perfil informando Nome,Telefone de contato,CNPJ , Horário de Atendimento (incluindo dia da semana)
+
 > - RF-002	O sistema deve gerar um token único para cada prestador no momento do cadastro
+
+> - RF-004	O sistema deve permitir que o prestador de serviços gerencie os serviços que oferece
+
+> - RNF-002 A aplicação deve ser integrada com uma API de localização
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/f674ae96-035a-4995-9269-d253e26f8b4d)
 
@@ -104,6 +135,10 @@ Abaixo estão os <a href="especification.md"> requisitos do projeto</a>, com o d
 
 ### Tela 05c -Perfil do Prestador / Janela de Serviços
 
+> **Requisitos atendidos**:
+
+> - RF-004	O sistema deve permitir que o prestador de serviços gerencie os serviços que oferece
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/65df5e84-5156-4aaa-82c2-30994bb623f2)
 
 ### Tela 05d -Perfil do Prestador Logado/ Adicionar Atividades
@@ -119,6 +154,8 @@ Abaixo estão os <a href="especification.md"> requisitos do projeto</a>, com o d
 > **Requisitos atendidos**:
 
 > - RF-002	O sistema deve gerar um token único para cada prestador no momento do cadastro
+
+> - RNF-002 A aplicação deve ser integrada com uma API de localização
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/cc1a7ee6-a4b2-45bd-8836-3a5dee67a509)
 
@@ -148,9 +185,17 @@ Abaixo estão os <a href="especification.md"> requisitos do projeto</a>, com o d
 
 ### Tela 07 - Perfil Público do prestador / Janela de Serviços
 
+> **Requisitos atendidos**:
+
+> - RF-004	O sistema deve permitir que o prestador de serviços gerencie os serviços que oferece
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/1a2f0b33-37b8-420f-a144-b9779e3b9b37)
 
 ### Tela 08 - Perfil Público do Usuário
+
+> **Requisitos atendidos**:
+
+> - RF-008	O sistema deve permitir que o usuário faça alterações em seu perfil
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/127502021/b31bfa64-7596-4d5c-b09b-c03a0a1cd33e)
 
