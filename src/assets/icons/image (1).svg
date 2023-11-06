@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="640" height="480" viewBox="0 0 640 480" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(2.08 0 0 2.08 203.7 239.44)"  >
+<circle style="stroke: rgb(255,255,255); stroke-width: 16; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" r="32" />
+</g>
+<g transform="matrix(2.08 0 0 2.08 436.64 389.18)"  >
+<circle style="stroke: rgb(255,255,255); stroke-width: 16; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" r="32" />
+</g>
+<g transform="matrix(2.08 0 0 2.08 435.64 91.7)"  >
+<circle style="stroke: rgb(255,255,255); stroke-width: 16; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" r="32" />
+</g>
+<g transform="matrix(2.08 0 0 2.08 320.17 164.57)"  >
+<line style="stroke: rgb(255,255,255); stroke-width: 16; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="29.090000000000003" y1="-18.700000000000003" x2="-29.090000000000003" y2="18.700000000000003" />
+</g>
+<g transform="matrix(2.08 0 0 2.08 320.17 314.31)"  >
+<line style="stroke: rgb(255,255,255); stroke-width: 16; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  x1="-29.090000000000003" y1="-18.69999999999999" x2="29.090000000000003" y2="18.69999999999999" />
+</g>
+</svg>
