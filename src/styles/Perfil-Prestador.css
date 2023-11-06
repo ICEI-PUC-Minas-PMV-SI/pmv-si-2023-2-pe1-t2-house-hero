@@ -2,22 +2,33 @@ body {
     font-family: 'Urbanist', sans-serif;
     font-weight: 700;
     font-size: 16px;
-    padding-bottom: 80px;
-    max-width: 1440px;
-    max-height: 1996px;
-    margin: 0 auto;
+    width: 100%;
+    height: 1996px;
     background-color: #FFFFFF;
+    margin:0;
 }
 
 .header {
     height: 100px;
+    width: 100%;
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     text-decoration: none;
     align-items: center;
 }
+.box-conteudo{
+    width:90%;
+    margin: 0 5% 0 5%;
 
+     
+}
+.prestador-perfil{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    
+}
 .gradiente {
     width: 100%;
     height: 50px;
@@ -82,7 +93,6 @@ main {
     position: relative;
     width: 30%;
     height: 100px;
-    margin-left: 95px;
     margin-top: auto;
 }
 
@@ -111,7 +121,7 @@ main {
     height: 100px;
     background: linear-gradient(to right, #ff774b, #ff4d4d);
     border-radius: 20px;
-    margin-right: 100px;
+    
 }
 
 .caixa-de-escrita {
@@ -138,8 +148,7 @@ main {
 }
 
 .boxDescServ {
-    width: 1210px;
-    margin-left: 95px;
+    width: 100%;
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
@@ -213,20 +222,18 @@ main {
 
 .gradienteFino {
     background: linear-gradient(to right, #ff774b, #ff4d4d);
-    width: 1210px;
+    width: 100%;
     height: 5px;
-    margin-right: 300px;
-    margin-left: 95px;
+   
 }
 
 .colunas {
-    width: 1210px;
-    margin-right: 300px;
-    margin-left: 95px;
+    width: 100%;
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     align-items: normal;
+   
 }
 
 #coluna1-de-conteudo p {
@@ -234,10 +241,10 @@ main {
 }
 
 .coluna1 {
-    margin-right: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 50%;
 }
 
 .descricao {
@@ -251,11 +258,13 @@ main {
 .horario {
     color: #818181;
 }
-
+.coluna2{
+    max-width: 50%;
+}
 #coluna2-de-conteudo img,
 .prazo-cinza,
 #coluna2-de-conteudo p {
-    margin-bottom: 50px;
+    margin: 5%;
 }
 
 .nota-media-perfil {
@@ -266,6 +275,7 @@ main {
 .nota {
     margin-right: 50px;
     font-size: 80px;
+    color:#818181
 }
 
 .avaliacao-media-perfil {
@@ -371,10 +381,10 @@ main {
 }
 
 .class-coment {
-    width: 1210px;
-    height: 600px;
-    margin-right: 300px;
-    margin-left: 95px;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
 }
 
 .classificacoes {
@@ -391,7 +401,7 @@ main {
     margin-top: 40px;
     display: flex;
     justify-content: safe;
-    width: 1210px;
+    width: 100%;
     height: 180px;
     column-count: 2;
     column-gap: 5px;
@@ -404,9 +414,15 @@ main {
 .id-bruna {
     color: #818181;
 }
-
+.comentario1{
+    max-width: 50%;
+}
 .p-bruna {
     color: #818181;
+    max-width: 90%;
+    margin-right: 10%;
+    max-height: 100px;
+    overflow: scroll;
 }
 
 .ft-perfil-1 {
@@ -416,11 +432,14 @@ main {
 }
 
 .avaliacao1-media-perfil {
-    width: 370px;
-    height: 150px;
+    width: 60%;
+    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.bru{
+    margin:0;
 }
 
 .prazo1 {
@@ -496,8 +515,8 @@ main {
 }
 
 .gradiente-comentarios {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
     width: 30%px;
     height: 5px;
     background: linear-gradient(to right, #ff774b, #ff4d4d);
@@ -507,10 +526,9 @@ main {
 }
 
 .coment2-avaliacao {
-    margin-top: 50px;
     display: flex;
     justify-content: safe;
-    width: 1210px;
+    width:100%;
     height: 200px;
     column-count: 2;
     column-gap: 5px;
@@ -523,10 +541,16 @@ main {
 .id-daniela {
     color: #818181;
 }
+.comentario2{
+    max-width: 50%;
+}
 
 .p-daniela {
     color: #818181;
-    margin-right: 100px;
+    max-width: 90%;
+    margin-right: 10%;
+    max-height: 100px;
+    overflow: scroll;
 }
 
 .ft-perfil-2 {
@@ -536,13 +560,15 @@ main {
 }
 
 .avaliacao2-media-perfil {
-    width: 370px;
-    height: 150px;
+    width: 60%;
+    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-
+.dani{
+    margin:0;
+}
 .prazo2 {
     display: contents;
     width: 200px;
@@ -613,4 +639,67 @@ main {
     width: 100%;
     height: 4px;
 
+}
+::-webkit-scrollbar-thumb {
+    background:linear-gradient(to right, #ff774b, #ff4d4d);;
+  }
+  ::-webkit-scrollbar-track {
+    background: none;
+  }
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+  ::-webkit-scrollbar:horizontal{
+    display: none;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track-piece {
+    width: 8px;
+  }
+@media screen and (max-width:624px) {
+    .p-descricao {
+        display: none;
+    }
+    .p-servicos{
+        display: none;
+    }
+    .p-editar{
+        display: none;
+    }
+
+    .descricaoBotao {
+        max-width: 100px;
+        min-width: 50px;
+        margin:none;
+    }
+
+    .servicosBotao {
+        max-width: 100px;
+        min-width: 50px;
+        margin:none;
+    }
+
+    .editarBotao {
+        max-width: 100px;
+        min-width: 50px;
+    }
+    .tokengerado{
+        display: none;
+    }
+    .p-token{
+        display: none;
+    }
+    .colunas{
+        flex-wrap: wrap;
+    }
+    .coluna1{
+        min-width: 100%;
+    }
+    .coluna2{
+        min-width: 100%;
+    }
+    
+  
 }
