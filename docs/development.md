@@ -18,13 +18,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |ID     | Descrição do Requisito  | Prioridade | Artefato Criado | Responsável |
 |-------|-----------------------------------------|---|--------|--------|
 | RF&#x2011;001 | O sistema deve permitir que o prestador de serviços gerencie um perfil informando Nome,Telefone de contato,CNPJ , Horário de Atendimento (incluindo dia da semana)| ALTA| register.html / register.css| Hugo |
-| RF-002 | O sistema deve gerar um token único para cada prestador no momento do cadastro | ALTA |
+| RF-002 | O sistema deve gerar um token único para cada prestador no momento do cadastro | ALTA | register.html / register.css| Hugo |
 | RF-003 | O sistema deve permitir que o prestador de serviço faça login na plataforma  | ALTA | login.html / login.css | Pedro |
-| RF-004 | O sistema deve permitir que o prestador de serviços gerencie os serviços que oferece | ALTA | |
-| RF-005 | O sistema deve permitir que o prestador de serviços indique a região que atenda | ALTA | |
-| RF-006 | O sistema deve permitir que os contratantes avaliem e descrevam os prestadores de serviço, para que isso seja possível o prestador deve informar o seu token ao cliente no momento da contratação. | ALTA | |
-| RF-007 | O sistema deve possiblitar filtragem por meio de avaliações na pesquisa de prestador de serviços. | MÉDIA| |
-| RF-008 | O sistema deve permitir que o usuário faça alterações em seu perfil | MÉDIA | |
+| RF-004 | O sistema deve permitir que o prestador de serviços gerencie os serviços que oferece | ALTA | Adicionar-Atividade.html / Adicionar-Atividade.css | Yan |
+| RF-005 | O sistema deve permitir que o prestador de serviços indique a região que atenda | ALTA | editar-perfil-prestador.html / editar-perfil-prestador.css | Yan |
+| RF-006 | O sistema deve permitir que os contratantes avaliem e descrevam os prestadores de serviço, para que isso seja possível o prestador deve informar o seu token ao cliente no momento da contratação. | ALTA | Perfil-Prestador-Servicos.html / Perfil-Prestador-Servicos.css | Yan |
+| RF-007 | O sistema deve possiblitar filtragem por meio de avaliações na pesquisa de prestador de serviços. | MÉDIA| index.html / index.css |
+| RF-008 | O sistema deve permitir que o usuário faça alterações em seu perfil | MÉDIA | editar-perfil-prestador.html / editar-perfil-prestador.css | Yan |
 | RF-009 | O sistema deverá conter uma página com orientações sobre como utilizar o token e avaliar os serviços prestados | ALTA | Ajuda.html / Ajuda.css | Leandro
 | RF-010 | O sistema deverá conter uma página explicando como contratar os serviços | ALTA | Ajuda.html / Ajuda.css | Leandro
 | RF-011 | O sistema deverá conter uma página contendo informações sobre boas práticas na prestação de serviços | ALTA | Ajuda.html / Ajuda.css | Leandro
@@ -36,13 +36,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade | Artefato Criado | Responsável |
 |-------|-------------------------|----|--------|--------|
-|RNF&#x2011;001| Tornar a aplicação acessível a todas as pessoas, incluindo aquelas com deficiências, seguindo as diretrizes de acessibilidade universal, como WCAG 2.0 | ALTA |
+|RNF&#x2011;001| Tornar a aplicação acessível a todas as pessoas, incluindo aquelas com deficiências, seguindo as diretrizes de acessibilidade universal, como WCAG 2.0 | ALTA | pages |
 |RNF-002| A aplicação deve ser integrada com uma API de localização | ALTA |
-|RNF-003| O sistema deve ser compatível com os navegadores mais utilizados | ALTA |
-|RNF-004| A aplicação deve ser regida pela LGPD |ALTA|
+|RNF-003| O sistema deve ser compatível com os navegadores mais utilizados | ALTA | pages |
+|RNF-004| A aplicação deve ser regida pela LGPD |ALTA| pages |
 |RNF-005| Utilizar tokens JWT para gerenciar sessões de usuários |  MÉDIA | 
-|RNF-006| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-007| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-006| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | pages |
+|RNF-007| Deve processar requisições do usuário em no máximo 3s |  BAIXA | pages |
 
 
 ## Descrição das estruturas:
