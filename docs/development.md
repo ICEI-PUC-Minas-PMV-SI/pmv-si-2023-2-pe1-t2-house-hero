@@ -1,7 +1,7 @@
 # Programação de Funcionalidades
 
 A aplicação Web encontra-se hospedada no GitHub Pages e pode ser acessada através do link abaixo:
-> - [HouseHero] (https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-house-hero/)
+> - [HouseHero] (https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-house-hero/pages/login.html)
 
 
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
@@ -17,9 +17,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID     | Descrição do Requisito  | Prioridade | Artefato Criado | Responsável |
 |-------|-----------------------------------------|---|--------|--------|
-| RF&#x2011;001 | O sistema deve permitir que o prestador de serviços gerencie um perfil informando Nome,Telefone de contato,CNPJ , Horário de Atendimento (incluindo dia da semana)| ALTA| |
+| RF&#x2011;001 | O sistema deve permitir que o prestador de serviços gerencie um perfil informando Nome,Telefone de contato,CNPJ , Horário de Atendimento (incluindo dia da semana)| ALTA| register.html / register.css| Hugo |
 | RF-002 | O sistema deve gerar um token único para cada prestador no momento do cadastro | ALTA |
-| RF-003 | O sistema deve permitir que o prestador de serviço faça login na plataforma  | ALTA | |
+| RF-003 | O sistema deve permitir que o prestador de serviço faça login na plataforma  | ALTA | login.html / login.css | Pedro |
 | RF-004 | O sistema deve permitir que o prestador de serviços gerencie os serviços que oferece | ALTA | |
 | RF-005 | O sistema deve permitir que o prestador de serviços indique a região que atenda | ALTA | |
 | RF-006 | O sistema deve permitir que os contratantes avaliem e descrevam os prestadores de serviço, para que isso seja possível o prestador deve informar o seu token ao cliente no momento da contratação. | ALTA | |
