@@ -18,7 +18,41 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 <img align = "left" width="100%" src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/assets/40511076/0dd91f46-311a-4fef-902a-2234dc640eb8" />
 
 
-## Wireframes
+# Wireframes
+
+Abaixo estão os <a href="especification.md"> requisitos do projeto</a>, com o descritivo das telas que atendem aos requisitos funcionais e não funcionais.
+
+### Requisitos Funcionais
+
+|ID     | Descrição do Requisito  | Tela |
+|-------|-----------------------------------------|----|
+| RF&#x2011;001 | O sistema deve permitir que o prestador de serviços gerencie um perfil informando Nome,Telefone de contato,CNPJ , Horário de Atendimento (incluindo dia da semana)| 05b | 
+| RF-002 | O sistema deve gerar um token único para cada prestador no momento do cadastro | 05a / 05e  |
+| RF-003 | O sistema deve permitir que o prestador de serviço faça login na plataforma  | 02 |
+| RF-004 | O sistema deve permitir que o prestador de serviços gerencie os serviços que oferece | 05d | 
+| RF-005 | O sistema deve permitir que o prestador de serviços indique a região que atenda | 05b | 
+| RF-006 | O sistema deve permitir que os contratantes avaliem e descrevam os prestadores de serviço, para que isso seja possível o prestador deve informar o seu token ao cliente no momento da contratação. | 05f |
+| RF-007 | O sistema deve possiblitar filtragem por meio de avaliações na pesquisa de prestador de serviços. | 01b |
+| RF-008 | O sistema deve permitir que o usuário faça alterações em seu perfil | 05b|
+| RF-009 | O sistema deverá conter uma página com orientações sobre como utilizar o token e avaliar os serviços prestados | 06 |
+| RF-010 | O sistema deverá conter uma página explicando como contratar os serviços | 06 |
+| RF-011 | O sistema deverá conter uma página contendo informações sobre boas práticas na prestação de serviços | 06 |
+| RF-012 | O sistema deverá conter uma página com dúvidas frequentes na utilização do aplicativo | 06 |
+| RF-013 | O sistema deverá conter uma página com instruções de segurança na contratação do serviço | 06 |
+
+
+### Requisitos não Funcionais
+
+|ID     | Descrição do Requisito  | Tela|
+|-------|-------------------------|----|
+|RNF&#x2011;001| Tornar a aplicação acessível a todas as pessoas, incluindo aquelas com deficiências, seguindo as diretrizes de acessibilidade universal, como WCAG 2.0 | all pages  |
+|RNF-002| A aplicação deve ser integrada com uma API de localização | 05e |
+|RNF-003| O sistema deve ser compatível com os navegadores mais utilizados | all pages |
+|RNF-004| A aplicação deve ser regida pela LGPD | all pages |
+|RNF-005| Utilizar tokens JWT para gerenciar sessões de usuários | 02 / 03 / 04  | 
+|RNF-006| O sistema deve ser responsivo para rodar em um dispositivos móvel | all pages | 
+|RNF-007| Deve processar requisições do usuário em no máximo 3s | all pages | 
+
 
 ### Tela 01a - Home Page
 
