@@ -78,7 +78,10 @@
   </body>
 </html>
 
-<script>
+<script type="module">
+
+  import { Consumer } from '../entities/Consumer.js'
+
   const passwordVisibilityButton = document.getElementById(
     'passwordVisibilityButton'
   );
@@ -109,4 +112,9 @@
   alreadyButton.addEventListener('click', () => {
     window.location.href = 'login.html';
   });
+
+  const consumer = new Consumer('', '', 'aaa', '')
+
+  console.log(consumer)
+
 </script>
