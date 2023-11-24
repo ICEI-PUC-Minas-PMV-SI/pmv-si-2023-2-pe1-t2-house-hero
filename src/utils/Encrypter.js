@@ -1,16 +1,18 @@
 
 export function encrypt(value) {
+    console.log(value);
     let encryptedValue = value;
     for (let i = 0; i < 5; i++) {
-        encryptedValue = btoa(encryptedValue);
+        encryptedValue = window.btoa(encryptedValue);
     }
     return encryptedValue;
 }
 
 export function decrypt(value) {
     let encryptedValue = value;
+    console.log(encryptedValue);
     for (let i = 0; i < 5; i++) {
-        encryptedValue = atob(encryptedValue);
+        encryptedValue = window.atob(encryptedValue);
     }
     return encryptedValue;
 }

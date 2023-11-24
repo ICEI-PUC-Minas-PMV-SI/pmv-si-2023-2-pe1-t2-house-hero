@@ -25,23 +25,23 @@
       <strong>Por favor, preencha os campos abaixo para se registrar.</strong>
 
       <form class="input-form">
-        <div class="input-container">
+        <div class="input-name-container input-container">
           <i class="ph-light ph-user-circle" alt="Nome"></i>
-          <input type="Nome" placeholder="Nome" />
+          <input type="Nome" id="name" placeholder="Nome" />
         </div>
-        <div class="input-container">
+        <div class="input-email-container input-container">
           <i class="ph-light ph-envelope" alt="Email"></i>
-          <input type="email" placeholder="Email" />
+          <input type="email" id="email" placeholder="Email" />
         </div>
-        <div class="input-container">
+        <div class="input-docs-container input-container">
           <i class="ph-light ph-identification-card" alt="Email"></i>
-          <input type="email" placeholder="CNPJ ou CPF" />
+          <input type="number"  id="docs" placeholder="CNPJ ou CPF" />
         </div>
 
         <div class="box">
-          <button class="half-button1" id="prestadorButton">Prestador</button>
+          <button class="active" type="reset" id="prestadorButton">Prestador</button>
 
-          <button class="half-button2" id="clienteButton">Cliente</button>
+          <button class="inactive" type="reset" id="clienteButton">Cliente</button>
         </div>
 
         <div class="input-container">
@@ -57,7 +57,7 @@
         <div class="input-container">
           <i class="ph-light ph-lock" alt="password2"></i>
           <input
-            type="password2"
+            type="password"
             id="passwordConfirm"
             placeholder="Confirmar Senha"
           />
@@ -68,9 +68,9 @@
           ></i>
         </div>
 
-        <button class="colored-button" id="registerButton">Registrar</button>
+        <button class="colored-button" id="registerButton" type="reset">Registrar</button>
 
-        <button class="colored-button" id="alreadyButton">
+        <button class="colored-button" id="registeredButton">
           Já tenho uma conta
         </button>
       </form>
@@ -81,6 +81,12 @@
 <script type="module">
 
   import { Consumer } from '../entities/Consumer.js'
+  import { ServiceProvider } from '../entities/ServiceProvider.js'
+  import { InMemoryRepositoryServiceProvider } from '../repositories/InMemoryRepositoryServiceProvider.js'
+  import { InMemoryRepositoryConsumer } from '../repositories/InMemoryRepositoryConsumer.js'
+
+  const registerButton = document.getElementById('registerButton');
+  const registeredButton = document.getElementById('registeredButton');
 
   const passwordVisibilityButton = document.getElementById(
     'passwordVisibilityButton'
@@ -90,6 +96,27 @@
   );
   const passwordInput = document.getElementById('passwordInput');
   const passwordConfirm = document.getElementById('passwordConfirm');
+
+  const nameInput = document.getElementById('name');
+  const emailInput = document.getElementById('email');
+  const docsInput = document.getElementById('docs');
+
+  const prestadorButton = document.getElementById('prestadorButton');
+  const clienteButton = document.getElementById('clienteButton');
+
+  clienteButton.addEventListener('click', () => {
+    prestadorButton.classList.add('inactive');
+    prestadorButton.classList.remove('active');
+    clienteButton.classList.add('active');
+    clienteButton.classList.remove('inactive');
+  });
+
+  prestadorButton.addEventListener('click', () => {
+    prestadorButton.classList.add('active');
+    prestadorButton.classList.remove('inactive');
+    clienteButton.classList.add('inactive');
+    clienteButton.classList.remove('active');
+  });
 
   passwordVisibilityButton.addEventListener('click', () => {
     passwordVisibilityButton.classList.toggle('ph-eye');
@@ -106,15 +133,23 @@
   });
 
   registerButton.addEventListener('click', () => {
-    window.location.href = 'login.html';
+    if (passwordInput.value !== passwordConfirm.value) {
+      alert('As senhas não coincidem');
+    } else {
+      if(prestadorButton.classList.contains('active')){
+        const prestador = new ServiceProvider(nameInput.value, emailInput.value, passwordInput.value, docsInput.value)
+        const inMemoryRepositoryServiceProvider = new InMemoryRepositoryServiceProvider()
+        inMemoryRepositoryServiceProvider.add(prestador)
+      } else {
+        const consumer = new Consumer(nameInput.value, emailInput.value, docsInput.value, passwordInput.value)
+        const inMemoryRepositoryConsumer = new InMemoryRepositoryConsumer()
+        inMemoryRepositoryConsumer.add(consumer)
+      }
+    }
   });
 
-  alreadyButton.addEventListener('click', () => {
+  registeredButton.addEventListener('click', () => {
     window.location.href = 'login.html';
   });
-
-  const consumer = new Consumer('', '', 'aaa', '')
-
-  console.log(consumer)
 
 </script>

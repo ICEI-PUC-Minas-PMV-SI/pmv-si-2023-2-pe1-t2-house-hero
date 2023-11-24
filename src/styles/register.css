@@ -151,7 +151,18 @@ button.colored-button{
   }
 
 
-button.half-button1{
+button.active{
+    border: none;
+    border-radius: var(--radius);
+    width: 100%;
+    min-height: 3rem;
+    max-height: 3rem;
+    background: var(--white);
+    color: var(--gradient);
+    cursor: pointer;
+}
+
+button.inactive{
     border: none;
     border-radius: var(--radius);
     box-shadow: var(--shadow);
@@ -160,17 +171,6 @@ button.half-button1{
     max-height: 3rem;
     background: var(--gradient);
     color: var(--white);
-    cursor: pointer;
-}
-
-button.half-button2{
-    border: none;
-    border-radius: var(--radius);
-    width: 100%;
-    min-height: 3rem;
-    max-height: 3rem;
-    background: var(--white);
-    color: var(--gradient);
     cursor: pointer;
 }
 
