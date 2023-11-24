@@ -1,4 +1,5 @@
 <html>
+
 <head>
     <title>Log In</title>
 
@@ -11,10 +12,11 @@
 
     <link rel="stylesheet" href="../styles/login.css">
 
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@700;900&display=swap" rel="stylesheet">
-    
+
 </head>
+
 <body>
     <main class="container">
         <figure class="logo">
@@ -27,7 +29,7 @@
         <form class="input-form">
             <div class="input-container">
                 <i class="ph-light ph-envelope" alt="Email"></i>
-                <input type="email" placeholder="Email">
+                <input type="email" placeholder="Email" id="email">
             </div>
             <div class="input-container">
                 <i class="ph-light ph-lock" alt="Email"></i>
@@ -39,17 +41,23 @@
         <button class="colored-button" id="loginButton">Log In</button>
 
         <button class="colored-button" id="registerButton">Registre-se</button>
-        
+
     </main>
 </body>
+
 </html>
 
-<script>
+<script type="module">
+    import { decrypt } from '../utils/Encrypter.js';
+    import { InMemoryRepositoryServiceProvider } from '../repositories/InMemoryRepositoryServiceProvider.js'
+    import { InMemoryRepositoryConsumer } from '../repositories/InMemoryRepositoryConsumer.js'
+
     const loginButton = document.getElementById('loginButton');
     const registerButton = document.getElementById('registerButton');
     const forgotPasswordButton = document.getElementById('forgotPasswordButton');
     const passwordVisibilityButton = document.getElementById('passwordVisibilityButton');
     const passwordInput = document.getElementById('passwordInput');
+    const email = document.getElementById('email');
 
     passwordVisibilityButton.addEventListener('click', () => {
         passwordVisibilityButton.classList.toggle('ph-eye');
@@ -58,7 +66,19 @@
     });
 
     loginButton.addEventListener('click', () => {
-        window.location.href = './index.html';
+        if (email.value === '' || passwordInput.value === '') {
+            alert('Preencha todos os campos.')
+        } else {
+            const user = new InMemoryRepositoryConsumer().getByEmail(email.value) ?? new InMemoryRepositoryServiceProvider().getByEmail(email.value);
+            if (user === undefined) {
+                alert('Usuário não encontrado.')
+            } else if (decrypt(user.password) !== passwordInput.value) {
+                alert('Senha incorreta.')
+            } else {
+                localStorage.setItem('user', JSON.stringify(user));
+                window.location.href = './index.html';
+            }
+        }
     });
 
     forgotPasswordButton.addEventListener('click', () => {
@@ -68,4 +88,6 @@
     registerButton.addEventListener('click', () => {
         window.location.href = 'register.html';
     });
+
+
 </script>
