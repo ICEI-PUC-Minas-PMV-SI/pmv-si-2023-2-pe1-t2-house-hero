@@ -5,7 +5,10 @@ body {
     width: 100%;
     height: 1996px;
     background-color: #FFFFFF;
-    margin:0;
+    margin: 0;
+}
+ul, li{
+    list-style: none;
 }
 
 .header {
@@ -17,18 +20,44 @@ body {
     text-decoration: none;
     align-items: center;
 }
-.box-conteudo{
-    width:90%;
+
+.logo-botao {
+    display: flex;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header .logo-botao:hover {
+    transform: scale(1.05);
+}
+
+.botao-perfil {
+    display: flex;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+header .botao-perfil:hover {
+    transform: scale(1.05);
+}
+
+.box-conteudo {
+    width: 90%;
     margin: 0 5% 0 5%;
 
-     
+
 }
-.prestador-perfil{
+
+.prestador-perfil {
     width: 100%;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    
+
 }
+
 .gradiente {
     width: 100%;
     height: 50px;
@@ -57,17 +86,14 @@ header.a {
     text-decoration: none;
 
 }
-#botao-perfil{
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-.imagem-perfil{
+
+.imagem-perfil {
     width: 49px;
     height: 49px;
     border-radius: 50%;
 
 }
+
 main {
     max-width: 100%;
 }
@@ -87,6 +113,19 @@ main {
 .nomeToken {
     display: flex;
     justify-content: space-between;
+}
+
+.token-botao {
+    width: 25%;
+    height: 120px;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.token-botao:hover {
+    transform: scale(1.05);
 }
 
 .nomeId {
@@ -117,11 +156,11 @@ main {
 }
 
 .token {
-    width: 300px;
+    width: 100%;
     height: 100px;
     background: linear-gradient(to right, #ff774b, #ff4d4d);
     border-radius: 20px;
-    
+
 }
 
 .caixa-de-escrita {
@@ -177,6 +216,20 @@ main {
     justify-content: space-around;
 }
 
+.descricao-botao {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.descricao-botao:hover {
+    transform: scale(1.05);
+}
+
+
 #desc-img {
     display: flex;
     align-items: center;
@@ -224,16 +277,16 @@ main {
     background: linear-gradient(to right, #ff774b, #ff4d4d);
     width: 100%;
     height: 5px;
-   
+
 }
 
 .colunas {
     width: 100%;
     margin-top: 50px;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: normal;
-   
+
 }
 
 #coluna1-de-conteudo p {
@@ -258,9 +311,11 @@ main {
 .horario {
     color: #818181;
 }
-.coluna2{
+
+.coluna2 {
     max-width: 50%;
 }
+
 #coluna2-de-conteudo img,
 .prazo-cinza,
 #coluna2-de-conteudo p {
@@ -275,7 +330,7 @@ main {
 .nota {
     margin-right: 50px;
     font-size: 80px;
-    color:#818181
+    color: #818181
 }
 
 .avaliacao-media-perfil {
@@ -414,9 +469,11 @@ main {
 .id-bruna {
     color: #818181;
 }
-.comentario1{
+
+.comentario1 {
     max-width: 50%;
 }
+
 .p-bruna {
     color: #818181;
     max-width: 90%;
@@ -438,8 +495,9 @@ main {
     align-items: center;
     flex-direction: column;
 }
-.bru{
-    margin:0;
+
+.bru {
+    margin: 0;
 }
 
 .prazo1 {
@@ -528,12 +586,13 @@ main {
 .coment2-avaliacao {
     display: flex;
     justify-content: safe;
-    width:100%;
+    width: 100%;
     height: 200px;
     column-count: 2;
     column-gap: 5px;
-    
+
 }
+
 .coment2-avaliacao {
     display: flex;
 }
@@ -541,7 +600,8 @@ main {
 .id-daniela {
     color: #818181;
 }
-.comentario2{
+
+.comentario2 {
     max-width: 50%;
 }
 
@@ -566,9 +626,11 @@ main {
     align-items: center;
     flex-direction: column;
 }
-.dani{
-    margin:0;
+
+.dani {
+    margin: 0;
 }
+
 .prazo2 {
     display: contents;
     width: 200px;
@@ -640,66 +702,81 @@ main {
     height: 4px;
 
 }
+
 ::-webkit-scrollbar-thumb {
-    background:linear-gradient(to right, #ff774b, #ff4d4d);;
-  }
-  ::-webkit-scrollbar-track {
+    background: linear-gradient(to right, #ff774b, #ff4d4d);
+    ;
+}
+
+::-webkit-scrollbar-track {
     background: none;
-  }
-  ::-webkit-scrollbar-button {
+}
+
+::-webkit-scrollbar-button {
     display: none;
-  }
-  ::-webkit-scrollbar:horizontal{
+}
+
+::-webkit-scrollbar:horizontal {
     display: none;
-  }
-  ::-webkit-scrollbar {
+}
+
+::-webkit-scrollbar {
     width: 8px;
-  }
-  ::-webkit-scrollbar-track-piece {
+}
+
+::-webkit-scrollbar-track-piece {
     width: 8px;
-  }
+}
+
 @media screen and (max-width:624px) {
     .p-descricao {
         display: none;
     }
-    .p-servicos{
+
+    .p-servicos {
         display: none;
     }
-    .p-editar{
+
+    .p-editar {
         display: none;
     }
 
     .descricaoBotao {
         max-width: 100px;
         min-width: 50px;
-        margin:none;
+        margin: none;
     }
 
     .servicosBotao {
         max-width: 100px;
         min-width: 50px;
-        margin:none;
+        margin: none;
     }
 
     .editarBotao {
         max-width: 100px;
         min-width: 50px;
     }
-    .tokengerado{
+
+    .tokengerado {
         display: none;
     }
-    .p-token{
+
+    .p-token {
         display: none;
     }
-    .colunas{
+
+    .colunas {
         flex-wrap: wrap;
     }
-    .coluna1{
+
+    .coluna1 {
         min-width: 100%;
     }
-    .coluna2{
+
+    .coluna2 {
         min-width: 100%;
     }
-    
-  
+
+
 }
