@@ -1,0 +1,87 @@
+body {
+    width: 100%;
+    height: 1996px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.pop-up {
+    width: 100%;
+    height: 1996px;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+.box-edicao {
+    width: 10%;
+    height: 10%;
+    background-color: #ffffff;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.botao-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    height: 33%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #ff774b, #ff4d4d);
+}
+
+.botao-perfil:hover {
+    transform: scale(1.05);
+}
+
+.botao-duvida {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    height: 34%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #ff774b, #ff4d4d);
+}
+
+.botao-duvida:hover {
+    transform: scale(1.05);
+}
+
+.botao-sair {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    height: 33%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #ff774b, #ff4d4d);
+}
+
+.botao-sair:hover {
+    transform: scale(1.05);
+}
