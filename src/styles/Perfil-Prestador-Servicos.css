@@ -22,6 +22,26 @@ body {
     text-decoration: none;
     align-items: center;
 }
+.logo-botao {
+    display: flex;
+    background: none;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+header .logo-botao:hover {
+    transform: scale(1.05);
+}
+.botao-perfil {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+header .botao-perfil:hover {
+    transform: scale(1.05);
+}
+
 
 .gradiente {
     width: 100%;
@@ -52,11 +72,6 @@ header.a {
 
 }
 
-#botao-perfil {
-    background: none;
-    border: none;
-    cursor: pointer;
-}
 
 .imagem-perfil {
     width: 49px;
@@ -84,6 +99,18 @@ main {
 
 #id-prestador {
     color: #818181
+}
+.token-botao {
+    width: 25%;
+    height: 120px;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.token-botao:hover {
+    transform: scale(1.05);
 }
 
 .nomeToken {
@@ -121,7 +148,7 @@ main {
 }
 
 .token {
-    width: 300px;
+    width: 90%;
     height: 100px;
     background: linear-gradient(to right, #ff774b, #ff4d4d);
     border-radius: 20px;
@@ -182,6 +209,19 @@ main {
     align-items: center;
     justify-content: space-around;
 }
+.descricao-botao {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.descricao-botao:hover {
+    transform: scale(1.05);
+}
+
 
 #desc-img {
     display: flex;
@@ -335,10 +375,3 @@ main {
         display: none;
     }
 }
-
-
-
-    </main>
-</body>
-
-</html>
