@@ -5,7 +5,6 @@ export class Consumer{
     name
     email
     password
-    provided_reviews
     cpf
 
     constructor(name, email, password, cpf){
@@ -13,7 +12,6 @@ export class Consumer{
         this.name = name
         this.email = email
         this.password = encrypt(password)
-        this.provided_reviews = []
         this.cpf = cpf
     }
 }

@@ -5,7 +5,6 @@ export class ServiceProvider{
     name
     email
     password
-    received_reviews
     cpf
 
     constructor(name, email, password, cpf){
@@ -13,7 +12,6 @@ export class ServiceProvider{
         this.name = name
         this.email = email
         this.password = encrypt(password)
-        this.received_reviews = []
         this.cpf = cpf
     }
 }
