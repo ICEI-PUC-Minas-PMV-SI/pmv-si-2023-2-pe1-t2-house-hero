@@ -6,6 +6,10 @@ export class ServiceProvider{
     email
     password
     cpf
+    descricao
+    horario
+    endereco
+    contato
 
     constructor(name, email, password, cpf){
         this.id = self.crypto.randomUUID()
@@ -13,5 +17,9 @@ export class ServiceProvider{
         this.email = email
         this.password = encrypt(password)
         this.cpf = cpf
+        this.descricao = descricao
+        this.horario = horario
+        this.endereco = endereco
+        this.contato = contato
     }
 }
