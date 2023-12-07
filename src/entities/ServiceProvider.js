@@ -1,5 +1,5 @@
 import { encrypt } from '../utils/Encrypter.js';
-
+import {ProviderEndereco} from '../entities/ProviderEndereco.js';
 export class ServiceProvider{
     id
     name
