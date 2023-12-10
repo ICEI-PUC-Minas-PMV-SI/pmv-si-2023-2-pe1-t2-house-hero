@@ -12,22 +12,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/Perfil-Prestador.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/perfil-popup.css">
+    <link rel="stylesheet" href="./src/css/perfil-editar-popUp.css">
     <link rel="stylesheet" href="https://fonts.google.com/icons?selected=Material%20Icons%3Areorder%3A">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
 </head>
 
 <body>
     <div class="prestador-perfil">
         <header class="header">
             <a class="aheader" href="#">
-                <button class="logo-botao">
+                <button class="logo-botao" id="botao-logo">
                     <img src="./src/imagens/logo.svg" alt="House-Hero" id="logo">
                     <h2 id="nome-logo">House Hero</h2>
                 </button>
             </a>
-            <button class="botao-perfil">
-                <img src="./src/imagens/without-picture.png" alt="Perfil" class="imagem-perfil">
+            <button class="botao-perfil" id="perfil-botao">
+                <img src="./src/imagens/profile-picture.jpeg" alt="Perfil" class="imagem-perfil">
 
             </button>
 
@@ -39,40 +42,29 @@
                 <div class="nomeToken">
                     <div class="nomeId">
                         <ul>
-                            <h4 id="nome-prestador">João Pedro</h4>
-                            <span id="id-prestador">001</span>
+                            <h4 id="nome-prestador"></h4>
+                            <span id="id-prestador"></span>
                         </ul>
                     </div>
-                    <button class="token-botao">
-                        <div class="token">
-                            <div class="caixa-de-escrita">
-                                <p> Token de Prestador </p>
-                                <img src="./src/imagens/image (1).svg" alt="token" class="token-img">
-                            </div>
-                            <p class="tokengerado">JJKLmIha34jsk12kv8893gldp...</p>
-                    </button>
-
-
-
                 </div>
             </div>
             <div class="boxDescServ">
                 <div class="descServ">
-                    <button class="descricao-botao">
+                    <button class="descricao-botao" id="pagina-descricao">
                         <div class="descricaoBotao">
                             <i class="ph ph-info" alt="Lista deServiços" id="desc-img"></i>
                             <p class="p-descricao">Descrição</p>
                         </div>
-                        </button>
+                    </button>
 
-                        <button class="descricao-botao">
-                            <div class="servicosBotao">
-                                <i class="ph ph-list" alt="Lista deServiços"></i>
-                                <p class="p-servicos">Serviços</p>
-                            </div>
-                        </button>
+                    <button class="descricao-botao" id="pagina-servicos">
+                        <div class="servicosBotao">
+                            <i class="ph ph-list" alt="Lista deServiços"></i>
+                            <p class="p-servicos">Serviços</p>
+                        </div>
+                    </button>
                 </div>
-                <button class="descricao-botao">
+                <button class="descricao-botao" id="Editar-botao">
                     <div class="editarBotao">
                         <i class="ph ph-pen"></i>
                         <p class="p-servicos">Editar</p>
@@ -84,152 +76,170 @@
                 <div class="coluna1" id="coluna1-de-conteudo">
                     <ul class="descricao-perfil">
                         <h3>Descrição:</h3>
-                        <p class="descricao">Sou um microempreendedor individual que presta serviços de reparo
-                            de geladeiras e lavadoras de roupas, possuo 40 anos e faço reparos a 20 anos, se você
-                            procura um bom serviço com um profissional experiente é só me chamar e não se
-                            arrependerá!
+                        <p class="descricao" id="p-descricao-perfil">
                         </p>
                     </ul>
                     <ul class="contato-perfil">
                         <h3>Contato:</h3>
-                        <p class="contato">celular:(31)93333-4444<br>
-                            e-mail:joaopedro@gmail.com<br>
-                            instagram:https://instagram.com/joaopedro<br>
-                        </p>
+                        <p class="contato" id="p-contato-perfil">
+                        <div class="cont-tel">
+                            <p class="descricao">Telefone: </p>
+                            <p class="descricao" id="p-telefone-contatos"></p><br>
+                        </div>
+                        <div class="cont-email">
+                            <p class="descricao">E-mail: </p>
+                            <p class="descricao" id="p-email-contatos"></p>
+                        </div>
                     </ul>
-                    <ul class="horario-perfil">
-                        <h3>Horario de atendimento:</h3>
-                        <p class="horario">Posso atender a qualquer momento depois das 8h da manhã até as 20h.
-                            Após esse horário teremos que nos encontrar no próximo dia.</p>
+                    
                     </ul>
                 </div>
                 <div class="coluna2" id="coluna2-de-conteudo">
-                    <div class="nota-media-perfil">
-                        <lu class="nota">4,5</lu>
+                    
+                    <ul class="horario-perfil">
+                        <h3>Horario de atendimento:</h3>
+                        <p class="horario" id="p-horario-perfil"></p>
 
-                        <ul class="avaliacao-media-perfil">
-                            <div class="prazo">
-                                <li>Prazo:</li>
-                                <div class="prazo-cinza">
-                                    <div class="prazo-gradiente"></div>
-                                </div>
-                            </div>
-                            <div class="execucao">
-                                <li>Execução:</li>
-                            </div>
-                            <div class="execucao-cinza">
-                                <div class="execucao-gradiente"></div>
-                            </div>
-                            <div class="atendimento">
-                                <li>Atendimento:</li>
-                            </div>
-                            <div class="atendimento-cinza">
-                                <div class="atendimento-gradiente"></div>
-                            </div>
-                    </div>
                     <ul class="endereco-perfil">
-                        <div class="map-box">
-                            <img src="./src/imagens/GoogleMaps.png" alt="maps" class="maps">
-                        </div>
                         <h3>Endereço:</h3>
-                        <p class="endereco">
-                            Rua: Maria Rodrigues de Carvalho <br>
-                            Bairro: Novo Horizonte<br>
-                            Cidade: Timóteo<br>
-                            N°: 893<br>
-                        </p>
+                        <div class="end-rua">
+                            <p class="descricao">Estado:</p>
+                            <p id="estado-result"></p>
+                        </div>
+                        <div class="end-rua">
+                            <p class="descricao">Cidade:</p>
+                            <p id="cidade-result"></p>
+                        </div>
+                        <div class="end-rua">
+                            <p class="descricao">Bairro:</p>
+                            <p id="bairro-result"></p>
+                        </div>
+                        <div class="end-rua">
+                            <p class="descricao">Rua:</p>
+                            <p id="rua-result"></p>
+                        </div>
+                        <div class="end-rua">
+                            <p class="descricao">N°:</p>
+                            <p id="numero-result"></p>
+                        </div>
+
                     </ul>
                 </div>
             </div>
-            <div class="class-coment">
-                <ul class="classificacoes">
-                    <h3>Classificações</h4>
-                </ul>
-                </ul>
-                <div class="bottom-box">
-                    <div class="coment1-avaliacao">
-                        <div class="foto-prefil1">
-                            <img src="./src/imagens/without-picture.png" alt="foto do perfil" class="ft-perfil-1">
-                        </div>
-                        <ul class="comentario1">
-                            <h4 class="bru">Bruna</h4>
-                            <span class="id-bruna">1420</span>
-                            <p class="p-bruna">Gostei bastante do serviço dele, reparou minha geladeira e agora ela
-                                parece nova,
-                                unico problema que eu encontrei no serviço foi o atraso de meia hora pra chegar por
-                                isso
-                                os 4,5 pontos!
-                            </p>
-                        </ul>
+           <footer class="footer"></footer>
 
-                        <ul class="avaliacao1-media-perfil">
-                            <div class="prazo1">
-                                <li>Prazo:</li>
-                                <div class="prazo1-cinza">
-                                    <div class="prazo1-gradiente"></div>
-                                </div>
-                            </div>
-                            <div class="execucao1">
-                                <li>Execução:</li>
-                            </div>
-                            <div class="execucao1-cinza">
-                                <div class="execucao1-gradiente"></div>
-                            </div>
-                            <div class="atendimento1">
-                                <li>Atendimento:</li>
-                            </div>
-                            <div class="atendimento1-cinza">
-                                <div class="atendimento1-gradiente"></div>
-                            </div>
-                        </ul>
+    </div>
+
+    </main>
+    </div>
+    <div class="pop-up" id="1">
+
+        <div class="box-edicao">
+            <button class="botao-popUp-perfil" id="mini-menu-perfil">
+                <i class="ph ph-user-circle" id="user-circle"></i>
+                <p class="p-botao-popUp-perfil"> Perfil</p>
+            </button>
+            <button class="botao-duvida" id="mini-menu-ajuda">
+                <i class="ph ph-question" id="user-circle"></i>
+                <p class="p-botao-duvida"> Ajuda</p>
+            </button>
+            <button class="botao-sair" id="mini-menu-sair">
+                <i class="ph ph-sign-out" id="user-circle"></i>
+                <p class="p-botao-sair"> Sair</p>
+            </button>
+
+        </div>
+
+    </div>
+    <div class="pop-up-editar-perfil" id="pop-up-editar-perfil">
+        <div class="box-edicao-editar-perfil">
+            <div class="cabecalho">
+                <p class="editar-perfil">Editar Perfil</p>
+                <i class="ph ph-user-circle" id="user-circle"></i>
+            </div>
+            <div class="gradiente-fino-cabecalho"></div>
+            <div class="caixa-descricao">
+                <div class="descricao-cabecalho">
+                    <i class="ph ph-chat-circle-text" id="chat-circle"></i>
+                    <p class="descricao-pop">Descricão:</p>
+                </div>
+                <div class="text-area">
+                    <textarea name="desc-text" rows="4" cols="50" onInput="getValue()"></textarea>
+
+
+                </div>
+            </div>
+            <div class="caixa-descricao">
+                <div class="descricao-cabecalho">
+                    <i class="ph ph-map-pin" id="chat-circle"></i>
+                    <p class="descricao-pop">Endereço:</p>
+                </div>
+                <div class="caixa-descricao-endereco">
+                    <div class="endereco-estado">
+                        <p>Estado:</p>
+                        <input type="text" id="txt-endereco-estado">
                     </div>
-
-                    <div class="gradiente-comentarios"></div>
-                    <div class="coment2-avaliacao">
-                        <div class="coment2-avaliacao">
-                            <div class="foto-prefil2">
-                                <img src="./src/imagens/without-picture.png" alt="foto do perfil" class="ft-perfil-2">
-                            </div>
-                            <ul class="comentario2">
-                                <h4 class="dani">Daniela</h4>
-                                <span class="id-daniela">9854</span>
-                                <p class="p-daniela">Boa noite, adorei seu serviço e venho aqui te recomendar. Para
-                                    qualquer
-                                    um que esteja na duvida
-                                    se contrata ou não esse profissional veja o meu veredito. ótimo em serviço porem
-                                    chegou
-                                    30 min mais cedo
-                                    do que o combinado por isso dei nota 4,5!
-                                </p>
-                            </ul>
-                            <ul class="avaliacao2-media-perfil">
-                                <div class="prazo2">
-                                    <li>Prazo:</li>
-                                    <div class="prazo2-cinza">
-                                        <div class="prazo2-gradiente"></div>
-                                    </div>
-                                </div>
-                                <div class="execucao2">
-                                    <li>Execução:</li>
-                                </div>
-                                <div class="execucao2-cinza">
-                                    <div class="execucao2-gradiente"></div>
-                                </div>
-                                <div class="atendimento2">
-                                    <li>Atendimento:</li>
-                                </div>
-                                <div class="atendimento2-cinza">
-                                    <div class="atendimento2-gradiente"></div>
-                                </div>
-                            </ul>
-                        </div>
+                    <div class="endereco-cidade">
+                        <p>Cidade:</p>
+                        <input type="text" id="txt-endereco-cidade">
+                    </div>
+                    <div class="endereco-bairro">
+                        <p>Bairro:</p>
+                        <input type="text" id="txt-endereco-bairro">
+                    </div>
+                    <div class="endereco-rua">
+                        <p>Rua:</p>
+                        <input type="text" id="txt-endereco-rua">
+                    </div>
+                    <div class="endereco-numero">
+                        <p>N°:</p>
+                        <input type="text" id="txt-endereco-numero">
                     </div>
                 </div>
             </div>
 
+            <div class="caixa-descricao">
+                <div class="descricao-cabecalho">
+                    <i class="ph ph-phone" id="chat-circle"></i>
+                    <p class="descricao-pop">Contato:</p>
+                </div>
+                <div class="contato-box-edicao">
+                    <div class="contato-telefone">
+                        <p>Telefone:</p>
+                        <input type="text" id="txt-contato-telefone">
+                    </div>
+                    <div class="contato-email">
+                        <p>E-MAIL:</p>
+                        <input type="text" id="txt-contato-email">
+                    </div>
+                </div>
+            </div>
+            <div class="caixa-descricao">
+                <div class="descricao-cabecalho">
+                    <i class="ph ph-clock" id="chat-circle"></i>
+                    <p class="descricao-pop">Horário de atendimento:</p>
+                </div>
+                <div class="text-area">
+                    <textarea name="desc-text" rows="4" cols="50" id="horario-txt"></textarea>
+
+                </div>
+            </div>
+
+            <div class="gradiente-botao">
+                <button class="confirma-botao" id="confirma-botao">
+                    <p class=confirma>Editar Perfil</p>
+                </button>
+            </div>
+
+        </div>
     </div>
-    </main>
     </div>
+    <script type="module" src="src/JS/index.js">
+
+        
+
+    </script>
+
 </body>
 
 </html>
