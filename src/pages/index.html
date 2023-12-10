@@ -1,200 +1,106 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS Link  -->
-    <link 
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
-        rel="stylesheet" 
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
-        crossorigin="anonymous"
-    />
-    <!--    Font Urbanist-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@700;900&display=swap" rel="stylesheet">
-    <!--    Import CSS-->
-    <link rel="stylesheet" href="../styles/index.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>House Hero</title>
-  </head>
-  <body class="body">
-    <nav class="navbar-mobile d-block d-lg-none fixed-top">
-      <div class="orange-stripe-container container-fluid">
-        <div class="row">
-          <div class="col-lg-12 orange-stripe">
-            <div class="navbar-title navbar-container">
-              <div class="brand-container">
-                <img class="brand-logo" src="../assets/logo.svg" alt="house hero logo"/>
-                <h1 class="brand-name">HOUSE HERO</h1>
-              </div>
-              <div class="profile-container">
-                <img class="profile-picture" src="../assets/profile-picture.jpeg" alt="profile picture"/>
-              </div>
+  <!-- Bootstrap CSS Link  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!--    Font Urbanist-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@700;900&display=swap" rel="stylesheet">
+  <!--    Import CSS-->
+  <link rel="stylesheet" href="../styles/index.css">
+
+  <title>House Hero</title>
+</head>
+
+<body class="body">
+  <nav class="navbar-mobile d-block d-lg-none fixed-top">
+    <div class="orange-stripe-container container-fluid">
+      <div class="row">
+        <div class="col-lg-12 orange-stripe">
+          <div class="navbar-title navbar-container">
+            <div class="brand-container">
+              <img class="brand-logo" src="../assets/logo.svg" alt="house hero logo" />
+              <h1 class="brand-name">HOUSE HERO</h1>
+            </div>
+            <div class="profile-container">
+              <img class="profile-picture" src="../assets/without-picture.png" alt="profile picture" />
             </div>
           </div>
         </div>
-      </div>
-    </nav>
-    <nav class="navbar-desktop d-none d-lg-block ">
-      <div class="navbar-title navbar-container">
-        <div class="brand-container">
-          <img class="brand-logo" src="../assets/logo.svg" alt="house hero logo"/>
-          <h1 class="brand-name">HOUSE HERO</h1>
-        </div>
-        <div class="profile-container">
-          <img class="profile-picture" src="../assets/profile-picture.jpeg" alt="profile picture"/>
-        </div>
-      </div>
-      <div class="orange-stripe-container container-fluid">
-        <div class="row">
-          <div class="col-lg-12 orange-stripe"></div>
-        </div>
-      </div>
-    </nav>
-
-    <div class="rating-filter-container d-flex justify-content-end mt-4 container-lg">
-      <div class="rating-filter">
-        <h1 class="container-filter">Filtrar por avaliação</h1>
-        <div class="row">
-          <div class="col">
-            <img class="filter-star" src="../assets/star-rating-selected.svg" alt="star rating"/>
-            <img class="filter-star" src="../assets/star-rating-selected.svg" alt="star rating"/>
-            <img class="filter-star" src="../assets/star-rating-selected.svg" alt="star rating"/>
-            <img class="filter-star" src="../assets/star-rating-selected.svg" alt="star rating"/>
-            <img class="filter-star" src="../assets/star-rating.svg" alt="star rating"/>
-          </div>
-        </div>
-    </div>
-    </div>
-    <div class="users-container content-container">
-      <div class="container-fluid">
-
-        <section>
-          <div class="desktop-service-title row">
-            <div class="d-none d-lg-block d-xl-block col-lg-11">
-              <h1 class="content-title">Manutentores de Geladeiras</h1>
-            </div>
-            <div class="col-lg-1 d-none d-lg-block d-xl-block">
-              <div class="arrows-selector">
-                <img class="left-arrow" src="../assets/left-arrow.svg" alt="left arrow"/>
-                <img class="right-arrow" src="../assets/right-arrow.svg" alt="right arrow"/>
-              </div>
-            </div>
-          </div>
-
-          <div class="mobile-service-title d-block d-lg-none">
-            <select class="form-select form-select-sm mb-4" aria-label=".form-select-sm example">
-              <option selected value="1">Manutentores de Geladeiras</option>
-              <option value="2">Pedreiros</option>
-            </select>
-          </div>
-
-          <div class="row justify-content-between">
-            <div class="service-container col-lg-3">
-              <div class="service-portrait"></div>
-              <p class="service-name">Nome do Prestador de Serviço</p>
-              <p class="service-category">Categoria do Prestador</p>
-              <div class="service-rating star-rating-container">
-                <img src="../assets/star-rating.svg" alt="star rating"/>
-                <p class="star-rating">4,0</p>
-              </div>
-            </div>
-            <div class="service-container col-lg-3">
-              <div class="service-portrait"></div>
-              <p class="service-name">Nome do Prestador de Serviço</p>
-              <p class="service-category">Categoria do Prestador</p>
-              <div class="service-rating star-rating-container">
-                <img src="../assets/star-rating.svg" alt="star rating"/>
-                <p class="star-rating">4,5</p>
-              </div>
-            </div>
-            <div class="service-container col-lg-3">
-              <div class="service-portrait"></div>
-              <p class="service-name">Nome do Prestador de Serviço</p>
-              <p class="service-category">Categoria do Prestador</p>
-              <div class="service-rating star-rating-container">
-                <img src="../assets/star-rating.svg" alt="star rating"/>
-                <p class="star-rating">4,5</p>
-              </div>
-            </div>
-            <div class="service-container col-lg-3">
-              <div class="service-portrait"></div>
-              <p class="service-name">Nome do Prestador de Serviço</p>
-              <p class="service-category">Categoria do Prestador</p>
-              <div class="service-rating star-rating-container">
-                <img src="../assets/star-rating.svg" alt="star rating"/>
-                <p class="star-rating">4,9</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="d-none d-lg-block">
-          <div class="row below">
-            <div class="col-lg-11">
-              <h1 class="content-title">Pedreiros</h1>
-            </div>
-            <div class="col-lg-1">
-              <div class="arrows-selector">
-                <img class="left-arrow" src="../assets/left-arrow.svg" alt="left arrow"/>
-                <img class="right-arrow" src="../assets/right-arrow.svg" alt="right arrow"/>
-              </div>
-            </div>
-          </div>
-          <div class="row justify-content-between">
-            <div class="service-container col-lg-3">
-              <div class="service-portrait"></div>
-              <p class="service-name">Nome do Prestador de Serviço</p>
-              <p class="service-category">Categoria do Prestador</p>
-              <div class="service-rating star-rating-container">
-                <img src="../assets/star-rating.svg" alt="star rating"/>
-                <p class="star-rating">4,0</p>
-              </div>
-            </div>
-            <div class="service-container col-lg-3">
-              <div class="service-portrait"></div>
-              <p class="service-name">Nome do Prestador de Serviço</p>
-              <p class="service-category">Categoria do Prestador</p>
-              <div class="service-rating star-rating-container">
-                <img src="../assets/star-rating.svg" alt="star rating"/>
-                <p class="star-rating">4,5</p>
-              </div>
-            </div>
-            <div class="service-container col-lg-3">
-              <div class="service-portrait"></div>
-              <p class="service-name">Nome do Prestador de Serviço</p>
-              <p class="service-category">Categoria do Prestador</p>
-              <div class="service-rating star-rating-container">
-                <img src="../assets/star-rating.svg" alt="star rating"/>
-                <p class="star-rating">4,5</p>
-              </div>
-            </div>
-            <div class="service-container col-lg-3">
-              <div class="service-portrait"></div>
-              <p class="service-name">Nome do Prestador de Serviço</p>
-              <p class="service-category">Categoria do Prestador</p>
-              <div class="service-rating star-rating-container">
-                <img src="../assets/star-rating.svg" alt="star rating"/>
-                <p class="star-rating">4,9</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
       </div>
     </div>
-  </body>
+  </nav>
+  <nav class="navbar-desktop d-none d-lg-block ">
+    <div class="navbar-title navbar-container">
+      <div class="brand-container">
+        <img class="brand-logo" src="../assets/logo.svg" alt="house hero logo" />
+        <h1 class="brand-name">HOUSE HERO</h1>
+      </div>
+      <div class="profile-container">
+        <img class="profile-picture" src="../assets/without-picture.png" alt="profile picture" />
+      </div>
+    </div>
+    <div class="orange-stripe-container container-fluid">
+      <div class="row">
+        <div class="col-lg-12 orange-stripe"></div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="users-container content-container">
+    <section id="service-providers-list">
+
+    </section>
+
+  </div>
+  </div>
+</body>
+
 </html>
 
-<script>
+<script type="module">
+  import { InMemoryRepositoryServiceProvider } from '../repositories/InMemoryRepositoryServiceProvider.js'
   const buttons = document.querySelectorAll('.service-container');
+  const user = JSON.parse(window.localStorage.getItem('user'));
+  const listContainer = document.querySelector('#service-providers-list');
+  const inMemoryRepositoryServiceProvider = new InMemoryRepositoryServiceProvider();
 
-  buttons.forEach((button) => {
-    button.addEventListener('click', () => {
-      window.location.href = 'Perfil-Prestador.html';
+  if (user === undefined || user.cpf === undefined) {
+    window.location.href = './login.html';
+  }
+
+  const fetchServiceProviders = async () => {
+    const providers = inMemoryRepositoryServiceProvider.getAll();
+    providers.forEach((user) => {
+      const serviceContainer = document.createElement('div');
+      serviceContainer.classList.add('service-container');
+      const servicePortrait = document.createElement('div');
+      servicePortrait.classList.add('service-portrait');
+      const servicePortraitImage = document.createElement('img');
+      servicePortraitImage.classList.add('service-portrait-image');
+      servicePortraitImage.src = user.profilePicture ?? '../assets/without-picture.png';
+      servicePortrait.appendChild(servicePortraitImage);
+      const serviceName = document.createElement('p');
+      serviceName.classList.add('service-name');
+      serviceName.innerText = user.name;
+      const serviceCategory = document.createElement('p');
+      serviceCategory.classList.add('service-category');
+      serviceCategory.innerText = user.cnpj;
+      serviceContainer.appendChild(servicePortrait);
+      serviceContainer.appendChild(serviceName);
+      serviceContainer.appendChild(serviceCategory);
+      serviceContainer.addEventListener('click', () => {
+        window.location.href = 'Perfil-Prestador.html?id=' + user.id;
+      });
+      listContainer.appendChild(serviceContainer);
     });
-  });
+  }
+
+  fetchServiceProviders();
 </script>

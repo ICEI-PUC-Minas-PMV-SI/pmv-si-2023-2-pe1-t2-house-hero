@@ -39,9 +39,9 @@
         </div>
 
         <div class="box">
-          <button class="active" type="reset" id="prestadorButton">Prestador</button>
+          <button class="active" type="button" id="prestadorButton">Prestador</button>
 
-          <button class="inactive" type="reset" id="clienteButton">Cliente</button>
+          <button class="inactive" type="button" id="clienteButton">Cliente</button>
         </div>
 
         <div class="input-container">
@@ -68,9 +68,9 @@
           ></i>
         </div>
 
-        <button class="colored-button" id="registerButton" type="reset">Registrar</button>
+        <button class="colored-button" id="registerButton" type="button">Registrar</button>
 
-        <button class="colored-button" id="registeredButton">
+        <button class="colored-button" type="button" id="registeredButton">
           Já tenho uma conta
         </button>
       </form>
@@ -103,6 +103,8 @@
 
   const prestadorButton = document.getElementById('prestadorButton');
   const clienteButton = document.getElementById('clienteButton');
+  const inMemoryRepositoryServiceProvider = new InMemoryRepositoryServiceProvider()
+  const inMemoryRepositoryConsumer = new InMemoryRepositoryConsumer()
 
   clienteButton.addEventListener('click', () => {
     prestadorButton.classList.add('inactive');
@@ -135,21 +137,21 @@
   registerButton.addEventListener('click', () => {
     if (passwordInput.value !== passwordConfirm.value) {
       alert('As senhas não coincidem');
+    } else if(inMemoryRepositoryConsumer.getByEmail(emailInput.value) !== undefined || inMemoryRepositoryServiceProvider.getByEmail(emailInput.value)!==undefined){
+      alert('Email já está sendo utilizado');
     } else {
       if(prestadorButton.classList.contains('active')){
         const prestador = new ServiceProvider(nameInput.value, emailInput.value, passwordInput.value, docsInput.value)
-        const inMemoryRepositoryServiceProvider = new InMemoryRepositoryServiceProvider()
         inMemoryRepositoryServiceProvider.add(prestador)
       } else {
-        const consumer = new Consumer(nameInput.value, emailInput.value, docsInput.value, passwordInput.value)
-        const inMemoryRepositoryConsumer = new InMemoryRepositoryConsumer()
+        const consumer = new Consumer(nameInput.value, emailInput.value, passwordInput.value, docsInput.value)
         inMemoryRepositoryConsumer.add(consumer)
       }
     }
   });
 
   registeredButton.addEventListener('click', () => {
-    window.location.href = 'login.html';
+    window.location.href = './login.html';
   });
 
 </script>

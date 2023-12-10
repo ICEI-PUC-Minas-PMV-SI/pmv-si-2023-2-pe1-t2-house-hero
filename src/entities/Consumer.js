@@ -6,6 +6,7 @@ export class Consumer{
     email
     password
     cpf
+    profilePicture
 
     constructor(name, email, password, cpf){
         this.id = self.crypto.randomUUID()
@@ -13,5 +14,6 @@ export class Consumer{
         this.email = email
         this.password = encrypt(password)
         this.cpf = cpf
+        this.profilePicture = null
     }
 }

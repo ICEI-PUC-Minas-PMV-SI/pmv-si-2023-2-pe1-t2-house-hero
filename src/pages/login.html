@@ -68,23 +68,24 @@
             alert('Preencha todos os campos.')
         } else {
             const user = new InMemoryRepositoryConsumer().getByEmail(email.value) ?? new InMemoryRepositoryServiceProvider().getByEmail(email.value);
+            
             if (user === undefined) {
                 alert('Usuário não encontrado.')
             } else if (decrypt(user.password) !== passwordInput.value) {
                 alert('Senha incorreta.')
             } else {
                 localStorage.setItem('user', JSON.stringify(user));
-                window.location.href = './index.html';
+                if (user.cnpj === undefined) {
+                    window.location.href = './index.html'
+                } else {
+                    window.location.href = './Perfil-Prestador.html';
+                }
             }
         }
     });
 
-    forgotPasswordButton.addEventListener('click', () => {
-        window.location.href = 'forgot-password.html';
-    });
-
     registerButton.addEventListener('click', () => {
-        window.location.href = 'register.html';
+        window.location.href = './register.html';
     });
 
 

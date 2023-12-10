@@ -1,18 +1,18 @@
 import { encrypt } from '../utils/Encrypter.js';
-import {ProviderEndereco} from '../entities/ProviderEndereco.js';
 export class ServiceProvider{
     id
     name
     email
     password
-    cpf
+    cnpj
+    profilePicture
     
-    constructor(name, email, password, cpf){
+    constructor(name, email, password, cnpj){
         this.id = self.crypto.randomUUID()
         this.name = name
         this.email = email
         this.password = encrypt(password)
-        this.cpf = cpf
-        
+        this.cnpj = cnpj
+        this.profilePicture = null
     }
 }
