@@ -25,6 +25,10 @@ export class InMemoryRepositoryServiceProvider {
     getById(id) {
       return this.serviceProviders.find(provider => provider.id === id);
     }
+
+    getByEmail(email){
+        return this.serviceProviders.find(provider => provider.email === email);
+    }
   
     update(id, updatedProvider) {
       const index = this.serviceProviders.findIndex(provider => provider.id === id);
