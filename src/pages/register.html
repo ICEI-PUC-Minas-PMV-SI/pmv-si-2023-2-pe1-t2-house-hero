@@ -1,81 +1,69 @@
 <html>
-  <head>
-    <title>Register</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+  <title>Register</title>
 
-    <script src="https://unpkg.com/@phosphor-icons/web@2.0.3"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="../styles/register.css" />
+  <script src="https://unpkg.com/@phosphor-icons/web@2.0.3"></script>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@700;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <main class="container">
-      <figure class="logo">
-        <img src="../assets/logo.svg" alt="Logo" />
-        <figcaption class="title">HOUSEHERO</figcaption>
-      </figure>
+  <link rel="stylesheet" href="../styles/register.css" />
 
-      <strong>Por favor, preencha os campos abaixo para se registrar.</strong>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@700;900&display=swap" rel="stylesheet" />
+</head>
 
-      <form class="input-form">
-        <div class="input-name-container input-container">
-          <i class="ph-light ph-user-circle" alt="Nome"></i>
-          <input type="Nome" id="name" placeholder="Nome" />
-        </div>
-        <div class="input-email-container input-container">
-          <i class="ph-light ph-envelope" alt="Email"></i>
-          <input type="email" id="email" placeholder="Email" />
-        </div>
-        <div class="input-docs-container input-container">
-          <i class="ph-light ph-identification-card" alt="Email"></i>
-          <input type="number"  id="docs" placeholder="CNPJ ou CPF" />
-        </div>
+<body>
+  <main class="container">
+    <figure class="logo">
+      <img src="../assets/logo.svg" alt="Logo" />
+      <figcaption class="title">HOUSEHERO</figcaption>
+    </figure>
 
-        <div class="box">
-          <button class="active" type="button" id="prestadorButton">Prestador</button>
+    <strong>Por favor, preencha os campos abaixo para se registrar.</strong>
 
-          <button class="inactive" type="button" id="clienteButton">Cliente</button>
-        </div>
+    <form class="input-form">
+      <div class="input-name-container input-container">
+        <i class="ph-light ph-user-circle" alt="Nome"></i>
+        <input type="Nome" id="name" placeholder="Nome" />
+      </div>
+      <div class="input-email-container input-container">
+        <i class="ph-light ph-envelope" alt="Email"></i>
+        <input type="email" id="email" placeholder="Email" />
+      </div>
+      <div class="input-docs-container input-container">
+        <i class="ph-light ph-identification-card" alt="Email"></i>
+        <input type="number" id="docs" placeholder="CNPJ ou CPF" />
+      </div>
 
-        <div class="input-container">
-          <i class="ph-light ph-lock" alt="password"></i>
-          <input type="password" id="passwordInput" placeholder="Senha" />
-          <i
-            class="ph-light ph-eye-closed"
-            id="passwordVisibilityButton"
-            alt="Visibilidade da senha"
-          ></i>
-        </div>
+      <div class="box">
+        <button class="active" type="button" id="prestadorButton">Prestador</button>
 
-        <div class="input-container">
-          <i class="ph-light ph-lock" alt="password2"></i>
-          <input
-            type="password"
-            id="passwordConfirm"
-            placeholder="Confirmar Senha"
-          />
-          <i
-            class="ph-light ph-eye-closed"
-            id="passwordVisibilityButton2"
-            alt="Visibilidade da senha2"
-          ></i>
-        </div>
+        <button class="inactive" type="button" id="clienteButton">Cliente</button>
+      </div>
 
-        <button class="colored-button" id="registerButton" type="button">Registrar</button>
+      <div class="input-container">
+        <i class="ph-light ph-lock" alt="password"></i>
+        <input type="password" id="passwordInput" placeholder="Senha" />
+        <i class="ph-light ph-eye-closed" id="passwordVisibilityButton" alt="Visibilidade da senha"></i>
+      </div>
 
-        <button class="colored-button" type="button" id="registeredButton">
-          Já tenho uma conta
-        </button>
-      </form>
-    </main>
-  </body>
+      <div class="input-container">
+        <i class="ph-light ph-lock" alt="password2"></i>
+        <input type="password" id="passwordConfirm" placeholder="Confirmar Senha" />
+        <i class="ph-light ph-eye-closed" id="passwordVisibilityButton2" alt="Visibilidade da senha2"></i>
+      </div>
+
+      <button class="colored-button" id="registerButton" type="button">Registrar</button>
+
+      <button class="colored-button" type="button" id="registeredButton">
+        Já tenho uma conta
+      </button>
+    </form>
+  </main>
+</body>
+
 </html>
 
 <script type="module">
@@ -84,6 +72,7 @@
   import { ServiceProvider } from '../entities/ServiceProvider.js'
   import { InMemoryRepositoryServiceProvider } from '../repositories/InMemoryRepositoryServiceProvider.js'
   import { InMemoryRepositoryConsumer } from '../repositories/InMemoryRepositoryConsumer.js'
+  import { validarCPF, validarCNPJ } from '../utils/Validator.js'
 
   const registerButton = document.getElementById('registerButton');
   const registeredButton = document.getElementById('registeredButton');
@@ -134,19 +123,35 @@
       passwordConfirm.type === 'password' ? 'text' : 'password';
   });
 
+
+
   registerButton.addEventListener('click', () => {
-    if (passwordInput.value !== passwordConfirm.value) {
+    if(passwordInput.value.length < 6 ){
+      alert('A senha deve ter no mínimo 6 caracteres');
+    } else if (passwordInput.value !== passwordConfirm.value) {
       alert('As senhas não coincidem');
-    } else if(inMemoryRepositoryConsumer.getByEmail(emailInput.value) !== undefined || inMemoryRepositoryServiceProvider.getByEmail(emailInput.value)!==undefined){
+    } else if (inMemoryRepositoryConsumer.getByEmail(emailInput.value) !== undefined || inMemoryRepositoryServiceProvider.getByEmail(emailInput.value) !== undefined) {
       alert('Email já está sendo utilizado');
+    } else if (prestadorButton.classList.contains('active') && validarCNPJ(docsInput.value) === false) {
+      alert('CNPJ inválido');
+    } else if (clienteButton.classList.contains('active') && validarCPF(docsInput.value) === false) {
+      alert('CPF inválido');
+    } else if (nameInput.value === '' || emailInput.value === '' || passwordInput.value === '' || docsInput.value === '') {
+      alert('Preencha todos os campos');
     } else {
-      if(prestadorButton.classList.contains('active')){
+      if (prestadorButton.classList.contains('active')) {
         const prestador = new ServiceProvider(nameInput.value, emailInput.value, passwordInput.value, docsInput.value)
         inMemoryRepositoryServiceProvider.add(prestador)
+        localStorage.setItem('user', JSON.stringify(prestador));
+        window.location.href = './Perfil-Prestador.html';
       } else {
         const consumer = new Consumer(nameInput.value, emailInput.value, passwordInput.value, docsInput.value)
         inMemoryRepositoryConsumer.add(consumer)
+        localStorage.setItem('user', JSON.stringify(consumer));
+        window.location.href = './index.html'
       }
+      alert('Usuário cadastrado com sucesso');
+
     }
   });
 
