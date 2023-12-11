@@ -1,24 +1,21 @@
-body {
-    width: 100%;
-    height: 1996px;
-    font-family: 'Urbanist', sans-serif;
-}
 
-.pop-up {
+.pop-up-editar-perfil {
+    background: rgba(0,0,0,.5);
     width: 100%;
     height: 1996px;
-    background: rgba(0,0,0,.5);
-    display:flex;
+    display: none;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    top: 0;
+    left: 0;
+    position: fixed;
+    
     
 }
-.box-edicao{
+.box-edicao-editar-perfil{
     width:60%;
     height:50%;
     background-color:#ffffff;
-    margin-top: 30%;
-    margin-bottom: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,6 +58,13 @@ margin-left: 3%;
     border-radius: 10px;
     flex-direction: column;
     margin-bottom: 10px;
+    
+}
+.caixa-descricao-endereco{
+    display:flex;
+    overflow: scroll;
+    overflow: scroll;
+    flex-wrap: wrap;
 }
 .descricao-cabecalho{
     display: flex;
@@ -80,6 +84,37 @@ margin-left: 3%;
     margin-left: 10px;
     margin-right: auto;
 }
+.contato-box-edicao{
+    display: flex;
+    justify-content: space-around;
+}
+.contato-telefone{
+width: 40%;
+height: 50%;
+}
+#txt-contato-telefone, 
+#txt-contato-email
+{
+    width: 85%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: none;
+    border-color: #e9e9e9e9;
+}
+#txt-endereco-estado,
+#txt-endereco-cidade,
+#txt-endereco-bairro,
+#txt-endereco-rua,
+#txt-endereco-numero
+{
+    border-radius: 5px;
+    border-color: #e9e9e9e9;
+    background-color: none;
+}
+.contato-email{
+    width: 40%;
+    height: 50%;
+}
 
 .text-area textarea {
   position: absolute; 
@@ -92,14 +127,29 @@ margin-left: 3%;
   color: #000; 
 }
 .gradiente-botao{
-    background:linear-gradient(to right, #ff774b, #ff4d4d);
     width: 90%;
     height: 5%;
     border-radius: 10px;
     display: flex;
-    justify-content: center;
-    color:#ffffff;
+    justify-content: center;   
 }
+.confirma-botao{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to right, #ff774b, #ff4d4d);
+    border: none;
+    cursor: pointer;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.confirma-botao:hover {
+    transform: scale(1.05);
+}
+
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(to right, #ff774b, #ff4d4d);;
   }
