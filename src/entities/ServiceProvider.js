@@ -27,5 +27,3 @@ export class ServiceProvider{
     this.contato = contato || new ProviderContatos();
   }
 }
-    }
-}
