@@ -1,32 +1,32 @@
-body {
-    width: 100%;
-    height: 1996px;
-    font-family: 'Urbanist', sans-serif;
-}
 
 .pop-up {
     width: 100%;
     height: 1996px;
-    background: rgba(0, 0, 0, .5);
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-
+    background: none;
+    display: none;
+    justify-content: flex-end;
+    align-items: flex-start;
+    top: 0;
+    left: 0;
+    position: fixed;
+    
 }
+
 
 .box-edicao {
     width: 10%;
     height: 10%;
     background-color: #ffffff;
-    margin-top: 30%;
-    margin-bottom: 30%;
+    margin-top: 4%;
+    margin-right:3% ;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
+    border: 2px solid #e9e9e9;
 }
 
-.botao-perfil {
+.botao-popUp-perfil {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -42,7 +42,7 @@ body {
     background-image: linear-gradient(to right, #ff774b, #ff4d4d);
 }
 
-.botao-perfil:hover {
+.botao-popUp-perfil:hover {
     transform: scale(1.05);
 }
 
@@ -84,4 +84,36 @@ body {
 
 .botao-sair:hover {
     transform: scale(1.05);
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, #ff774b, #ff4d4d);
+    ;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar:horizontal {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track-piece {
+    width: 8px;
+}
+@media screen and (max-width: 624px) {
+.p-botao-popUp-perfil,
+.p-botao-duvida,
+.p-botao-sair
+ {
+    display: none;
+}
 }
