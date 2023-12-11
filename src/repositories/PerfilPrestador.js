@@ -1,8 +1,8 @@
 import { InMemoryRepositoryServiceProvider } from './InMemoryRepositoryServiceProvider.js';
-import { ServiceProvider } from './ServiceProvider.js';
-import { ProviderEndereco } from './ProviderEndereco.js';
-import { ProviderContatos } from './ProviderContatos.js';
-import { encrypt, decrypt } from '/house-hero1/utils/Encrypter.js';
+import { ServiceProvider } from '/src/entities/ServiceProvider.js';
+import { ProviderEndereco } from '/src/entities/ProviderEndereco.js';
+import { ProviderContatos } from '/src/entities/ProviderContatos.js';
+import { encrypt, decrypt } from '/src/entities/house-hero1/utils/Encrypter.js';
 
 
 const repository = new InMemoryRepositoryServiceProvider();
@@ -132,12 +132,12 @@ botaoConfirmaEdicao.addEventListener("click", () => {
 
 const botaoPaginaServicos = document.getElementById("pagina-servicos");
 botaoPaginaServicos.addEventListener("click", (event) => {
-    window.location.href = "./pagina-servicos.html";
+    window.location.href = "/src/pages/Perfil-Prestador-Servicos.html";
 });
 
 const botaoPaginaDescricao = document.getElementById("pagina-descricao");
 botaoPaginaDescricao.addEventListener("click", (event) => {
-    window.location.href = "./pagina-descricao.html";
+    window.location.href = /src/entities/Perfil-Prestador.html";
 });
 
 const botaoLogo = document.getElementById("botao-logo");
