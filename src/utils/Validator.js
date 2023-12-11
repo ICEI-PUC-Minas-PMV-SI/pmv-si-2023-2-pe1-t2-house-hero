@@ -38,58 +38,22 @@ export function validarCPF(cpf) {
   }
 
   export function validarCNPJ(cnpj) {
-    var numeros = cnpj.match(/\d/g).map(Number);
-    var soma = numeros.reduce((acc, cur, idx) => {
-      if (idx < 12) {
-        if (idx < 4) {
-          return acc + cur * (5 - idx);
-        }
-        if (idx < 8) {
-          return acc + cur * (9 - idx);
-        }
-        if (idx < 11) {
-          return acc + cur * (13 - idx);
-        }
-        return acc + cur * (15 - idx);
-      }
-      return acc;
-    }, 0);
+    var b = [ 6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2 ]
+    var c = String(cnpj).replace(/[^\d]/g, '')
+    
+    if(c.length !== 14)
+        return false
 
-    var resto = soma % 11;
+    if(/0{14}/.test(c))
+        return false
 
-    if (resto < 2) {
-      if (numeros[12] !== 0) {
-        return false;
-      }
-    } else if (numeros[12] !== 11 - resto) {
-      return false;
-    }
+    for (var i = 0, n = 0; i < 12; n += c[i] * b[++i]);
+    if(c[12] != (((n %= 11) < 2) ? 0 : 11 - n))
+        return false
 
-    soma = numeros.reduce((acc, cur, idx) => {
-      if (idx < 13) {
-        if (idx < 5) {
-          return acc + cur * (6 - idx);
-        }
-        if (idx < 9) {
-          return acc + cur * (10 - idx);
-        }
-        if (idx < 12) {
-          return acc + cur * (14 - idx);
-        }
-        return acc + cur * (16 - idx);
-      }
-      return acc;
-    }, 0);
+    for (var i = 0, n = 0; i <= 12; n += c[i] * b[i++]);
+    if(c[13] != (((n %= 11) < 2) ? 0 : 11 - n))
+        return false
 
-    resto = soma % 11;
-
-    if (resto < 2) {
-      if (numeros[13] !== 0) {
-        return false;
-      }
-    } else if (numeros[13] !== 11 - resto) {
-      return false;
-    }
-
-    return true;
+    return true
   }
