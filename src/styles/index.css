@@ -10,6 +10,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
     grid-template-rows: repeat(auto-fit, 285px);
+    justify-content: center;
     width: 100%;
     grid-row-gap: 1rem;
     grid-column-gap: 1rem;
@@ -31,11 +32,20 @@
     height: 100%;
 }
 
+.navbar-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .navbar-container {
     padding: 25px 0;
     display: flex;
     justify-content: space-between;
     max-width: 1440px;
+    width: 100%;
     margin: auto;
 }
 
@@ -55,6 +65,9 @@
 
 .profile-container {
     display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-items: flex-end;
 }
 
 .service-name {
@@ -154,7 +167,10 @@
     }
 
     .profile-container {
-        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-items: flex-end;
     }
 
     .profile-picture {
@@ -229,7 +245,10 @@
     }
 
     .profile-container {
-        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-items: flex-end;
     }
 
     .profile-picture {
@@ -294,4 +313,87 @@
     .navbar-title {
         padding: 25px;
     }
+}
+
+p{
+    margin: 0px;
+}
+
+.box-edicao {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    z-index: 1000;
+    top: 90px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.botao-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    height: 33%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #ff774b, #ff4d4d);
+}
+
+.botao-perfil:hover {
+    transform: scale(1.05);
+}
+
+.botao-duvida {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    height: 34%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #ff774b, #ff4d4d);
+}
+
+.botao-duvida:hover {
+    transform: scale(1.05);
+}
+
+.botao-sair {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    height: 33%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #ff774b, #ff4d4d);
+}
+
+.botao-sair:hover {
+    transform: scale(1.05);
+}
+
+.ph-light{
+    font-size: 24px;
+    color: red;
 }

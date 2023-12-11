@@ -14,6 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@700;900&display=swap" rel="stylesheet">
   <!--    Import CSS-->
   <link rel="stylesheet" href="../styles/index.css">
+  <script src="https://unpkg.com/@phosphor-icons/web@2.0.3"></script>
 
   <title>House Hero</title>
 </head>
@@ -30,13 +31,28 @@
             </div>
             <div class="profile-container">
               <img class="profile-picture" src="../assets/without-picture.png" alt="profile picture" />
+              <div class="box-edicao">
+                <button class="botao-perfil" onclick="window.location.href='./index.html'">
+                  <i class="ph-light ph-user-circle"></i>
+                  <p> Perfil</p>
+                </button>
+                <button class="botao-duvida" onclick="window.location.href='./Ajuda.html'">
+                  <i class="ph-light ph-question"></i>
+                  <p> Ajuda</p>
+                </button>
+                <button class="botao-sair"
+                  onclick="window.location.href='./login.html'; window.localStorage.removeItem('user')">
+                  <i class="ph-light ph-sign-out"></i>
+                  <p> Sair</p>
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </nav>
-  <nav class="navbar-desktop d-none d-lg-block ">
+  <nav class="navbar-desktop d-none d-lg-block">
     <div class="navbar-title navbar-container">
       <div class="brand-container">
         <img class="brand-logo" src="../assets/logo.svg" alt="house hero logo" />
@@ -44,6 +60,21 @@
       </div>
       <div class="profile-container">
         <img class="profile-picture" src="../assets/without-picture.png" alt="profile picture" />
+        <div class="box-edicao">
+          <button class="botao-perfil" onclick="window.location.href='./index.html'">
+            <i class="ph-light ph-user-circle"></i>
+            <p> Perfil</p>
+          </button>
+          <button class="botao-duvida" onclick="window.location.href='./Ajuda.html'">
+            <i class="ph-light ph-question"></i>
+            <p> Ajuda</p>
+          </button>
+          <button class="botao-sair"
+            onclick="window.location.href='./login.html'; window.localStorage.removeItem('user')">
+            <i class="ph-light ph-sign-out"></i>
+            <p> Sair</p>
+          </button>
+        </div>
       </div>
     </div>
     <div class="orange-stripe-container container-fluid">
@@ -65,15 +96,33 @@
 </html>
 
 <script type="module">
+
+  const user = JSON.parse(window.localStorage.getItem('user'));
+
+  if (user === undefined || user === null) {
+    window.location.href = './login.html';
+  }
+
+  const profilePicture = document.querySelectorAll('.profile-picture');
   import { InMemoryRepositoryServiceProvider } from '../repositories/InMemoryRepositoryServiceProvider.js'
   const buttons = document.querySelectorAll('.service-container');
-  const user = JSON.parse(window.localStorage.getItem('user'));
+
+  profilePicture[0].src = user.profilePicture ?? '../assets/without-picture.png';
+  profilePicture[1].src = user.profilePicture ?? '../assets/without-picture.png';
   const listContainer = document.querySelector('#service-providers-list');
   const inMemoryRepositoryServiceProvider = new InMemoryRepositoryServiceProvider();
 
-  if (user === undefined || user.cpf === undefined) {
-    window.location.href = './login.html';
-  }
+  profilePicture[0].addEventListener('click', () => {
+    console.log('clicou');
+    const boxEdicao = document.querySelector('.box-edicao');
+    boxEdicao.style.display === 'flex' ? boxEdicao.style.display = 'none' : boxEdicao.style.display = 'flex';
+  });
+
+  profilePicture[1].addEventListener('click', () => {
+    console.log('clicou');
+    const boxEdicao = document.querySelectorAll('.box-edicao');
+    boxEdicao[1].style.display === 'flex' ? boxEdicao[1].style.display = 'none' : boxEdicao[1].style.display = 'flex';
+  });
 
   const fetchServiceProviders = async () => {
     const providers = inMemoryRepositoryServiceProvider.getAll();
