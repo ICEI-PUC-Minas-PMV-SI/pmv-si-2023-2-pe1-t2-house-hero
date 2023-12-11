@@ -1,45 +1,67 @@
-export class InMemoryRepositoryServiceProvider{
-    serviceProviders = []
-    constructor(){
-        this.serviceProviders = [];
-        this.load();
+export class InMemoryRepositoryServiceProvider {
+    serviceProviders = [];
+  
+    constructor() {
+      this.load();
     }
-
-    save(){
-        window.localStorage.setItem('serviceProviders', JSON.stringify(this.serviceProviders));
+  
+    save() {
+      window.localStorage.setItem('serviceProviders', JSON.stringify(this.serviceProviders));
     }
-
-    load(){
-        this.serviceProviders = JSON.parse(window.localStorage.getItem('serviceProviders')) || [];
+  
+    load() {
+      this.serviceProviders = JSON.parse(window.localStorage.getItem('serviceProviders')) || [];
     }
-
-    add(serviceProviders){
-        this.serviceProviders.push(serviceProviders);
-        console.log(this.serviceProviders);
+  
+    add(serviceProvider) {
+      this.serviceProviders.push(serviceProvider);
+      this.save();
+    }
+  
+    getAll() {
+      return this.serviceProviders;
+    }
+  
+    getById(id) {
+      return this.serviceProviders.find(provider => provider.id === id);
+    }
+  
+    update(id, updatedProvider) {
+      const index = this.serviceProviders.findIndex(provider => provider.id === id);
+  
+      if (index !== -1) {
+        this.serviceProviders[index] = updatedProvider;
         this.save();
+      }
     }
-
-    getAll(){
-        return this.serviceProviders;
-    }
-
-    getById(id){
-        return this.serviceProviders.find(serviceProviders => serviceProviders.id === id);
-    }
-
-    getByEmail(email){
-        return this.serviceProviders.find(consumer => consumer.email === email);
-    }
-
-    update(serviceProviders){
-        const index = this.serviceProviders.findIndex(serviceProviders => serviceProviders.id === serviceProviders.id);
-        this.serviceProviders[index] = serviceProviders;
-        this.save();
-    }
-
-    remove(id){
-        const index = this.serviceProviders.findIndex(serviceProviders => serviceProviders.id === id);
+  
+    remove(id) {
+      const index = this.serviceProviders.findIndex(provider => provider.id === id);
+  
+      if (index !== -1) {
         this.serviceProviders.splice(index, 1);
         this.save();
+      }
     }
-}
+  
+    
+  
+    updateContato(id, updatedContato) {
+      const provider = this.serviceProviders.find(provider => provider.id === id);
+  
+      if (provider) {
+        provider.contato = updatedContato;
+        this.save();
+      }
+    }
+  
+    updateEndereco(id, updatedEndereco) {
+      const provider = this.serviceProviders.find(provider => provider.id === id);
+  
+      if (provider) {
+        provider.endereco = updatedEndereco;
+        this.save();
+      }
+    }
+  }
+  
