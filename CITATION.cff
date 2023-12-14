@@ -1,7 +1,13 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
+title: "House Hero"
 authors:
+  - family-names: Augusto Santos Araujo
+    given-names: Leandro
+  - family-names: de Almeida Natali
+    given-names: Pedro
+  - family-names: Guimarães Martins
+    given-names: Yan
   - family-names:
     given-names:
   - family-names:
@@ -10,19 +16,15 @@ authors:
     given-names:
   - family-names:
     given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
+  - name-suffix: Professora
     affiliation: PUC Minas
-    family-names:
-    given-names:
+    family-names: De Nardin
+    given-names: Luciana
 keywords:
-  -
-  -
+  - Serviços
+  - Manutenção
+  - Prestadores
+  - Obras
 repository-code:
 license: CC-BY-4.0
 version: 1.0.0
