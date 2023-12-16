@@ -4,12 +4,12 @@ import { ProviderEndereco } from '../entities/ProviderEndereco.js';
 import { ProviderContatos } from '../entities/ProviderContatos.js';
 import { encrypt, decrypt } from '../utils/Encrypter.js';
 
-const prestadorLogado = storedServiceProviders.find(provider => provider.id === prestadorLogadoId);
+
 
 document.addEventListener("DOMContentLoaded", () => {
     const prestadorLogadoId = ServiceProvider.id;
     const storedServiceProviders = JSON.parse(window.localStorage.getItem('serviceProviders')) || [];
-    
+    const prestadorLogado = storedServiceProviders.find(provider => provider.id === prestadorLogadoId);
 
     if (prestadorLogado) {
         nomePrestador.innerText = prestadorLogado.name;
