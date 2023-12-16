@@ -137,7 +137,7 @@ botaoPaginaServicos.addEventListener("click", (event) => {
 
 const botaoPaginaDescricao = document.getElementById("pagina-descricao");
 botaoPaginaDescricao.addEventListener("click", (event) => {
-    window.location.href = ./src/entities/Perfil-Prestador.html";
+    window.location.href = /src/pages/Perfil-Prestador.html";
 });
 
 const botaoLogo = document.getElementById("botao-logo");
