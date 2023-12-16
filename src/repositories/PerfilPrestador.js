@@ -4,20 +4,16 @@ import { ProviderEndereco } from '../entities/ProviderEndereco.js';
 import { ProviderContatos } from '../entities/ProviderContatos.js';
 import { encrypt, decrypt } from '../utils/Encrypter.js';
 
-
-const repository = new InMemoryRepositoryServiceProvider();
-const serviceProvider = new ServiceProvider();
+const serviceProvider = ServiceProvider();
 
 document.addEventListener("DOMContentLoaded", () => {
-
     const prestadorLogadoId = ServiceProvider.id;
     const storedServiceProviders = JSON.parse(window.localStorage.getItem('serviceProviders')) || [];
     const prestadorLogado = storedServiceProviders.find(provider => provider.id === prestadorLogadoId);
 
-
     if (prestadorLogado) {
-        nomePrestador.innerText = serviceProvider.name
-        idPrestador.innerText = serviceProvider.id
+        nomePrestador.innerText = prestadorLogado.name;
+        idPrestador.innerText = prestadorLogado.id;
         pDescricaoPerfil.innerText = prestadorLogado.descricao || '';
         pEstadoPerfil.innerText = prestadorLogado.endereco.estado || '';
         pCidadePerfil.innerText = prestadorLogado.endereco.cidade || '';
@@ -87,12 +83,10 @@ popUpPerfil.addEventListener("click", (event) => {
 });
 
 botaoConfirmaEdicao.addEventListener("click", () => {
+    prestadorLogado.descricao = boxEdicaoPerfil.value;
+    prestadorLogado.horario = boxEdicaoPerfilHora.value;
 
-    serviceProvider.descricao = boxEdicaoPerfil.value;
-    serviceProvider.hora = boxEdicaoPerfilHora.value;
-
-
-    serviceProvider.endereco = new ProviderEndereco(
+    prestadorLogado.endereco = new ProviderEndereco(
         boxEdicaoPerfilEstado.value,
         boxEdicaoPerfilCidade.value,
         boxEdicaoPerfilBairro.value,
@@ -100,35 +94,28 @@ botaoConfirmaEdicao.addEventListener("click", () => {
         boxEdicaoPerfilNumero.value
     );
 
-
-    serviceProvider.contato = new ProviderContatos(
+    prestadorLogado.contato = new ProviderContatos(
         boxEdicaoPerfilEmail.value.trim(),
         boxEdicaoPerfilTel.value.trim()
     );
 
+    repository.update(prestadorLogado.id, prestadorLogado);
 
-    repository.update(serviceProvider.id, serviceProvider);
-
-    nomePrestador.innerText = serviceProvider.name
-    idPrestador.innerText = serviceProvider.id
-    pDescricaoPerfil.innerText = serviceProvider.descricao;
-    pHorarioPerfil.innerText = serviceProvider.hora;
-    pEstadoPerfil.innerText = serviceProvider.endereco.estado;
-    pCidadePerfil.innerText = serviceProvider.endereco.cidade;
-    pBairroPerfil.innerText = serviceProvider.endereco.bairro;
-    pRuaPerfil.innerText = serviceProvider.endereco.rua;
-    pNumeroPerfil.innerText = serviceProvider.endereco.numero;
-    pContatoEmail.innerText = serviceProvider.contato.email;
-    pContatoTel.innerText = serviceProvider.contato.telefone;
-
-
+    nomePrestador.innerText = prestadorLogado.name;
+    idPrestador.innerText = prestadorLogado.id;
+    pDescricaoPerfil.innerText = prestadorLogado.descricao;
+    pHorarioPerfil.innerText = prestadorLogado.horario;
+    pEstadoPerfil.innerText = prestadorLogado.endereco.estado;
+    pCidadePerfil.innerText = prestadorLogado.endereco.cidade;
+    pBairroPerfil.innerText = prestadorLogado.endereco.bairro;
+    pRuaPerfil.innerText = prestadorLogado.endereco.rua;
+    pNumeroPerfil.innerText = prestadorLogado.endereco.numero;
+    pContatoEmail.innerText = prestadorLogado.contato.email;
+    pContatoTel.innerText = prestadorLogado.contato.telefone;
 
     popUpPerfil.style.display = "none";
     document.body.style.overflow = "auto";
-    repository.update()
 });
-
-
 
 const botaoPaginaServicos = document.getElementById("pagina-servicos");
 botaoPaginaServicos.addEventListener("click", (event) => {
