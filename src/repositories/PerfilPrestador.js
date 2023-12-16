@@ -125,7 +125,7 @@ botaoConfirmaEdicao.addEventListener("click", () => {
 
     popUpPerfil.style.display = "none";
     document.body.style.overflow = "auto";
-    repository.save()
+    repository.update()
 });
 
 
