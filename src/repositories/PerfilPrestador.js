@@ -12,17 +12,17 @@ const prestadorLogado = storedServiceProviders.find(provider => provider.id === 
 
 document.addEventListener("DOMContentLoaded", () => {
     if (prestadorLogado) {
-        nomePrestador.innerText = prestadorLogado.name;
+      nomePrestador.innerText = prestadorLogado.name;
         idPrestador.innerText = prestadorLogado.id;
-        pDescricaoPerfil.innerText = prestadorLogado.descricao || '';
-        pEstadoPerfil.innerText = prestadorLogado.endereco.estado || '';
-        pCidadePerfil.innerText = prestadorLogado.endereco.cidade || '';
-        pBairroPerfil.innerText = prestadorLogado.endereco.bairro || '';
-        pRuaPerfil.innerText = prestadorLogado.endereco.rua || '';
-        pNumeroPerfil.innerText = prestadorLogado.endereco.numero || '';
-        pHorarioPerfil.innerText = prestadorLogado.horario || '';
-        pContatoEmail.innerText = prestadorLogado.contato.email || '';
-        pContatoTel.innerText = prestadorLogado.contato.telefone || '';
+        pDescricaoPerfil.innerText = prestadorLogado.descricao? || '';
+        pEstadoPerfil.innerText = prestadorLogado.endereco?.estado || '';
+        pCidadePerfil.innerText = prestadorLogado.endereco?.cidade || '';
+        pBairroPerfil.innerText = prestadorLogado.endereco?.bairro || '';
+        pRuaPerfil.innerText = prestadorLogado.endereco?.rua || '';
+        pNumeroPerfil.innerText = prestadorLogado.endereco?.numero || '';
+        pHorarioPerfil.innerText = prestadorLogado.horario? || '';
+        pContatoEmail.innerText = prestadorLogado.contato?.email || '';
+        pContatoTel.innerText = prestadorLogado.contato?.telefone || '';
     } else {
         console.error("Prestador não encontrado.");
     }
@@ -84,6 +84,7 @@ popUpPerfil.addEventListener("click", (event) => {
 });
 
 botaoConfirmaEdicao.addEventListener("click", () => {
+    
     prestadorLogado.descricao = boxEdicaoPerfil.value;
     prestadorLogado.horario = boxEdicaoPerfilHora.value;
 
