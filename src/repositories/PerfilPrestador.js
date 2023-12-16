@@ -132,12 +132,12 @@ botaoConfirmaEdicao.addEventListener("click", () => {
 
 const botaoPaginaServicos = document.getElementById("pagina-servicos");
 botaoPaginaServicos.addEventListener("click", (event) => {
-    window.location.href = "/src/pages/Perfil-Prestador-Servicos.html";
+    window.location.href = "./src/pages/Perfil-Prestador-Servicos.html";
 });
 
 const botaoPaginaDescricao = document.getElementById("pagina-descricao");
 botaoPaginaDescricao.addEventListener("click", (event) => {
-    window.location.href = /src/entities/Perfil-Prestador.html";
+    window.location.href = ./src/entities/Perfil-Prestador.html";
 });
 
 const botaoLogo = document.getElementById("botao-logo");
