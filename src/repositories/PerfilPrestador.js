@@ -2,7 +2,7 @@ import { InMemoryRepositoryServiceProvider } from './InMemoryRepositoryServicePr
 import { ServiceProvider } from '../entities/ServiceProvider.js';
 import { ProviderEndereco } from '../entities/ProviderEndereco.js';
 import { ProviderContatos } from '../entities/ProviderContatos.js';
-import { encrypt, decrypt } from '../entities/house-hero1/utils/Encrypter.js';
+import { encrypt, decrypt } from '../utils/Encrypter.js';
 
 
 const repository = new InMemoryRepositoryServiceProvider();
