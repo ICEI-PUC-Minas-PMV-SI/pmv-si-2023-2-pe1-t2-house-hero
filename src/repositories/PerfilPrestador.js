@@ -4,13 +4,13 @@ import { ProviderEndereco } from '../entities/ProviderEndereco.js';
 import { ProviderContatos } from '../entities/ProviderContatos.js';
 import { encrypt, decrypt } from '../utils/Encrypter.js';
 
-let prestadorLogado;
+const urlParams = new URLSearchParams(window.location.search);
+const prestadorId = urlParams.get('prestadorId');
+
+const storedServiceProviders = JSON.parse(window.localStorage.getItem('serviceProviders')) || [];
+const prestadorLogado = storedServiceProviders.find(provider => provider.id === prestadorId);
 
 document.addEventListener("DOMContentLoaded", () => {
-    const prestadorLogadoId = ServiceProvider.id;
-    const storedServiceProviders = JSON.parse(window.localStorage.getItem('serviceProviders')) || [];
-    const prestadorLogado = storedServiceProviders.find(provider => provider.id === prestadorLogadoId);
-
     if (prestadorLogado) {
         nomePrestador.innerText = prestadorLogado.name;
         idPrestador.innerText = prestadorLogado.id;
@@ -23,9 +23,10 @@ document.addEventListener("DOMContentLoaded", () => {
         pHorarioPerfil.innerText = prestadorLogado.horario || '';
         pContatoEmail.innerText = prestadorLogado.contato.email || '';
         pContatoTel.innerText = prestadorLogado.contato.telefone || '';
+    } else {
+        console.error("Prestador não encontrado.");
     }
 });
-
 const botaoPerfil = document.getElementById("perfil-botao");
 const popUp = document.getElementById("1");
 const boxEdicao = document.querySelector(".box-edicao");
