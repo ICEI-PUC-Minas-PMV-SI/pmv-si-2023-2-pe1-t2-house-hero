@@ -132,30 +132,30 @@ botaoConfirmaEdicao.addEventListener("click", () => {
 
 const botaoPaginaServicos = document.getElementById("pagina-servicos");
 botaoPaginaServicos.addEventListener("click", (event) => {
-    window.location.href = "./src/pages/Perfil-Prestador-Servicos.html";
+    window.location.href = "../pages/Perfil-Prestador-Servicos.html";
 });
 
 const botaoPaginaDescricao = document.getElementById("pagina-descricao");
 botaoPaginaDescricao.addEventListener("click", (event) => {
-    window.location.href = "/src/pages/Perfil-Prestador.html";
+    window.location.href = "../pages/Perfil-Prestador.html";
 });
 
 const botaoLogo = document.getElementById("botao-logo");
 botaoLogo.addEventListener("click", (event) => {
-    window.location.href = "./src/pages/index.html";
+    window.location.href = "../pages/index.html";
 });
 
 const botaoMiniPerfil = document.getElementById("mini-menu-perfil");
 botaoMiniPerfil.addEventListener("click", (event) => {
-    window.location.href = "./src/pages/Perfil-Prestador.html";
+    window.location.href = "../pages/Perfil-Prestador.html";
 });
 
 const botaoMiniAjuda = document.getElementById("mini-menu-ajuda");
 botaoMiniAjuda.addEventListener("click", (event) => {
-    window.location.href = "./src/pages/Ajuda.html";
+    window.location.href = "../pages/Ajuda.html";
 });
 
 const botaoMiniLogout = document.getElementById("mini-menu-sair");
 botaoMiniLogout.addEventListener("click", (event) => {
-    window.location.href = "./src/pages/login.html";
+    window.location.href = "../pages/login.html";
 });
