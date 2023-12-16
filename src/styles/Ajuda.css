@@ -3,65 +3,20 @@ body {
     font-weight: 700;
     font-size: 12px;
     width: 100%;
-    height: 1996px;
     background-color: #FFFFFF;
     margin: 0;
    
 }
 
-.header {
-    height: 100px;
+main{
+    max-width: 1440px;
     width: 100%;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    align-items: center;
-}
-#logo {
-    width: 50px;
-    height: 50px;
+    margin: 16px auto;
 }
 
-#nome-logo {
-    color: black;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    align-items: last baseline;
-
-}
-
-.logo-botao {
-    display: flex;
-    background: none;
-    border: none;
-    cursor: pointer;
-    align-items: center;
-}
-
-header .logo-botao:hover {
-    transform: scale(1.05);
-}
-
-.botao-perfil {
-    display: flex;
-    background: none;
-    border: none;
-    cursor: pointer;
-
-}
-
-.imagem-perfil{
-    width: 49px;
-    height: 49px;
-    border-radius: 50%;
+@media screen and (max-width: 990px) {
+    main{
+        margin: 80px auto;
+    }
     
-}
-
-.gradiente {
-    width: 100%;
-    height: 50px;
-    background: linear-gradient(to right, #ff774b, #ff4d4d);
 }
