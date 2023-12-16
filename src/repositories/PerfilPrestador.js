@@ -1,4 +1,4 @@
-import { InMemoryRepositoryServiceProvider } from './repositories/InMemoryRepositoryServiceProvider.js';
+import { InMemoryRepositoryServiceProvider } from './InMemoryRepositoryServiceProvider.js';
 import { ServiceProvider } from '../entities/ServiceProvider.js';
 import { ProviderEndereco } from '../entities/ProviderEndereco.js';
 import { ProviderContatos } from '../entities/ProviderContatos.js';
