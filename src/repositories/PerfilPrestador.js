@@ -4,7 +4,7 @@ import { ProviderEndereco } from '../entities/ProviderEndereco.js';
 import { ProviderContatos } from '../entities/ProviderContatos.js';
 import { encrypt, decrypt } from '../utils/Encrypter.js';
 
-
+let prestadorLogado;
 
 document.addEventListener("DOMContentLoaded", () => {
     const prestadorLogadoId = ServiceProvider.id;
