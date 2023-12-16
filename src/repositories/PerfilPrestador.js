@@ -1,8 +1,8 @@
-import { InMemoryRepositoryServiceProvider } from '/src/repsotories/InMemoryRepositoryServiceProvider.js';
-import { ServiceProvider } from '/src/entities/ServiceProvider.js';
-import { ProviderEndereco } from '/src/entities/ProviderEndereco.js';
-import { ProviderContatos } from '/src/entities/ProviderContatos.js';
-import { encrypt, decrypt } from '/src/entities/house-hero1/utils/Encrypter.js';
+import { InMemoryRepositoryServiceProvider } from './InMemoryRepositoryServiceProvider.js';
+import { ServiceProvider } from '../entities/ServiceProvider.js';
+import { ProviderEndereco } from '../entities/ProviderEndereco.js';
+import { ProviderContatos } from '../entities/ProviderContatos.js';
+import { encrypt, decrypt } from '../entities/house-hero1/utils/Encrypter.js';
 
 
 const repository = new InMemoryRepositoryServiceProvider();
