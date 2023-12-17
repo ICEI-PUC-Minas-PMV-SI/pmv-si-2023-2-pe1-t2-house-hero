@@ -35,10 +35,10 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT02 - Criar conta parte 2**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
+**Procedimento**  | 1)Após clicar em "registre-se", o usúario deve informa seu nome completo, CNPJ, Email, Marca se é prestador ou cliente, criar uma senha, repeti-lá, e e e depois em regritar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
+**Requisitos associados** | RF-001, RF-003
 **Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Dados de entrada** | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-house-hero/pages/register.html
 **Resultado obtido** | Sucesso.
 
 ## Registro dos Testes de Software
