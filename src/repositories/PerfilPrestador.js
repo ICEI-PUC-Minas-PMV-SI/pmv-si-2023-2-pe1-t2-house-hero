@@ -5,7 +5,7 @@ import { ProviderContatos } from '../entities/ProviderContatos.js';
 import { encrypt, decrypt } from '../utils/Encrypter.js';
 
 const urlParams = new URLSearchParams(window.location.search);
-const prestadorId = urlParams.get('prestadorId');
+const prestadorId = urlParams.get('id');
 
 const storedServiceProviders = JSON.parse(window.localStorage.getItem('serviceProviders')) || [];
 const prestadorLogado = storedServiceProviders.find(provider => provider.id === prestadorId);
