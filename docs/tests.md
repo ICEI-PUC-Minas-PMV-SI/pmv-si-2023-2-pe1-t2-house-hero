@@ -41,7 +41,22 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-house-hero/pages/register.html
 **Resultado obtido** | Sucesso.
 
+**Caso de Teste** | **CT03 - Editar Perfil**
+ :--------------: | ------------
+**Procedimento**  | 1)Para Editar o perfil, basta clicar em cima da foto do usuario, e após em editar. 
+**Requisitos associados** | RF-008	O sistema deve permitir que o usuário faça alterações em seu perfil
+**Resultado esperado** | Editar Perfil
+**Resultado obtido** | Sucesso.
 ## Registro dos Testes de Software
+
+**Caso de Teste** | **CT04 - Adicionar Serviços**
+ :--------------: | ------------
+**Procedimento**  | 1)Para Adcionar uma atividade feita, basta clicar em "Atividade" na página de serviços.<br> 2)Adcionar Nome da atividade, foto do serviço feito e clicar em "Adicionar Atividade". 
+**Requisitos associados** | RF-004	O sistema deve permitir que o prestador de serviços gerencie os serviços que oferece
+**Resultado esperado** | Adicionar Atividade
+**Resultado obtido** | Sucesso.
+## Registro dos Testes de Software
+
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
