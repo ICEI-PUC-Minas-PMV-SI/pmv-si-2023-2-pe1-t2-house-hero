@@ -114,8 +114,13 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| 1             | Você é um eletricista que não tem cadastro e deseja se cadastrar no site, encontre a pagina de cadastro e o faça. |
+| 2             | Você é uma pessoa que deseja contratar um serviço de elétrica, encontre o perfil de um eletricita e vá na pagina de contato. |
+| 3             | Você é um pedreiro com registro no site e deseja adicionar uma atividade, encontre a página para efetuar tal ação e faça. |
+| 4             | Você é uma pessoa que nao tem cadastro no site e deseja visualizar o perfil dos prestadores. |
+| 5             | Você já é cadastrado e deseja logar no site. Encontre a pagina de login e informe seus usuario e senha para logar. |
+| 6             | Você é um prestador que deseja editar o seu perfil. Encontre no site a sessão para editar o perfil e edite pelo menos 2 dados. |
+
 
 
 
