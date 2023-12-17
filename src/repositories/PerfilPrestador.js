@@ -6,7 +6,6 @@ import { encrypt, decrypt } from '../utils/Encrypter.js';
 
 
 const repository = new InMemoryRepositoryServiceProvider();
-const repository = new InMemoryRepositoryServiceProvider();
 const storedUser = JSON.parse(window.localStorage.getItem('user'));
 const prestadorLogado = storedUser instanceof ServiceProvider ? storedUser : null;
 const storedServiceProviders = JSON.parse(window.localStorage.getItem('serviceProviders')) || [];
