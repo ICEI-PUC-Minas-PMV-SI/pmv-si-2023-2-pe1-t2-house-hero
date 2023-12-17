@@ -12,10 +12,7 @@ Pontifícia Universidade Católica de Minas Gerais
 
 ## Integrantes
 
-* Hugo Freitas da Cruz
-* João Victor dos Santos Silva Pinto
 * Leandro Augusto Santos Araujo
-* Lohan Bruno Silva Soares
 * Pedro de Almeida Natali
 * Yan Guimarães Martins
 
