@@ -84,7 +84,7 @@ popUpPerfil.addEventListener("click", (event) => {
 });
 
 botaoConfirmaEdicao.addEventListener("click", () => {
-    
+    if (prestadorLogado) {
     prestadorLogado.descricao = boxEdicaoPerfil.value;
     prestadorLogado.horario = boxEdicaoPerfilHora.value;
 
