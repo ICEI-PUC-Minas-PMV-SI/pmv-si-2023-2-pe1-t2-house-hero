@@ -9,8 +9,7 @@
 
 Pontifícia Universidade Católica de Minas Gerais
 
-Visite-nos em: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/blob/main/src/pages/index.html
-
+Visite-nos em: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/blob/main/src/pages/login.html
 ## Integrantes
 
 * Leandro Augusto Santos Araujo
