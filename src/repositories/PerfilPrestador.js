@@ -108,9 +108,7 @@ botaoConfirmaEdicao.addEventListener("click", () => {
 
 
     repository.update(serviceProvider.id, serviceProvider);
-
-    nomePrestador.innerText = serviceProvider.name
-    idPrestador.innerText = serviceProvider.id
+    
     pDescricaoPerfil.innerText = serviceProvider.descricao;
     pHorarioPerfil.innerText = serviceProvider.hora;
     pEstadoPerfil.innerText = serviceProvider.endereco.estado;
