@@ -4,7 +4,7 @@ import { ProviderEndereco } from '../entities/ProviderEndereco.js';
 import { ProviderContatos } from '../entities/ProviderContatos.js';
 import { encrypt, decrypt } from '../utils/Encrypter.js';
 
-const urlParams = new URLSearchParams(window.location.search);
+const urlParams = InMemoryRepositoryServiceProvider(window.location.search);
 const prestadorId = urlParams.get('prestadorId');
 
 const storedServiceProviders = JSON.parse(window.localStorage.getItem('serviceProviders')) || [];
