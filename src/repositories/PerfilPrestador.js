@@ -100,7 +100,7 @@ botaoConfirmaEdicao.addEventListener("click", () => {
         boxEdicaoPerfilEmail.value.trim(),
         boxEdicaoPerfilTel.value.trim()
     );
-
+    }
     repository.update(prestadorLogado.id, prestadorLogado);
 
     nomePrestador.innerText = prestadorLogado.name;
