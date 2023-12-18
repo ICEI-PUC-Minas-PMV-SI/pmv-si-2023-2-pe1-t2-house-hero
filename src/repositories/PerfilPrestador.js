@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
    
 
     if (prestadorLogado) {
-        nomePrestador.innerText = storedServiceProviders.name
-        idPrestador.innerText = storedServiceProviders.id
+        nomePrestador.innerText = prestadorLogado.name
+        idPrestador.innerText = prestadorLogado.id
         pDescricaoPerfil.innerText = prestadorLogado.descricao || '';
         pEstadoPerfil.innerText = prestadorLogado.endereco.estado || '';
         pCidadePerfil.innerText = prestadorLogado.endereco.cidade || '';
