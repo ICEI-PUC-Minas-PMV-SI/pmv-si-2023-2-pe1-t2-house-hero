@@ -6,19 +6,18 @@ import { encrypt, decrypt } from '../utils/Encrypter.js';
 
 
 const repository = new InMemoryRepositoryServiceProvider();
-const storedUser = JSON.parse(window.localStorage.getItem('user'));
-const prestadorLogado = storedUser instanceof ServiceProvider ? storedUser : null;
-const storedServiceProviders = JSON.parse(window.localStorage.getItem('serviceProviders')) || [];
-
-
+const serviceProvider = new ServiceProvider();
 
 document.addEventListener("DOMContentLoaded", () => {
 
-   
+    const prestadorLogadoId = ServiceProvider.id;
+    const storedServiceProviders = JSON.parse(window.localStorage.getItem('user')) || [];
+    const prestadorLogado = storedServiceProviders.find(provider => provider.id === prestadorLogadoId);
+
 
     if (prestadorLogado) {
-        nomePrestador.innerText = storedUser.name
-        idPrestador.innerText = storedUser.id
+        nomePrestador.innerText = storedServiceProviders.name
+        idPrestador.innerText = storedServiceProviders.id
         pDescricaoPerfil.innerText = prestadorLogado.descricao || '';
         pEstadoPerfil.innerText = prestadorLogado.endereco.estado || '';
         pCidadePerfil.innerText = prestadorLogado.endereco.cidade || '';
@@ -109,7 +108,9 @@ botaoConfirmaEdicao.addEventListener("click", () => {
 
 
     repository.update(serviceProvider.id, serviceProvider);
-    
+
+    nomePrestador.innerText = serviceProvider.name
+    idPrestador.innerText = serviceProvider.id
     pDescricaoPerfil.innerText = serviceProvider.descricao;
     pHorarioPerfil.innerText = serviceProvider.hora;
     pEstadoPerfil.innerText = serviceProvider.endereco.estado;
