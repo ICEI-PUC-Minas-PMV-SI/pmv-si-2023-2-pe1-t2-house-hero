@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/estilos.css">
+    <link rel="stylesheet" href="/CSS/perfil-popup.css">
+    <link rel="stylesheet" href="/CSS/pop-up-servicos.css">
+    <link rel="stylesheet" href="/CSS/perfil-editar-popUp.css">
+    <link rel="stylesheet" href="/CSS/pagina-servicos.css">
+    <link rel="stylesheet" href="https://fonts.google.com/icons?selected=Material%20Icons%3Areorder%3A">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+</head>
+
+<body>
+    <div class="prestador-perfil">
+        <header class="header">
+            <a class="aheader" href="#">
+                <button class="logo-botao" id="botao-logo">
+                    <img src="/src/imagem/logo.svg" alt="House-Hero" id="logo">
+                    <h2 id="nome-logo">House Hero</h2>
+                </button>
+            </a>
+            <button class="botao-perfil" id="perfil-botao">
+                <img src="/src/imagem/profile-picture.jpeg" alt="Perfil" class="imagem-perfil">
+
+            </button>
+
+        </header>
+        <main>
+            <div class="gradiente"></div>
+            <div class="box-conteudo">
+                <div class="fundoperfil"></div>
+          
+                    <div class="nomeId">
+                        <ul>
+                            <h4 id="nome-prestador">João Pedro</h4>
+                            <span id="id-prestador">001</span>
+                        </ul>
+                    
+                    
+
+                </div>
+            </div>
+            <div class="boxDescServ">
+                <div class="descServ">
+                    <button class="descricao-botao" id="pagina-descricao">
+                        <div class="descricaoBotao">
+                            <a href="/HTML/pagina-descricao.html"></a>
+                            <i class="ph ph-info" alt="Lista deServiços" id="desc-img"></i>
+                            <p class="p-descricao">Descrição</p>
+                        </div>
+                    </button>
+
+                    <button class="descricao-botao" id="pagina-servicos">
+                        <div class="servicosBotao">
+                            <i class="ph ph-list" alt="Lista deServiços"></i>
+                            <p class="p-servicos">Serviços</p>
+                        </div>
+                    </button>
+                </div>
+                <button class="descricao-botao" id="Editar-botao">
+                    <div class="editarBotao">
+                        <i class="ph ph-plus"></i>
+                        <p class="p-servicos">Adicionar </p>
+                    </div>
+                </button>
+            </div>
+            <div class="gradienteFino"></div>
+
+            <div class="servicos-prestados">
+                <div class="serv1">
+                    <img src="/src/imagem/Geladeira1.png" alt="House-Hero" id="geladeira1">
+                    Manutenção de Geladeira
+                </div>
+                <div class="serv2">
+                    <img src="/src/imagem/geladeira2.jpg" alt="House-Hero" id="geladeira2">
+                    Manutenção de Geladeira
+                </div>
+                <div class="serv3">
+                    <img src="/src/imagem/Maquina1.jfif" alt="House-Hero" id="maquina1">
+                    Manutenção de Geladeira
+                </div>
+                <div class="serv4">
+                    <img src="/src/imagem/Maquina2.jfif" alt="House-Hero" id="maquina2">
+                    Manutenção de Geladeira
+                </div>
+                
+            </div>
+            
+
+    </main>
+    </div>
+    <div class="pop-up" id="1">
+
+        <div class="box-edicao">
+            <button class="botao-popUp-perfil" id="mini-menu-perfil">
+                <i class="ph ph-user-circle" id="user-circle"></i>
+                <p class="p-botao-popUp-perfil"> Perfil</p>
+            </button>
+            <button class="botao-duvida" id="mini-menu-ajuda">
+                <i class="ph ph-question" id="user-circle"></i>
+                <p class="p-botao-duvida"> Ajuda</p>
+            </button>
+            <button class="botao-sair" id="mini-menu-sair">
+                <i class="ph ph-sign-out" id="user-circle"></i>
+                <p class="p-botao-sair"> Sair</p>
+            </button>
+
+        </div>
+
+    </div>
+    <div class="pop-up-editar-perfil" id="pop-up-editar-perfil">
+        <div class="box-edicao-editar-perfil">
+            <div class="cabecalho">
+                <p class="editar-perfil">Adicionar Atividade</p>
+                <i class="ph ph-hammer" id="hammer"></i>
+            </div>
+            <div class="gradiente-fino-cabecalho"></div>
+            <div class="caixa-nome-atividade">
+                <div class="descricao-cabecalho">
+                    <i class="ph ph-hammer" id="hammer"></i>
+                    <p class="descricao-pop">Nome da Atividade:</p>
+                </div>
+                <div class="text-area">
+                    <textarea name="desc-text" rows="4" cols="50"></textarea>
+
+                </div>
+            </div>
+            
+            <div class="caixa-imagem">
+                <div class="descricao-cabecalho">
+        
+                </div>
+                <label class="picture" for="picture__input" tabIndex="0">
+                    <span class="picture__image"></span>
+                  </label>
+                  
+                  <input type="file" name="picture__input" id="picture__input">
+                  
+            </div>
+            
+                <div class="gradiente-botao">
+                    <button class="confirma-botao" id="confirma-botao">
+                    <p class=confirma>Adicionar Atividade</p>
+                    
+                </button>
+                </div>
+
+                
+            
+        </div>
+    </div>
+    </div>
+    <script src="/JS/index.js"></script>
+
+</body>
+
+</html>
