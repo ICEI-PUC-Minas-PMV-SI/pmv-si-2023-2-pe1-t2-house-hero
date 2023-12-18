@@ -7,18 +7,19 @@ import { encrypt, decrypt } from '../utils/Encrypter.js';
 
 const repository = new InMemoryRepositoryServiceProvider();
 const serviceProvider = new ServiceProvider();
- const prestadorLogadoId = ServiceProvider.id;
-    const storedServiceProviders = JSON.parse(window.localStorage.getItem('user')) || [];
-    const prestadorLogado = storedServiceProviders.find(provider => provider.id === prestadorLogadoId);
+const prestadorLogadoId = ServiceProvider.id;
+const storedServiceProviders = JSON.parse(window.localStorage.getItem('serviceProviders')) || [];
+const storedUser = JSON.parse(window.localStorage.getItem('user'));
+const prestadorLogado = storedServiceProviders.find(provider => provider.id === prestadorLogadoId);
 
 
 document.addEventListener("DOMContentLoaded", () => {
 
    
 
-    if (prestadorLogado) {
-        nomePrestador.innerText = prestadorLogado.name
-        idPrestador.innerText = prestadorLogado.id
+    
+        nomePrestador.innerText =  storedUser.name
+        idPrestador.innerText =  storedUser.id
         pDescricaoPerfil.innerText = prestadorLogado.descricao || '';
         pEstadoPerfil.innerText = prestadorLogado.endereco.estado || '';
         pCidadePerfil.innerText = prestadorLogado.endereco.cidade || '';
@@ -28,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         pHorarioPerfil.innerText = prestadorLogado.horario || '';
         pContatoEmail.innerText = prestadorLogado.contato.email || '';
         pContatoTel.innerText = prestadorLogado.contato.telefone || '';
-    }
+    
 });
 
 const botaoPerfil = document.getElementById("perfil-botao");
@@ -110,8 +111,7 @@ botaoConfirmaEdicao.addEventListener("click", () => {
 
     repository.update(serviceProvider.id, serviceProvider);
 
-    nomePrestador.innerText = serviceProvider.name
-    idPrestador.innerText = serviceProvider.id
+    
     pDescricaoPerfil.innerText = serviceProvider.descricao;
     pHorarioPerfil.innerText = serviceProvider.hora;
     pEstadoPerfil.innerText = serviceProvider.endereco.estado;
