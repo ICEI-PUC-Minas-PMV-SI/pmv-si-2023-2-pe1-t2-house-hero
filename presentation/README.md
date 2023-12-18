@@ -27,5 +27,4 @@ O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro 
 
 ## Vídeo de demonstração
 
-
-](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/blob/main/presentation/1217(1).mp4)https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/blob/main/presentation/1217(1).mp4
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-house-hero/blob/main/presentation/1217(1).mp4
