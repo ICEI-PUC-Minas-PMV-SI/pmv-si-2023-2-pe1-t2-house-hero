@@ -9,7 +9,7 @@ const repository = new InMemoryRepositoryServiceProvider();
 const storedUser = JSON.parse(window.localStorage.getItem('user'));
 const prestadorLogado = storedUser instanceof ServiceProvider ? storedUser : null;
 const storedServiceProviders = JSON.parse(window.localStorage.getItem('serviceProviders')) || [];
-const prestadorLogado = storedServiceProviders.find(provider => provider.id === prestadorLogadoId);
+
 
 
 document.addEventListener("DOMContentLoaded", () => {
