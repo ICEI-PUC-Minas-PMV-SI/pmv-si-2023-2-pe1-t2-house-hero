@@ -124,7 +124,7 @@
       servicePortrait.classList.add('service-portrait');
       const servicePortraitImage = document.createElement('img');
       servicePortraitImage.classList.add('service-portrait-image');
-      servicePortraitImage.src = user.profilePicture ?? '../assets/without-picture.png';
+      servicePortraitImage.src = user.profilePicture ?? '../assets/profile-default.png';
       servicePortrait.appendChild(servicePortraitImage);
       const serviceName = document.createElement('p');
       serviceName.classList.add('service-name');
@@ -136,7 +136,7 @@
       serviceContainer.appendChild(serviceName);
       serviceContainer.appendChild(serviceCategory);
       serviceContainer.addEventListener('click', () => {
-        window.location.href = 'Perfil-Prestador.html?id=' + user.id;
+        window.location.href = 'PagePrestador.html?id=' + user.id;
       });
       listContainer.appendChild(serviceContainer);
     });

@@ -3,15 +3,23 @@ body {
     font-weight: 700;
     font-size: 16px;
     width: 100%;
-    height: 1996px;
     background-color: #FFFFFF;
     margin: 0;
-   
+}
+
+*{
+    outline: 0;
 }
 
 ul,
 li {
     list-style: none;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    body {
+        padding-top: 80px;
+    }
 }
 
 .header {
@@ -98,13 +106,19 @@ header.a {
 }
 
 main {
-    max-width: 100%;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
 }
 
 .fundoperfil {
     margin: 20px auto;
     background-color: #e9e9e9;
-    width: 90%;
+    width: 100%;
     height: 250px;
     border-radius: 20px;
 }

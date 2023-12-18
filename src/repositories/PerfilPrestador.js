@@ -1,69 +1,40 @@
-import { InMemoryRepositoryServiceProvider } from './InMemoryRepositoryServiceProvider.js';
-import { ServiceProvider } from '../entities/ServiceProvider.js';
-import { ProviderEndereco } from '../entities/ProviderEndereco.js';
 import { ProviderContatos } from '../entities/ProviderContatos.js';
-import { encrypt, decrypt } from '../utils/Encrypter.js';
+import { ProviderEndereco } from '../entities/ProviderEndereco.js';
+import { InMemoryRepositoryServiceProvider } from './InMemoryRepositoryServiceProvider.js';
 
+const user = JSON.parse(window.localStorage.getItem('user'));
+
+if (user === undefined || user === null) {
+    window.location.href = './login.html';
+}
 
 const repository = new InMemoryRepositoryServiceProvider();
-const serviceProvider = new ServiceProvider();
-const prestadorLogadoId = ServiceProvider.id;
-const storedServiceProviders = JSON.parse(window.localStorage.getItem('serviceProviders')) || [];
-const storedUser = JSON.parse(window.localStorage.getItem('user'));
-const prestadorLogado = storedServiceProviders.find(provider => provider.id === prestadorLogadoId);
+const profilePicture = document.querySelectorAll('.profile-picture');
 
+let generatedBase64 = null
 
-document.addEventListener("DOMContentLoaded", () => {
+document.querySelector("#image-input").addEventListener("input", ({ target }) => {
+    const file = target.files[0];
+    const reader = new FileReader();
 
-   
+    reader.readAsDataURL(file);
 
-    
-        nomePrestador.innerText =  storedUser.name
-        idPrestador.innerText =  storedUser.id
-        pDescricaoPerfil.innerText = prestadorLogado.descricao || '';
-        pEstadoPerfil.innerText = prestadorLogado.endereco.estado || '';
-        pCidadePerfil.innerText = prestadorLogado.endereco.cidade || '';
-        pBairroPerfil.innerText = prestadorLogado.endereco.bairro || '';
-        pRuaPerfil.innerText = prestadorLogado.endereco.rua || '';
-        pNumeroPerfil.innerText = prestadorLogado.endereco.numero || '';
-        pHorarioPerfil.innerText = prestadorLogado.horario || '';
-        pContatoEmail.innerText = prestadorLogado.contato.email || '';
-        pContatoTel.innerText = prestadorLogado.contato.telefone || '';
-    
-});
-
-const botaoPerfil = document.getElementById("perfil-botao");
-const popUp = document.getElementById("1");
-const boxEdicao = document.querySelector(".box-edicao");
-
-botaoPerfil.addEventListener("click", () => {
-    popUp.style.display = "flex";
-    document.body.style.overflow = "hidden";
-});
-
-popUp.addEventListener("click", (event) => {
-    if (event.target === popUp) {
-        popUp.style.display = "none";
-        document.body.style.overflow = "auto";
-    }
-});
-
-window.addEventListener("scroll", () => {
-    const offsetTop = botaoPerfil.offsetTop + botaoPerfil.offsetHeight;
-    boxEdicao.style.top = `${offsetTop}px`;
-});
+    reader.onload = () => {
+        generatedBase64 = reader.result;
+    };
+})
 
 const botaoEditarPerfil = document.getElementById("Editar-botao");
 const popUpPerfil = document.getElementById("pop-up-editar-perfil");
-const boxEdicaoPerfil = document.querySelector("#pop-up-editar-perfil textarea");
 const boxEdicaoPerfilTel = document.querySelector("#pop-up-editar-perfil #txt-contato-telefone");
 const boxEdicaoPerfilEmail = document.querySelector("#pop-up-editar-perfil #txt-contato-email");
-const boxEdicaoPerfilHora = document.querySelector("#pop-up-editar-perfil #horario-txt");
+const boxEdicaoPerfilHora = document.querySelector("#horario-input");
 const boxEdicaoPerfilEstado = document.querySelector("#pop-up-editar-perfil #txt-endereco-estado");
 const boxEdicaoPerfilCidade = document.querySelector("#pop-up-editar-perfil #txt-endereco-cidade");
 const boxEdicaoPerfilBairro = document.querySelector("#pop-up-editar-perfil #txt-endereco-bairro");
 const boxEdicaoPerfilRua = document.querySelector("#pop-up-editar-perfil #txt-endereco-rua");
 const boxEdicaoPerfilNumero = document.querySelector("#pop-up-editar-perfil #txt-endereco-numero");
+const boxEdicaoPerfilDescricao = document.querySelector("#descricao-input");
 const pDescricaoPerfil = document.getElementById("p-descricao-perfil");
 const pContatoTel = document.getElementById("p-telefone-contatos");
 const pContatoEmail = document.getElementById("p-email-contatos");
@@ -76,6 +47,30 @@ const pNumeroPerfil = document.getElementById("numero-result");
 const botaoConfirmaEdicao = document.getElementById("confirma-botao");
 const nomePrestador = document.getElementById("nome-prestador");
 const idPrestador = document.getElementById("id-prestador");
+const fundoperfil = document.getElementsByClassName("fundoperfil");
+
+fundoperfil[0].src = user.profilePicture || '../assets/profile-default.png';
+boxEdicaoPerfilTel.value = user.contato ? user.contato.telefone : '';
+boxEdicaoPerfilEmail.value = user.contato ? user.contato.email : '';
+boxEdicaoPerfilHora.value = user.horario || '';
+boxEdicaoPerfilEstado.value = user.endereco ? user.endereco.estado : '';
+boxEdicaoPerfilCidade.value = user.endereco ? user.endereco.cidade : '';
+boxEdicaoPerfilBairro.value = user.endereco ? user.endereco.bairro : '';
+boxEdicaoPerfilRua.value = user.endereco ? user.endereco.rua : '';
+boxEdicaoPerfilNumero.value = user.endereco ? user.endereco.numero : '';
+boxEdicaoPerfilDescricao.value = user.descricao || '';
+
+nomePrestador.innerText = user.name
+idPrestador.innerText = user.id
+pDescricaoPerfil.innerText = user.descricao || '';
+pEstadoPerfil.innerText = user.endereco ? user.endereco.estado : '';
+pCidadePerfil.innerText = user.endereco ? user.endereco.cidade : '';
+pBairroPerfil.innerText = user.endereco ? user.endereco.bairro : '';
+pRuaPerfil.innerText = user.endereco ? user.endereco.rua : '';
+pNumeroPerfil.innerText = user.endereco ? user.endereco.numero : '';
+pHorarioPerfil.innerText = user.horario || '';
+pContatoEmail.innerText = user.contato ? user.contato.email : '';
+pContatoTel.innerText = user.contato ? user.contato.telefone : '';
 
 botaoEditarPerfil.addEventListener("click", () => {
     popUpPerfil.style.display = "flex";
@@ -90,11 +85,10 @@ popUpPerfil.addEventListener("click", (event) => {
 
 botaoConfirmaEdicao.addEventListener("click", () => {
 
-    serviceProvider.descricao = boxEdicaoPerfil.value;
-    serviceProvider.hora = boxEdicaoPerfilHora.value;
+    user.descricao = boxEdicaoPerfilDescricao.value;
+    user.horario = boxEdicaoPerfilHora.value;
 
-
-    serviceProvider.endereco = new ProviderEndereco(
+    user.endereco = new ProviderEndereco(
         boxEdicaoPerfilEstado.value,
         boxEdicaoPerfilCidade.value,
         boxEdicaoPerfilBairro.value,
@@ -102,34 +96,31 @@ botaoConfirmaEdicao.addEventListener("click", () => {
         boxEdicaoPerfilNumero.value
     );
 
-
-    serviceProvider.contato = new ProviderContatos(
+    user.profilePicture = generatedBase64 ? generatedBase64 : user.profilePicture;
+    fundoperfil[0].src = user.profilePicture || '../assets/profile-default.png';
+    user.contato = new ProviderContatos(
         boxEdicaoPerfilEmail.value.trim(),
         boxEdicaoPerfilTel.value.trim()
     );
 
-
-    repository.update(serviceProvider.id, serviceProvider);
-
     
-    pDescricaoPerfil.innerText = serviceProvider.descricao;
-    pHorarioPerfil.innerText = serviceProvider.hora;
-    pEstadoPerfil.innerText = serviceProvider.endereco.estado;
-    pCidadePerfil.innerText = serviceProvider.endereco.cidade;
-    pBairroPerfil.innerText = serviceProvider.endereco.bairro;
-    pRuaPerfil.innerText = serviceProvider.endereco.rua;
-    pNumeroPerfil.innerText = serviceProvider.endereco.numero;
-    pContatoEmail.innerText = serviceProvider.contato.email;
-    pContatoTel.innerText = serviceProvider.contato.telefone;
+    repository.update(user.id, user);
+    window.localStorage.setItem('user', JSON.stringify(user));
 
-
+    pDescricaoPerfil.innerText = user.descricao;
+    pHorarioPerfil.innerText = user.hora;
+    pEstadoPerfil.innerText = user.endereco.estado;
+    pCidadePerfil.innerText = user.endereco.cidade;
+    pBairroPerfil.innerText = user.endereco.bairro;
+    pRuaPerfil.innerText = user.endereco.rua;
+    pNumeroPerfil.innerText = user.endereco.numero;
+    pContatoEmail.innerText = user.contato.email;
+    pContatoTel.innerText = user.contato.telefone;
 
     popUpPerfil.style.display = "none";
     document.body.style.overflow = "auto";
     repository.update()
 });
-
-
 
 const botaoPaginaServicos = document.getElementById("pagina-servicos");
 botaoPaginaServicos.addEventListener("click", (event) => {
@@ -141,22 +132,15 @@ botaoPaginaDescricao.addEventListener("click", (event) => {
     window.location.href = "../pages/Perfil-Prestador.html";
 });
 
-const botaoLogo = document.getElementById("botao-logo");
-botaoLogo.addEventListener("click", (event) => {
-    window.location.href = "../pages/index.html";
+profilePicture[0].src = '../assets/without-picture.png';
+profilePicture[1].src = '../assets/without-picture.png';
+
+profilePicture[0].addEventListener('click', () => {
+    const boxEdicao = document.querySelector('.box-edicao');
+    boxEdicao.style.display === 'flex' ? boxEdicao.style.display = 'none' : boxEdicao.style.display = 'flex';
 });
 
-const botaoMiniPerfil = document.getElementById("mini-menu-perfil");
-botaoMiniPerfil.addEventListener("click", (event) => {
-    window.location.href = "../pages/Perfil-Prestador.html";
-});
-
-const botaoMiniAjuda = document.getElementById("mini-menu-ajuda");
-botaoMiniAjuda.addEventListener("click", (event) => {
-    window.location.href = "../pages/Ajuda.html";
-});
-
-const botaoMiniLogout = document.getElementById("mini-menu-sair");
-botaoMiniLogout.addEventListener("click", (event) => {
-    window.location.href = "../pages/login.html";
+profilePicture[1].addEventListener('click', () => {
+    const boxEdicao = document.querySelectorAll('.box-edicao');
+    boxEdicao[1].style.display === 'flex' ? boxEdicao[1].style.display = 'none' : boxEdicao[1].style.display = 'flex';
 });

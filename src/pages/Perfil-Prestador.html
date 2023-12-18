@@ -6,40 +6,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/PerfilPrestador.css">
     <link rel="stylesheet" href="../styles/Popupperfil.css">
     <link rel="stylesheet" href="../styles/editarperfilprestador.css">
+    <link rel="stylesheet" href="../styles/index.css">
     <link rel="stylesheet" href="https://fonts.google.com/icons?selected=Material%20Icons%3Areorder%3A">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    
-
 </head>
 
 <body>
     <div class="prestador-perfil">
-        <header class="header">
-            <a class="aheader" href="#">
-                <button class="logo-botao" id="botao-logo">
-                    <img src="../assets/icons/logo.svg" alt="House-Hero" id="logo">
-                    <h2 id="nome-logo">House Hero</h2>
-                </button>
-            </a>
-            <button class="botao-perfil" id="perfil-botao">
-                <img src="../assets/without-picture.png" alt="Perfil" class="imagem-perfil">
-
-            </button>
-
-        </header>
+        <nav class="navbar-mobile d-block d-lg-none fixed-top">
+            <div class="orange-stripe-container container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 orange-stripe">
+                        <div class="navbar-title navbar-container">
+                            <div class="brand-container">
+                                <img class="brand-logo" src="../assets/logo.svg" alt="house hero logo" />
+                                <h1 class="brand-name">HOUSE HERO</h1>
+                            </div>
+                            <div class="profile-container">
+                                <img class="profile-picture" src="../assets/without-picture.png"
+                                    alt="profile picture" />
+                                <div class="box-edicao">
+                                    <button class="botao-duvida" onclick="window.location.href='./Ajuda.html'">
+                                        <i class="ph-light ph-question"></i>
+                                        <p> Ajuda</p>
+                                    </button>
+                                    <button class="botao-sair"
+                                        onclick="window.location.href='./login.html'; window.localStorage.removeItem('user')">
+                                        <i class="ph-light ph-sign-out"></i>
+                                        <p> Sair</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar-desktop d-none d-lg-block">
+            <div class="navbar-title navbar-container">
+                <div class="brand-container">
+                    <img class="brand-logo" src="../assets/logo.svg" alt="house hero logo" />
+                    <h1 class="brand-name">HOUSE HERO</h1>
+                </div>
+                <div class="profile-container">
+                    <img class="profile-picture" src="../assets/without-picture.png" alt="profile picture" />
+                    <div class="box-edicao">
+                        <button class="botao-duvida" onclick="window.location.href='./Ajuda.html'">
+                            <i class="ph-light ph-question"></i>
+                            <p> Ajuda</p>
+                        </button>
+                        <button class="botao-sair"
+                            onclick="window.location.href='./login.html'; window.localStorage.removeItem('user')">
+                            <i class="ph-light ph-sign-out"></i>
+                            <p> Sair</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="orange-stripe-container container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 orange-stripe"></div>
+                </div>
+            </div>
+        </nav>
         <main>
-            <div class="gradiente"></div>
             <div class="box-conteudo">
-                <div class="fundoperfil"></div>
+                <img class="fundoperfil"/>
                 <div class="nomeToken">
                     <div class="nomeId">
                         <ul>
@@ -77,29 +117,26 @@
                 <div class="coluna1" id="coluna1-de-conteudo">
                     <ul class="descricao-perfil">
                         <h3>Descrição:</h3>
-                        <p class="descricao" id="p-descricao-perfil">
-                        </p>
+                        <p class="descricao" id="p-descricao-perfil"></p>
                     </ul>
                     <ul class="contato-perfil">
                         <h3>Contato:</h3>
-                        <p class="contato" id="p-contato-perfil">
                         <div class="cont-tel">
                             <p class="descricao">Telefone: </p>
-                            <p class="descricao" id="p-telefone-contatos"></p><br>
+                            <p class="descricao" id="p-telefone-contatos"></p>
                         </div>
                         <div class="cont-email">
                             <p class="descricao">E-mail: </p>
                             <p class="descricao" id="p-email-contatos"></p>
                         </div>
                     </ul>
-                    
-                    </ul>
                 </div>
                 <div class="coluna2" id="coluna2-de-conteudo">
-                    
+
                     <ul class="horario-perfil">
                         <h3>Horario de atendimento:</h3>
                         <p class="horario" id="p-horario-perfil"></p>
+                    </ul>
 
                     <ul class="endereco-perfil">
                         <h3>Endereço:</h3>
@@ -127,31 +164,12 @@
                     </ul>
                 </div>
             </div>
-           <footer class="footer"></footer>
 
     </div>
 
     </main>
     </div>
-    <div class="pop-up" id="1">
 
-        <div class="box-edicao">
-            <button class="botao-popUp-perfil" id="mini-menu-perfil">
-                <i class="ph ph-user-circle" id="user-circle"></i>
-                <p class="p-botao-popUp-perfil"> Perfil</p>
-            </button>
-            <button class="botao-duvida" id="mini-menu-ajuda">
-                <i class="ph ph-question" id="user-circle"></i>
-                <p class="p-botao-duvida"> Ajuda</p>
-            </button>
-            <button class="botao-sair" id="mini-menu-sair">
-                <i class="ph ph-sign-out" id="user-circle"></i>
-                <p class="p-botao-sair"> Sair</p>
-            </button>
-
-        </div>
-
-    </div>
     <div class="pop-up-editar-perfil" id="pop-up-editar-perfil">
         <div class="box-edicao-editar-perfil">
             <div class="cabecalho">
@@ -161,13 +179,20 @@
             <div class="gradiente-fino-cabecalho"></div>
             <div class="caixa-descricao">
                 <div class="descricao-cabecalho">
+                    <i class="ph ph-user-circle" id="chat-circle"></i>
+                    <p class="descricao-pop">Foto de Perfil:</p>
+                </div>
+                <div class="text-area">
+                    <input type="file" id="image-input"/>
+                </div>
+            </div>
+            <div class="caixa-descricao">
+                <div class="descricao-cabecalho">
                     <i class="ph ph-chat-circle-text" id="chat-circle"></i>
                     <p class="descricao-pop">Descricão:</p>
                 </div>
                 <div class="text-area">
-                    <textarea name="desc-text" rows="4" cols="50" onInput="getValue()"></textarea>
-
-
+                    <textarea id="descricao-input" name="desc-text" rows="4" cols="50"></textarea>
                 </div>
             </div>
             <div class="caixa-descricao">
@@ -221,8 +246,7 @@
                     <p class="descricao-pop">Horário de atendimento:</p>
                 </div>
                 <div class="text-area">
-                    <textarea name="desc-text" rows="4" cols="50" id="horario-txt"></textarea>
-
+                    <textarea id="horario-input" name="desc-text" rows="4" cols="50" id="horario-txt"></textarea>
                 </div>
             </div>
 
@@ -231,16 +255,12 @@
                     <p class=confirma>Editar Perfil</p>
                 </button>
             </div>
-
         </div>
     </div>
     </div>
-    
-<script type="module" src="../repositories/PerfilPrestador.js"> </script>
-        
-
-   
-
 </body>
 
 </html>
+
+
+<script type="module" src="../repositories/PerfilPrestador.js"> </script>
