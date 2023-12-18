@@ -121,6 +121,10 @@ botaoConfirmaEdicao.addEventListener("click", () => {
     document.body.style.overflow = "auto";
     repository.update()
 });
+const botaoLogo = document.getElementById("botao-logo");
+botaoLogo.addEventListener("click", (event) => {
+    window.location.href = "../pages/index.html";
+});
 
 const botaoPaginaServicos = document.getElementById("pagina-servicos");
 botaoPaginaServicos.addEventListener("click", (event) => {
